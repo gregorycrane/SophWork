@@ -1,0 +1,4766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="work" n="Ant.">Antigone</title>
+                <title type="sub">Machine readable text</title>
+                <author n="Soph.">Sophocles</author>
+                <editor role="editor">M. Renloew</editor>
+                <editor role="editor">M. Bellaguet</editor>
+                <sponsor>Perseus Project, Tufts University</sponsor>
+                <principal>Gregory Crane</principal>
+                <respStmt>
+                    <resp>Prepared under the supervision of</resp>
+                    <name>Gregory Crane</name>
+                </respStmt>
+                <funder>Tufts University</funder>
+            </titleStmt>
+            <extent>About 83Kb</extent>
+            <publicationStmt>
+                <publisher>Trustees of Tufts University</publisher>
+                <pubPlace>Medford, MA</pubPlace>
+                <authority>Perseus Project</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Sophocles</author>
+                        <title>Sophocle: Antigone</title>
+                        <imprint>
+                            <pubPlace>Paris, France</pubPlace>
+                            <publisher>Librairie de L. Hachette</publisher>
+                            <date>1858</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="line" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n='$1'])">
+                    <p>This pointer pattern extracts line</p>
+                </cRefPattern>
+             </refsDecl>
+            <!--<refsDecl n="CTS">
+
+                <cRefPattern n="card" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                    <p>This pointer pattern extracts cards</p>
+                </cRefPattern>
+
+            </refsDecl>-->
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021" who="GRC">Basic formatting.</change>
+</revisionDesc>
+    </teiHeader>
+
+    <text xml:lang="grc">
+        <body>
+            <div type="edition" n="urn:cts:greekLit:tlg0011.tlg002.TBA" xml:lang="grc">
+               <div type="textpart" subtype="episode">
+
+               <pb n="17"/>
+                   <sp>
+<speaker>ANTIGONE.</speaker>
+
+<p>
+<seg n="1"><seg n="1.1">O tête</seg>
+<seg n="1.2">commune (consanguine)</seg>
+<seg n="1.3">de-sœur-germaine d’Ismène,</seg>
+<seg n="1.4">sais-tu que Jupiter accomplit</seg>
+<seg n="1.5">lequel non des maux (tous les maux)</seg>
+<seg n="1.6">venant d'OEdipe,</seg>
+<seg n="1.7">nous vivant encore ?</seg>
+</seg>
+<s n="2"><seg n="2.1">car il n’est rien</seg>
+<seg n="2.2">ni douloureux,</seg>
+<seg n="2.3">ni sans notre crime ni honteux,</seg>
+<seg n="2.4">ni déshonorant</seg>
+<seg n="2.5">que non parmi les maux</seg>
+<seg n="2.6">les tiens et les miens,</seg>
+<seg n="2.7">.moi je n’aie vu.</seg>
+<pb n="19"/>
+</s>
+<s n="3"><seg n="3.1">Et maintenant quelle est cette</seg>
+<seg n="3.2">proclamation</seg>
+<seg n="3.3">qu’ils disent le chef</seg>
+<seg n="3.4">avoir faite encore dernièrement</seg>
+<seg n="3.5">à la ville avec-tout-son-peuple ?</seg>
+</s>
+<s n="4"><seg n="4.1">Tiens-tu -</seg>
+<seg n="4.2">et as-tu-entendu quelque chose ?</seg>
+</s>
+<s n="5"><seg n="5.1">ou les maux des ennemis</seg>
+<seg n="5.2">s’avançant vers les amis</seg>
+<seg n="5.3">échappent-ils à toi ?</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="6"><seg n="6.1">Antigone,</seg>
+<seg n="6.2">d’un côté aucun discours</seg>
+<seg n="6.3">concernant les amis</seg>
+<seg n="6.4">ni agréable ni douloureux</seg>
+<seg n="6.5">n’est venu à moi,</seg>
+<seg n="6.6">depuis que nous fûmes privées</seg>
+<seg n="6.7">toutes deux de nos deux frères</seg>
+<seg n="6.8">morts en un jour</seg>
+<seg n="6.9">d’une main double;</seg>
+</s>
+<s n="7"><seg n="7.1">de l’autre côté, depuis</seg>
+<seg n="7.2">que l’armée des Argiens</seg>
+<seg n="7.3">est partie dans la nuit présente,</seg>
+<seg n="7.4">je ne sais rien d’ultérieur,</seg>
+<seg n="7.5">moi n’étant ni heureuse,</seg>
+<seg n="7.6">ni affligée davantage.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="8"><seg n="8.1">Aussi</seg>
+<seg n="8.2">j'ai fait-sortir toi</seg>
+<seg n="8.3">maintenant précisément</seg>
+<seg n="8.4">des portes du-veslibule</seg>
+<seg n="8.5">à cause de ceci,</seg>
+<seg n="8.6">afin que seule tu entendes.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="9"><seg n="9.1">Mais qu'est-ce?</seg>
+</s>
+<s n="10"><seg n="10.1">car tu montres</seg>
+<seg n="10.2">toi agitée devant dire quelque parole.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="11"><seg n="11.1">Car Créon</seg>
+<seg n="11.2">n'est-il pas</seg>
+<seg n="11.3">les deux frères de nous</seg>
+<seg n="11.4">ayant-de-préférence honoré l’un</seg>
+<seg n="11.5">de la sépulture,</seg>
+<seg n="11.6">ayant déshonoré (privé) l’autre ?</seg></s>
+<pb n="21"/>
+<s n="12"><seg n="12.1">Il a caché, il est vrai,</seg>
+<seg n="12.2">dans la terre,</seg>
+<seg n="12.3">Étéocle ,</seg>
+<seg n="12.4">comme ils disent</seg>
+<seg n="12.5">avec une justice juste,</seg>
+<seg n="12.6">et avec l’usage,</seg>
+<seg n="12.7">étant sommé (mû) par cela même</seg>
+<seg n="12.8">honoré ainsi</seg>
+<seg n="12.9">auprès des morts dans les enfers ;</seg>
+</s>
+<s n="13"><seg n="13.1">mais ils disent</seg>
+<seg n="13.2">avoir été proclamé</seg>
+<seg n="13.3">aux citoyens</seg>
+<seg n="13.4">personne ne couvrir d’un tombeau</seg>
+<seg n="13.5">ni pleurer</seg>
+<seg n="13.6">le corps mort misérablement</seg>
+<seg n="13.7">de Polynice,</seg>
+<seg n="13.8">mais de le laisser sans-sépulture,</seg>
+<seg n="13.9">sans-pleurs,</seg>
+</s>
+<s n="13"><seg n="13.1">un trésor doux aux oiseaux</seg>
+<seg n="13.11">qui le regardent</seg>
+<seg n="13.12">pour le plaisir de la pâture.</seg>
+</s>
+<s n="14"><seg n="14.1">Ils disent le bon Créon .</seg>
+<seg n="14.2">être ayant proclamé de telles choses</seg>
+<seg n="14.3">à toi et à moi,</seg>
+<seg n="14.4">car je nomme aussi moi,</seg>
+<seg n="14.5">et venir ici</seg>
+<seg n="14.6">devant proclamer</seg>
+<seg n="14.7">ces choses claires</seg>
+<seg n="14.8">à ceux qui ne savent pas ; :</seg>
+</s>
+<s n="15"><seg n="15.1">et tenir l'affaire</seg>
+<seg n="15.2">non comme pour rien ;</seg>
+</s>
+<s n="16"><seg n="16.1">mais une mort</seg>
+<seg n="16.2">de-lapidation-par-le-peuple</seg>
+<seg n="16.3">menacer dans la ville celui</seg>
+<seg n="16.4">qui ferait quelqu’une de ces choses.</seg>
+</s>
+<s n="17"><seg n="17.1">Ces choses sont ainsi pour toi ;</seg>
+<seg n="17.2">et tu montreras promptement</seg>
+<seg n="17.3">situ es bien-née,</seg>
+<seg n="17.4">ou si [tu es] vile</seg>
+<seg n="17.5">[venant] de nobles [parents].</seg>
+<pb n="23"/>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="18"><seg n="18.1">O malheureuse,</seg>
+<seg n="18.2">mais qu’ajouterais-je moi davantage</seg>
+<seg n="18.3">en dénouant ou en nouant</seg>
+<seg n="18.4">sices choses sont dans ces [circonstances]?</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="19"><seg n="19.1">Réfléchis</seg>
+<seg n="19.2">si tu seras compagne-du-travail</seg>
+<seg n="19.3">et coopéreras.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="20"><seg n="20.1">A quelle espèce</seg>
+<seg n="20.2">d’entreprise-dangereuse?</seg>
+</s>
+<s n="21"><seg n="21.1">où donc de réflexion es-tu (que médites-tu)?</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="22"><seg n="22.1">Si tu soulèveras</seg>
+<seg n="22.2">le corps-mort</seg>
+<seg n="22.3">avec (te joignant à) cette main.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="23"><seg n="23.1">Tu médites donc</seg>
+<seg n="23.2">d’enterrer lui,</seg>
+<seg n="23.3">ceci étant interdit à la ville ?</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="24"><seg n="24.1">Certainement</seg>
+<seg n="24.2">[je médite d’enterrer] mon frère,</seg>
+<seg n="24.3">et quoique tu ne veuilles pas, le tien.</seg>
+</s>
+<s n="25"><seg n="25.1">Car assurément je ne serai pas convaincue</seg>
+<seg n="25.2">ayant trahi.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="26"><seg n="26.1">O téméraire,</seg>
+<seg n="26.2">Créon l'ayant défendu?</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="27"><seg n="27.1">Mais</seg>
+<seg n="27.2">il n’anpartient en rien à lui,</seg>
+<seg n="27.3">de m’écarter des miens.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="28"><seg n="28.1">Hélas!</seg>
+</s>
+<s n="29"><seg n="29.1">songe, ô ma sœur,</seg>
+<seg n="29.2">que notre père a péri à nous</seg>
+<seg n="29.3">étant détesté et en-déshonneur,</seg>
+<seg n="29.4">lui-même ayant frappé</seg>
+<seg n="29.5">d’une main elle-même-active</seg>
+<seg n="29.6">ses deux yeux,</seg>
+<seg n="29.7">à cause des crimes</seg>
+<seg n="29.8">surpris-par-lui-même.</seg>
+</s>
+<s n="30"><seg n="30.1">Puis sa mère et sa femme,</seg>
+<seg n="30.2">un double titre,</seg>
+<seg n="30.3">détruit sa vie</seg>
+<seg n="30.4">par des cordes nouées;</seg></s>
+<pb n="25"/>
+<s n="31"><seg n="31.1">et en-troisième-lieu nos deux frères</seg>
+<seg n="31.2">se tuant-eux-mêmes</seg>
+<seg n="31.3">en un jour</seg>
+<seg n="31.4">les malheureux, accomplirent</seg>
+<seg n="31.5">leur sort commun par les mains</seg>
+<seg n="31.6">l'un-de-l’autre.</seg>
+</s>
+<s n="32"><seg n="32.1">Maintenant d’un autre côté</seg>
+<seg n="32.2">songe encore,</seg>
+<seg n="32.3">à quel point nous périrons</seg>
+<seg n="32.4">Le plus misérablement,</seg>
+<seg n="32.5">nous-deux abandonnées</seg>
+<seg n="32.6">seules aujourd’hui</seg>
+<seg n="32.7">si nous transgressons le décret</seg>
+<seg n="32.8">ou les ordres des princes,</seg>
+<seg n="32.9">en violation de la loi.</seg>
+</s>
+<s n="33"><seg n="33.1">Mais il faut considérer</seg>
+<seg n="33.2">d’un côté cela, que nous sommes nées</seg>
+<seg n="33.3">femmes-toutes-deux,</seg>
+<seg n="33.4">comme ne devant pas lutter</seg>
+<seg n="33.5">contre des hommes ;</seg>
+</s>
+<s n="34"><seg n="34.1">puis d’un autre côté</seg>
+<seg n="34.2">obéir aussi en ces choses</seg>
+<seg n="34.3">et en de plus douloureuses</seg>
+<seg n="34.4">encore que celles-ci,</seg>
+<seg n="34.5">parce que nous sommes gouvernées</seg>
+<seg n="34.6">par de plus puissants,</seg>
+</s>
+<s n="35"><seg n="35.1">Moi au moins donc j’obéirai</seg>
+<seg n="35.2">à ceux qui sont-établis</seg>
+<seg n="35.3">en magistrature</seg>
+<seg n="35.4">priant ceux sous terre</seg>
+<seg n="35.5">d’avoir indulgence ,</seg>
+<seg n="35.6">car je suis violentée en ces choses.</seg>
+</s>
+<s n="36"><seg n="36.1">Car le faire des choses outre*mesure</seg>
+<seg n="36.2">n’a aucun sens.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="37"><seg n="37.1">Je ne voudrais ordonner</seg>
+<seg n="37.2">ni tu n’agirais</seg>
+<seg n="37.3">avec moi. de-façon-à-m’être-agréable,</seg>
+<seg n="37.4">si tu voulais encore agir.</seg>
+</s>
+<s n="38"><seg n="38.1">Mais sache quelles choses</seg>
+<seg n="38.2">semblent-bonnes à toi.</seg></s>
+<pb n="27"/>
+<s n="39"><seg n="39.1">Or moi j’enterrerai celui-ci.</seg>
+</s>
+<s n="40"><seg n="40.1">Il est beau à moi de mourir</seg>
+<seg n="40.2">faisant cela.</seg>
+</s>
+<s n="41"><seg n="41.1">Je reposerai avec lui</seg>
+<seg n="41.2">chère à lui</seg>
+<seg n="41.3">avec lui qui m'est cher,</seg>
+<seg n="41.4">ayant fait-d'une-manière-coupabie</seg>
+<seg n="41.5">de saintes choses,</seg>
+</s>
+<s n="42"><seg n="42.1">puisque plus considérable es/ letemps</seg>
+<seg n="42.2">pendant lequel il fant moi plaire</seg>
+<seg n="42.3">à ceux d’en-bas qu’à ceux-ici.</seg>
+</s>
+<s n="43"><seg n="43.1">Car là-bas je reposerai toujours.</seg>
+</s>
+<s n="44"><seg n="44.1">Mais s’il semble-bon à toi,</seg>
+<seg n="44.2">reste ayant déshonoré</seg>
+<seg n="44.3">les choses en-henneur</seg>
+<seg n="44.4">auprès des dieux.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="45"><seg n="45.1">Moi d’un côté</seg>
+<seg n="45.2">je ne Les regarde-pas-comme méprisa-</seg>
+</s>
+<s n="46"><seg n="46.1">mais je suis-naturellement fbles,</seg>
+<seg n="46.2">sans moyens</seg>
+<seg n="46.3">pour le agir</seg>
+<seg n="46.4">en violation des citoyens.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="47"><seg n="47.1">Que toi en-effet</seg>
+<seg n="47.2">prétextes ces choses :</seg>
+</s>
+<s n="48"><seg n="48.1">mais moi je partirai</seg>
+<seg n="48.2">devant-entasser (ériger)</seg>
+<seg n="48.3">maintenant une tombe</seg>
+<seg n="48.4">à mon frère très-cher.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="49"><seg n="49.1">O malheureuse que je suis!</seg>
+<seg n="49.2">que je crains-pour toi</seg>
+<seg n="49.3">malheureuse !</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="50"><seg n="50.1">Ne tremble pas</seg>
+<seg n="50.2">pour moi :</seg>
+</s>
+<s n="51"><seg n="51.1">redresse ton sort.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="52"><seg n="52.1">Mais enfin</seg>
+<seg n="52.2">tu n’indiqueras-d’avance au-moins</seg>
+<seg n="52.3">à personne cette action ;</seg>
+</s>
+<s n="53"><seg n="53.1">mais cache-Za furtivement :</seg>
+</s>
+<s n="54"><seg n="54.1">moi de l'autre côté conjointement</seg>
+<seg n="54.2">de-même (je la cacherai).</seg>
+<pb n="29"/>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="55"><seg n="55.1">Mon Dieu,</seg>
+<seg n="55.2">déclare-la ;</seg>
+</s>
+<s n="56"><seg n="56.1">tu seras de beaucoup plus odieuse</seg>
+<seg n="56.2">‘en te taisant,</seg>
+<seg n="56.3">si tu ne divulgues pas</seg>
+<seg n="56.4">ces choses à tous.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="57"><seg n="57.1">Tu as le cœur</seg>
+<seg n="57.2">ardent dans des choses qui-glacent.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="58"><seg n="58.1">Mais je sais</seg>
+<seg n="58.2">étant agréable à ceux</seg>
+<seg n="58.3">auxquels il faut moi</seg>
+<seg n="58.4">plaire le plus.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="59"><seg n="59.1">Si encore</seg>
+<seg n="59.2">tu pouvais au-moins,</seg>
+</s>
+<s n="60"><seg n="60.1">mais tu désires des choses impossibles.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="61"><seg n="61.1">Donc</seg>
+<seg n="61.2">je m'en désisterai,</seg>
+<seg n="61.3">quand en-effet je n’aurai-pas-la-force.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="62"><seg n="62.1">Mais il ne convient pas</seg>
+<seg n="62.2">dès le principe</seg>
+<seg n="62.3">de poursuivre les choses impossibles.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="63"><seg n="63.1">Si tu diras</seg>
+<seg n="63.2">ces choses,</seg>
+<seg n="63.3">tu seras haïe d’un côté de moi,</seg>
+</s>
+<s n="64"><seg n="64.1">de l’autre côté tu reposeras-à-côté</seg>
+<seg n="64.2">du mort odieuse avec raison.</seg>
+</s>
+<s n="65"><seg n="65.1">Mais souffre moi</seg>
+<seg n="65.2">et le funeste-projet venant de moi</seg>
+<seg n="65.3">essuyer ce désastre.</seg>
+</s>
+<s n="66"><seg n="66.1">Car je ne souffrirai</seg>
+<seg n="66.2">rien de si-grand (affreux)</seg>
+<seg n="66.3">de-manière-à ne pas mourir bien.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="67"><seg n="67.1">Eh bien, va</seg>
+<seg n="67.2">s'ilsemble-bon à toi.</seg>
+</s>
+<s n="68"><seg n="68.1">Mais sache cela,</seg>
+<seg n="68.2">que tu pars insensée, il est vrai,</seg>
+<seg n="68.3">mais réellement amie</seg>
+<seg n="68.4">à tes amis.</seg>
+</s></p></sp>
+<sp>
+<speaker>CHOEUR.</speaker><p>
+
+<s n="69"><seg n="69.1">Rayon du solvil</seg>
+<seg n="69.2">la plus belle clarté</seg>
+<pb n="31"/>
+<seg n="69.3">des clartés antérieures,</seg>
+<seg n="69.4">apparue</seg>
+<seg n="69.5">à Thèbes aux-sept-portes ;</seg>
+<seg n="69.6">tu t'es montré enfin,</seg>
+<seg n="69.7">paupière</seg>
+<seg n="69.8">du jour doré,</seg>
+<seg n="69.9">étant venu</seg>
+</s>
+<s n="69"><seg n="69.1">à travers les flots</seg>
+<seg n="69.11">de-Dircé,</seg>
+<seg n="69.12">ayant poussé</seg>
+<seg n="69.13">d’une bride plus vigoureuse</seg>
+<seg n="69.14">l’homme au-bouclier-blanc</seg>
+<seg n="69.15">venu d’Argos</seg>
+<seg n="69.16">en armure-complète,</seg>
+<seg n="69.17">fugitif</seg>
+<seg n="69.18">à-la-course-éperdue,</seg>
+</s>
+<s n="70"><seg n="70.1">avec lequel Polynice</seg>
+<seg n="70.2">s’abattit</seg>
+<seg n="70.3">sur notre terre, excité</seg>
+<seg n="70.4">par des querelles aux-discours-ambi-</seg>
+<seg n="70.5">comme un aigle [gus</seg>
+<seg n="70.6">criant-des-cris aigus</seg>
+<seg n="70.7">tourné vers la terre,</seg>
+<seg n="70.8">couvert d’une aile-</seg>
+<seg n="70.9">de neige blanche</seg>
+</s>
+<s n="70"><seg n="70.1">avec beaucoup d'armes:</seg>
+<seg n="70.11">et avec des casques</seg>
+<seg n="70.12">aux-crinières-de-cheval.</seg>
+<seg n="70.13">Antistrophe:</seg>
+</s>
+<s n="71"><seg n="71.1">Mais se dressant sur nos maisons,</seg>
+<seg n="71.2">ayant-entouré-la-bouche-ouverte</seg>
+<seg n="71.3">en-cercle</seg>
+<seg n="71.4">l'issue des-sept-portes</seg>
+<seg n="71.5">de lances</seg>
+<seg n="71.6">avides-de-carnage</seg>
+<seg n="71.7">il s’en alla</seg>
+<seg n="71.8">avant de s'être rassasié une-fois</seg>
+<seg n="71.9">de notre sang</seg>
+</s>
+<s n="71"><seg n="71.1">avec les mâchoires,</seg>
+<seg n="71.11">et avant la flaminc</seg>
+<pb n="33"/>
+<seg n="71.12">de-picéa</seg>
+<seg n="71.13">avoir saisi</seg>
+<seg n="71.14">le couronnement des tours.</seg>
+</s>
+<s n="72"><seg n="72.1">Un tel fracas</seg>
+<seg n="72.2">de Mars</seg>
+<seg n="72.3">s’étendit</seg>
+<seg n="72.4">autour de Zeur dos,</seg>
+<seg n="72.5">chose invincible</seg>
+<seg n="72.6">au dragon opposé.</seg>
+</s>
+<s n="73"><seg n="73.1">Car Jupiter hait-violemment</seg>
+<seg n="73.2">les vanteries</seg>
+<seg n="73.3">d’une langue grande (orgueilleuse)</seg>
+</s>
+<s n="74"><seg n="74.1">et ayant vu eux</seg>
+<seg n="74.2">approchant</seg>
+<seg n="74.3">dans un puissant torrent</seg>
+<seg n="74.4">d’or, de fracas,</seg>
+<seg n="74.5">d’orgueil ,</seg>
+<seg n="74.6">il renverse d’un feu lancé</seg>
+<seg n="74.7">celui qui s'apprête déjà</seg>
+<seg n="74.8">à crier victoire</seg>
+<seg n="74.9">sur le haut des barrières.</seg>
+</s>
+<s n="74"><seg n="74.1">Strophe.</seg>
+</s>
+<s n="75"><seg n="75.1">Mais porteur-du-feu il tomba</seg>
+<seg n="75.2">lancé</seg>
+<seg n="75.3">contre la terre qui-Ze-fait-rebondir,</seg>
+<seg n="75.4">lui qui alors</seg>
+<seg n="75.5">avec un élan insensé</seg>
+<seg n="75.6">se livrant-à-une-fureur-bacchique</seg>
+<seg n="75.7">haletait avec des jets (un souffle)</seg>
+<seg n="75.8">de vents très-hostiles.</seg>
+</s>
+<s n="76"><seg n="76.1">Mais le grand Mars</seg>
+<seg n="76.2">allié-propice ,</seg>
+<seg n="76.3">conduisait ces choses</seg>
+<seg n="76.4">dans une autre voie,</seg>
+<seg n="76.5">mais en s’élançant-avec-violence</seg>
+<seg n="76.6">il dirigeait</seg>
+<seg n="76.7">d’autres choses contre d’aütres.</seg>
+</s>
+<s n="77"><seg n="77.1">Car les sept chefs</seg>
+<seg n="77.2">rangés</seg>
+<seg n="77.3">près des sept portes</seg>
+<pb n="35"/>
+<seg n="77.4">égaux contre égaux,</seg>
+<seg n="77.5">laissèrent</seg>
+<seg n="77.6">des tributs tout-d’airain</seg>
+<seg n="77.7">à Jupiter qui met en fuite,</seg>
+</s>
+<s n="78"><seg n="78.1">hormis les deux malheureux</seg>
+<seg n="78.2">qui tous-deux-nés</seg>
+<seg n="78.3">d’un père</seg>
+<seg n="78.4">et d'une mère</seg>
+<seg n="78.5">ayant placé (dirigé)</seg>
+<seg n="78.6">leurs lances tontes-deux-victorieuses,</seg>
+<seg n="78.7">contre-eux-mêmes (l’un contre l’autre)</seg>
+<seg n="78.8">ont tous deux</seg>
+<seg n="78.9">le partage</seg>
+</s>
+<s n="78"><seg n="78.1">d’une mort commune.</seg>
+<seg n="78.11">Antistrophe.</seg>
+</s>
+<s n="79"><seg n="79.1">Mais alors la Victoire</seg>
+<seg n="79.2">au-grand-nom</seg>
+<seg n="79.3">est venue</seg>
+<seg n="79.4">se réjouissant-à-l’encontre de Thèbes</seg>
+<seg n="79.5">aux-chars-nombreux ;</seg>
+</s>
+<s n="80"><seg n="80.1">établissez donc d’un côté</seg>
+<seg n="80.2">Poubli °</seg>
+<seg n="80.3">après les guerres d'à présent ;</seg>
+</s>
+<s n="81"><seg n="81.1">d’un autre côté entrons</seg>
+<seg n="81.2">dans tous les temples</seg>
+<seg n="81.3">des dieux</seg>
+<seg n="81.4">avec des danses</seg>
+<seg n="81.5">qui-durent-toute-la-nuit ;</seg>
+</s>
+<s n="82"><seg n="82.1">et que Bacchus</seg>
+<seg n="82.2">qui-ébranle Thèbes</seg>
+<seg n="82.3">préside,</seg>
+</s>
+<s n="83"><seg n="83.1">sèç Mais en effet c'es£ certes le roi nou-</seg>
+<seg n="83.2">du pays, : [veau</seg>
+<seg n="83.3">le fils de Ménécée</seg>
+<seg n="83.4">qui approche,</seg>
+<seg n="83.5">ramant (agitant)</seg>
+<seg n="83.6">assurément quelque projet</seg>
+<seg n="83.7">à l’occasion des événements récents</seg>
+<seg n="83.8">des dieux,</seg>
+<seg n="83.9">puisque il désigna</seg></s>
+<pb n="37"/>
+<s n="83"><seg n="83.1">cette assemblée</seg>
+<seg n="83.11">convoquée</seg>
+<seg n="83.12">de vieillards,</seg>
+<seg n="83.13">les ayant fait-venir</seg>
+<seg n="83.14">par une proclamation commune.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="84"><seg n="84.1">Hommes,</seg>
+<seg n="84.2">les dieux d’un côté ont redressé</seg>
+<seg n="84.3">certainement de nouveau en-sûreté</seg>
+<seg n="84.4">les choses de la ville l’ayant agitée</seg>
+<seg n="84.5">d’un trouble grand. :</seg>
+</s>
+<s n="85"><seg n="85.1">Moi d’un autre côté</seg>
+<seg n="85.2">j'ai envoyé-chercher vous,</seg>
+<seg n="85.3">séparément de tous</seg>
+<seg n="85.4">par des messagers , pour venir,</seg>
+</s>
+<s n="86"><seg n="86.1">sachant d’abord ceci</seg>
+<seg n="86.2">vous respectant bien toujours</seg>
+<seg n="86.3">les commandements du trône</seg>
+<seg n="86.4">de Laïus ;</seg>
+</s>
+<s n="87"><seg n="87.1">puis cela, quand OEdipe</seg>
+<seg n="87.2">gouvernait-bien la ville,</seg>
+<seg n="87.3">et après qu'il ent péri,</seg>
+<seg n="87.4">vous restant encore</seg>
+<seg n="87.5">dans vos sentiments constants,</seg>
+<seg n="87.6">autour des enfants de ceux-là.</seg>
+</s>
+<s n="88"><seg n="88.1">Alors quand ceux-ci périrent</seg>
+<seg n="88.2">d’une mort double</seg>
+<seg n="88.3">en un jour</seg>
+<seg n="88.4">et ayant frappé</seg>
+<seg n="88.5">et ayant été frappés</seg>
+<seg n="88.6">par un méfait de-leur-propre-main</seg>
+<seg n="88.7">moi désormais je tiens</seg>
+<seg n="88.8">tous les pouvoirs</seg>
+<seg n="88.9">et les priviléges-du-trône</seg>
+</s>
+<s n="88"><seg n="88.1">d’après les droits-de-proximité</seg>
+<seg n="88.11">de la race de ceux-qui-ont-péri.</seg>
+</s>
+<s n="89"><seg n="89.1">Cependantiles£ impossible de connai-</seg>
+<seg n="89.2">et l’âme et l'intelligence [tre</seg>
+<seg n="89.3">et l’esprit de tout homme</seg>
+<seg n="89.4">avant qu'il se-soit-montré pratiquant</seg>
+<seg n="89.5">et les commandements et les lois.</seg></s>
+<pb n="39"/>
+<s n="90"><seg n="90.1">Car quiconque</seg>
+<seg n="90.2">dirigeant toute une vi‘</seg>
+<seg n="90.3">ne s’applique pas</seg>
+<seg n="90.4">aux conseils</seg>
+<seg n="90.5">les meilleurs,</seg>
+<seg n="90.6">mais est renfermant</seg>
+<seg n="90.7">sa langue par quelque petr</seg>
+<seg n="90.8">paraît à moi être</seg>
+<seg n="90.9">très-lâche et maintenant</seg>
+</s>
+<s n="90"><seg n="90.1">et depuis longtemps ;</seg>
+</s>
+<s n="91"><seg n="91.1">et quiconque estime</seg>
+<seg n="91.2">un ami plus important</seg>
+<seg n="91.3">au lieu de la patrie de lui-même</seg>
+<seg n="91.4">je ne nomme celui-ci nulle-part.</seg>
+</s>
+<s n="92"><seg n="92.1">Car que Jupiter Le sache</seg>
+<seg n="92.2">qui voit toutes es choses toujours,</seg>
+<seg n="92.3">ni je ne me tairais</seg>
+<seg n="92.4">voyant le malheur</seg>
+<seg n="92.5">s’avançant vers les citoyens</seg>
+<seg n="92.6">au lieu du salut,</seg>
+<seg n="92.7">ni je n’établirais jamais</seg>
+<seg n="92.8">un homme ennemi du pays</seg>
+<seg n="92.9">ami à moi-même,</seg>
+</s>
+<s n="92"><seg n="92.1">pensant ceci [sauve</seg>
+<seg n="92.11">que c’est celui-ci (Le pays) qui nous</seg>
+<seg n="92.12">et que nous nous faisons nos amis</seg>
+<seg n="92.13">en naviguant sur celui-ci debout.</seg>
+</s>
+<s n="93"><seg n="93.1">Mais j’augmente cette ville</seg>
+<seg n="93.2">de pareilles lois.</seg>
+</s>
+<s n="94"><seg n="94.1">Et maintenant je suis ayant proclamé</seg>
+<seg n="94.2">des choses semblables à celles-ci</seg>
+<seg n="94.3">aux citoyens</seg>
+<seg n="94.4">sur les enfants d'OEdipe.</seg>
+</s>
+<s n="95"><seg n="95.1">Etde couvrir d’un tombeau</seg>
+<seg n="95.2">d’un côté Étéocle</seg>
+<seg n="95.3">qui a péri</seg>
+<seg n="95.4">combattant-pour cette ville</seg>
+<seg n="95.5">ayant excellé avec la lance</seg>
+<seg n="95.6">en toutes choses</seg>
+<seg n="95.7">etd’offrir-purement tontes les choses,</seg>
+<pb n="41"/>
+<seg n="95.8">qui vont en-bas</seg>
+<seg n="95.9">aux meilleurs morts,</seg>
+</s>
+<s n="96"><seg n="96.1">maisdel’autre côtéavoirété proclamé</seg>
+<seg n="96.2">à cette ville</seg>
+<seg n="96.3">personne n’enterrer</seg>
+<seg n="96.4">dans un tombeau</seg>
+<seg n="96.5">ni pleurer</seg>
+<seg n="96.6">le frère de celui-ci,</seg>
+<seg n="96.7">je dis Polynice,</seg>
+<seg n="96.8">celui-ci, qui étant-revenu banni,</seg>
+<seg n="96.9">voulut d’un côté</seg>
+</s>
+<s n="96"><seg n="96.1">brûler avec le feu du hant en bas</seg>
+<seg n="96.11">la terre natale</seg>
+<seg n="96.12">et les dieux indigètes,</seg>
+<seg n="96.13">et youlut de l’autre côté goûter</seg>
+<seg n="96.14">du sang commun,</seg>
+<seg n="96.15">et emmener ceux-ci</seg>
+<seg n="96.16">les ayant réduits-en-servitude ;</seg>
+<seg n="96.17">mais de le laisser non enseveli,</seg>
+<seg n="96.18">et maltraité (dégoûtant) à voir,</seg>
+<seg n="96.19">corps devant-être-dévoré</seg>
+<seg n="96.2">par les oiseaux et par les chiens.</seg>
+</s>
+<s n="97"><seg n="97.1">Telle esé ma pensée,</seg>
+</s>
+<s n="98"><seg n="98.1">et jamais les méchants</seg>
+<seg n="98.2">n’auront-de-préférence aux justes</seg>
+<seg n="98.3">de l’estime de moi au-moins.</seg>
+</s>
+<s n="99"><seg n="99.1">Mais quiconque est bien-intentionné</seg>
+<seg n="99.2">pour cette ville</seg>
+<seg n="99.3">sera honoré par moi</seg>
+<seg n="99.4">également mort et vivant.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="100"><seg n="100.1">Ces choses</seg>
+<seg n="100.2">semblent-bonnes à toi,</seg>
+<seg n="100.3">Créon, fils de Ménécée,</seg>
+<seg n="100.4">à l'égard de celui qui est malveillant</seg>
+<seg n="100.5">et de celui qui est bien-intentionné</seg>
+<seg n="100.6">pour cette ville.</seg>
+</s>
+<s n="101"><seg n="101.1">Or il est permis à toi</seg>
+<seg n="101.2">d’user de toute loi à-peu-près</seg>
+<seg n="101.3">et envers les morts</seg>
+<seg n="101.4">et envers nous Lous-qui vivons.</seg>
+<pb n="43"/>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="102"><seg n="102.1">Pourvu que</seg>
+<seg n="102.2">maintenant vous soyez gardièns</seg>
+<seg n="102.3">des choses dites par moi.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="103"><seg n="103.1">Propose</seg>
+<seg n="103.2">à quelqu’un de plus jeune</seg>
+<seg n="103.3">de se charger de cela.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="104"><seg n="104.1">Mais</seg>
+<seg n="104.2">des gardiens aussi du corps</seg>
+<seg n="104.3">sont prêts.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="105"><seg n="105.1">Quelle es£ donc</seg>
+<seg n="105.2">cette autre chose .</seg>
+<seg n="105.3">que vous ardonneriez-en-sus, encore?</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="106"><seg n="106.1">De ne pas permettre [ses.</seg>
+<seg n="106.2">à ceux-qui-désobéissent en ces cho-</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="107"><seg n="107.1">Il n’est point d’omme</seg>
+<seg n="107.2">si fou</seg>
+<seg n="107.3">qui (qu'il) veuille mourir.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="108"><seg n="108.1">Et même</seg>
+<seg n="108.2">la solde au moins es{ celle-ci.</seg>
+</s>
+<s n="109"><seg n="109.1">Mais le gain</seg>
+<seg n="109.2">a perdu souvent</seg>
+<seg n="109.3">les hommes par ses espérances.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE  GARDIEN.</speaker><p>
+
+<s n="110"><seg n="110.1">O roi,</seg>
+<seg n="110.2">en effet je ne dirai pas</seg>
+<seg n="110.3">que j'arrive hors-d’haleine</seg>
+<seg n="110.4">à cause de ma vitesse,</seg>
+<seg n="110.5">ayant levé un pied léger.</seg>
+</s>
+<s n="111"><seg n="111.1">Car j'avais</seg>
+<seg n="111.2">de nombreuses stations de réflexions,</seg>
+<seg n="111.3">me retournant moi-même</seg>
+<seg n="111.4">sur les chemins à la retraite.</seg>
+</s>
+<s n="112"><seg n="112.1">Car l’âme parlait,</seg>
+<seg n="112.2">conversant beaucoup avec moi:</seg>
+</s>
+<s n="113"><seg n="113.1">Malheureux, que vas-tu</seg>
+<seg n="113.2">où étant allé</seg>
+<seg n="113.3">tu donneras (subiras) punition ?</seg>
+</s>
+<s n="114"><seg n="114.1">iofortuné, resteras-tu de l’autre côté ?</seg>
+</s>
+<s n="115"><seg n="115.1">et si Créon saura ces choses</seg>
+<seg n="115.2">de la part d’un autre homme,</seg>
+<seg n="115.3">comment toi donc ne souffriras-tu pas?</seg></s>
+<pb n="45"/>
+<s n="116"><seg n="116.1">Roulant de pareilles choses</seg>
+<seg n="116.2">j’achevafs mon chemin</seg>
+<seg n="116.3">à peine é/ant lent.</seg>
+</s>
+<s n="117"><seg n="117.1">Et ainsi un chemin court</seg>
+<seg n="117.2">devient long.</seg>
+</s>
+<s n="118"><seg n="118.1">Enfin du moins pourtant</seg>
+<seg n="118.2">venir à toi ici l’'emporta ;</seg>
+</s>
+<s n="119"><seg n="119.1">et quoique j’annohce</seg>
+<seg n="119.2">le rien (un fait inexplicable)</seg>
+<seg n="119.3">néanmoins cependant je Le dirai.</seg>
+</s>
+<s n="120"><seg n="120.1">Car je viens</seg>
+<seg n="120.2">entrainé par l’espérance</seg>
+<seg n="120.3">de ne pas souffrir probablement</seg>
+<seg n="120.4">autre chose, hormis</seg>
+<seg n="120.5">celle marquée-par-le-destin.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="121"><seg n="121.1">Mais qu'est-ce</seg>
+<seg n="121.2">en considération de quoi tu as</seg>
+<seg n="121.3">cet abattement?</seg>
+</s></p></sp>
+<sp>
+<speaker>LE  GARDIEN.</speaker><p>
+
+<s n="122"><seg n="122.1">Je veux</seg>
+<seg n="122.2">dire à toi</seg>
+<seg n="122.3">les choses de moi d’abord.</seg>
+</s>
+<s n="123"><seg n="123.1">Car je n’ai ni fait la chose</seg>
+<seg n="123.2">ni vu celui qui était faisant elle,</seg>
+</s>
+<s n="124"><seg n="124.1">et je ne pourrais guère tomber</seg>
+<seg n="124.2">justement dans quelque mal.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="125"><seg n="125.1">Bien en effet,</seg>
+<seg n="125.2">tu prends-tes-précautions ,</seg>
+<seg n="125.3">et tu barricades tout autour</seg>
+<seg n="125.4">l'affaire.</seg>
+</s>
+<s n="126"><seg n="126.1">Mais tu montres foi</seg>
+<seg n="126.2">comme devant annoncer</seg>
+<seg n="126.3">quelque chose de nouveau.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE GARDIEN.</speaker><p>
+
+<s n="127"><seg n="127.1"></seg>
+<seg n="127.2">ajoutent [graves</seg>
+<seg n="127.3">une grande peur.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="128"><seg n="128.1">Ne parleras-tu pas enfin,</seg>
+<seg n="128.2">puis ne l'en iras-tu pas</seg>
+<seg n="128.3">t'étant acquitté?</seg>
+</s></p></sp>
+<sp>
+<speaker>LE  GARDIEN.</speaker><p>
+
+<s n="129"><seg n="129.1">Tout-à-l’heure</seg>
+<seg n="129.2">je de dis à toi,</seg></s>
+<pb n="47"/>
+<s n="130"><seg n="130.1">quelqu'un s’en est allé,</seg>
+<seg n="130.2">ayant enterré récemment le corps</seg>
+<seg n="130.3">et ayant répandu</seg>
+<seg n="130.4">de la poussière aride sur la chair,</seg>
+<seg n="130.5">et ayant rempli-les-cérémonies</seg>
+<seg n="130.6">qu’il faut.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="131"><seg n="131.1">Que dis-tu ?</seg>
+</s>
+<s n="132"><seg n="132.1">lequel des hommes était</seg>
+<seg n="132.2">celui qui a osé ces choses ?</seg>
+</s></p></sp>
+<sp>
+<speaker>LE  GARDIEN.</speaker><p>
+
+<s n="133"><seg n="133.1">Je ne sais.</seg>
+</s>
+<s n="134"><seg n="134.1">Car là n'était</seg>
+<seg n="134.2">ni coup de quelque hache</seg>
+<seg n="134.3">ni excavation de hoyau;</seg>
+</s>
+<s n="135"><seg n="135.1">mais la terre é/aif dure,</seg>
+<seg n="135.2">et sauvage, non brisée,</seg>
+<seg n="135.3">et non sillonnée par les roues,</seg>
+<seg n="135.4">mais l’auteur-de-l’action</seg>
+<seg n="135.5">était quelqu’un sans-indice.</seg>
+</s>
+<s n="136"><seg n="136.1">Mais aussitôt que</seg>
+<seg n="136.2">la première sentinelle-du-jour</seg>
+<seg n="136.3">montre à nous la chose,</seg>
+<seg n="136.4">un étonnement désagréable</seg>
+<seg n="136.5">se présenta à tous.</seg>
+</s>
+<s n="137"><seg n="137.1">Car celui-ci avait disparu,</seg>
+<seg n="137.2">non, ilest vrai, mis-au-tombeau; [uue</seg>
+</s>
+<s n="138"><seg n="138.1">mais il était-dessus une poussière mc-</seg>
+<seg n="138.2">comme de celui qui fuit un sacrilége</seg>
+</s>
+<s n="139"><seg n="139.1">Mais il ne paraissait de traces</seg>
+<seg n="139.2">ni de bête ni de quelqu'un des chiens</seg>
+<seg n="139.3">étant-venu ni ayant-träîné.</seg>
+</s>
+<s n="140"><seg n="140.1">Cependant des propos mauvais</seg>
+<seg n="140.2">retentirent parmi les uns les autres,</seg>
+<seg n="140.3">gardien accusant gardien;</seg>
+</s>
+<s n="141"><seg n="141.1">etunerixe</seg>
+<seg n="141.2">serait arrivée finissant (à la fin),</seg>
+<seg n="141.3">et celui qui devait empêcher</seg>
+<seg n="141.4">n’était pas présent;</seg>
+</s>
+<s n="142"><seg n="142.1">car un chacun quel qu'il fût</seg>
+<seg n="142.2">était pour les autres</seg>
+<seg n="142.3">celui-qui-l’avait-fait</seg>
+<pb n="49"/>
+<seg n="142.4">et personne manifeste,</seg>
+<seg n="142.5">mais il échappa</seg>
+<seg n="142.6">à ce qu’onne lesût.</seg>
+</s>
+<s n="143"><seg n="143.1">Cependant nous étions prêts</seg>
+<seg n="143.2">et à soulever dans les mains</seg>
+<seg n="143.3">des fers-rougis</seg>
+<seg n="143.4">et à traverser le feu</seg>
+<seg n="143.5">et à jurer-par-serment les dieux</seg>
+<seg n="143.6">le ni avoir fait ni avoir-connaissance</seg>
+<seg n="143.7">avec celui qui avait projeté la chose</seg>
+<seg n="143.8">ni avec celui qui l'avait exécutée.</seg>
+</s>
+<s n="144"><seg n="144.1">Mais enfin,</seg>
+<seg n="144.2">quand rien de plus n’était</seg>
+<seg n="144.3">pour ceux-qui-exploraient,</seg>
+<seg n="144.4">quelqu’un parle,</seg>
+<seg n="144.5">qui nous força tous</seg>
+<seg n="144.6">de pencher de peur</seg>
+<seg n="144.7">la tête vers la terre.</seg>
+</s>
+<s n="145"><seg n="145.1">Car nous n'avions</seg>
+<seg n="145.2">ni à dire-contre cela,</seg>
+<seg n="145.3">ni de-quelle-manière agissant</seg>
+<seg n="145.4">nous pussions nous trouver bien.</seg>
+</s>
+<s n="146"><seg n="146.1">Mais le discours était,</seg>
+<seg n="146.2">que ce fait</seg>
+<seg n="146.3">était à rapporter à toi</seg>
+<seg n="146.4">et non pas à cacher.</seg>
+</s>
+<s n="147"><seg n="147.1">Et ces idées l’emportèrent,</seg>
+<seg n="147.2">et le sort condamne</seg>
+<seg n="147.3">moi malheureux,</seg>
+<seg n="147.4">à accepter ce bien.</seg>
+</s>
+<s n="148"><seg n="148.1">Or je sais que je me présente</seg>
+<seg n="148.2">ne le voulant pas</seg>
+<seg n="148.3">à vous qui nele voulez pas.</seg>
+</s>
+<s n="149"><seg n="149.1">Car personne n’aime</seg>
+<seg n="149.2">un messager de récits mauvais.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="150"><seg n="150.1">Roi, à moi certes,</seg>
+<seg n="150.2">l'esprit réfléchit depuis longtemps</seg>
+<seg n="150.3">si cet accident ne serail pas</seg>
+<seg n="150.4">même quelque accident</seg>
+<seg n="150.5">envoyé-des-dieux.</seg>
+<pb n="51"/>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="151"><seg n="151.1">Cesse,</seg>
+<seg n="151.2">avant d’avoir rempli en parlant</seg>
+<seg n="151.3">aussi moi de colère</seg>
+<seg n="151.4">afin que tu ne sois pas trouvé</seg>
+<seg n="151.5">et insensé et vieux à la fois.</seg>
+</s>
+<s n="152"><seg n="152.1">Car tu dis des choses non tolérables,</seg>
+<seg n="152.2">disant les dieux avoir soin</seg>
+<seg n="152.3">de ce mort.</seg>
+</s>
+<s n="153"><seg n="153.1">Est-ce qu’ils ont caché lui</seg>
+<seg n="153.2">Le comblant-d’'honneurs</seg>
+<seg n="153.3">comme un bienfaiteur,</seg>
+<seg n="153.4">lui qui est venu, voulant-incendier</seg>
+<seg n="153.5">les temples entourés-de-colonnes</seg>
+<seg n="153.6">et les offrandes</seg>
+<seg n="153.7">et le pays de ceux-là,</seg>
+<seg n="153.8">et voulant-bouleverser les lois ?</seg>
+</s>
+<s n="154"><seg n="154.1">ou vois-fu les dieux</seg>
+<seg n="154.2">honorant les méchants ?</seg>
+</s>
+<s n="155"><seg n="155.1">Cela n’est pas.</seg>
+</s>
+<s n="156"><seg n="156.1">Mais les hommes de la ville</seg>
+<seg n="156.2">supportant difficilement</seg>
+<seg n="156.3">ces choses déjà depuis-longtemps</seg>
+<seg n="156.4">murmuraient-contre moi</seg>
+<seg n="156.5">secouant la tête secrètement;</seg>
+</s>
+<s n="157"><seg n="157.1">et ils n’avaient pas le cou</seg>
+<seg n="157.2">sous le joug convenablement</seg>
+<seg n="157.3">de manière à être-satisfaits de moi.</seg>
+</s>
+<s n="158"><seg n="158.1">Je sais bien</seg>
+<seg n="158.2">ceux-ci amenés</seg>
+<seg n="158.3">au moyen de récompenses par ceux-là</seg>
+<seg n="158.4">avoir fait ces choses.</seg>
+</s>
+<s n="159"><seg n="159.1">Car aucune mauvaise institution</seg>
+<seg n="159.2">n’a germé aux hommes,</seg>
+<seg n="159.3">telle que l'argent.</seg>
+</s>
+<s n="160"><seg n="160.1">Ceci dévaste même les villes ;</seg>
+</s>
+<s n="161"><seg n="161.1">ceci chasse</seg>
+<seg n="161.2">les hommes de leurs maisons ;</seg>
+</s>
+<s n="162"><seg n="162.1">ceci forme et égare</seg>
+<seg n="162.2">les âmes honnêtes des mortels</seg>
+<seg n="162.3">à se tourner</seg>
+<seg n="162.4">vers des actions honteuses.</seg></s>
+<pb n="53"/>
+<s n="163"><seg n="163.1">‘puis il montra anx hommes</seg>
+<seg n="163.2">à avoir des finesses,</seg>
+<seg n="163.3">et à savoir l’impiété</seg>
+<seg n="163.4">de toute action.</seg>
+</s>
+<s n="164"><seg n="164.1">Mais tous-ceux qui ont accompli</seg>
+<seg n="164.2">ces choses</seg>
+<seg n="164.3">se-faisant-mercenairés,</seg>
+<seg n="164.4">ont effectué</seg>
+<seg n="164.5">de devoir donner (subir) punition</seg>
+<seg n="164.6">avec le temps enfin.</seg>
+</s>
+<s n="165"><seg n="165.1">Mais si Jupiter</seg>
+<seg n="165.2">a encore vénération par moi</seg>
+<seg n="165.3">sache bien ceci,</seg>
+<seg n="165.4">mais je Le dis à toi</seg>
+<seg n="165.5">lié par serment,</seg>
+<seg n="165.6">si vous ne révélez pas</seg>
+<seg n="165.7">à mes yeux</seg>
+<seg n="165.8">celui qui-a:fai£ de-sa-propre-main</seg>
+<seg n="165.9">cette sépulture,</seg>
+</s>
+<s n="165"><seg n="165.1">l'ayant trouvé,</seg>
+<seg n="165.11">la mort seule</seg>
+<seg n="165.12">ne suffira pas à vous</seg>
+<seg n="165.13">avant que vous ayez déclaré</seg>
+<seg n="165.14">cette insulte</seg>
+<seg n="165.15">vivant pendus,</seg>
+<seg n="165.16">afin que sachant</seg>
+<seg n="165.17">d’où le profit esf à remporter,</seg>
+<seg n="165.18">vous Le tiriez dorénavant de là</seg>
+<seg n="165.19">et que vous appreniez</seg>
+<seg n="165.2">qu'il ne faut pas aimer</seg>
+<seg n="165.21">le faire-gain</seg>
+<seg n="165.22">de toute chose.</seg>
+</s>
+<s n="166"><seg n="166.1">Car tu pourrais voir</seg>
+<seg n="166.2">de plus nombreux accablés-de-mar:x</seg>
+<seg n="166.3">par suite de profits honteux</seg>
+<seg n="166.4">que sauvés.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE  GARDIEN.</speaker><p>
+
+<s n="167"><seg n="167.1">Permettras-tu</seg>
+<seg n="167.2">de dire quelque chose?</seg>
+</s>
+<s n="168"><seg n="168.1">ou m’étant retourné</seg>
+<seg n="168.2">m'en irai-je ainsi ?</seg>
+<pb n="55"/>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="169"><seg n="169.1">Ne sais-tu pas</seg>
+<seg n="169.2">même maintenant</seg>
+<seg n="169.3">combien tu parles désagréablement ?</seg>
+</s></p></sp>
+<sp>
+<speaker>LE  GARDIEN.</speaker><p>
+
+<s n="170"><seg n="170.1">Es-tu piqué</seg>
+<seg n="170.2">aux oreilles ou dans l’âme?</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="171"><seg n="171.1">Mais pourquoi chantes-tu</seg>
+<seg n="171.2">ma douleur, où elle se trouve ?</seg>
+</s></p></sp>
+<sp>
+<speaker>LE  GARDIEN.</speaker><p>
+
+<s n="172"><seg n="172.1">Celui qui a fait l’action</seg>
+<seg n="172.2">afflige toi dans ton esprit,</seg>
+<seg n="172.3">mais moi dans {es oreilles.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="173"><seg n="173.1">Dieux ! que tu es né</seg>
+<seg n="173.2">un bavard manifeste !</seg>
+</s></p></sp>
+<sp>
+<speaker>LE  GARDIEN.</speaker><p>
+
+<s n="174"><seg n="174.1">Cependant n’ayant fait nullement</seg>
+<seg n="174.2">cette action-ci au moins.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="175"><seg n="175.1">Et tout cela,</seg>
+<seg n="175.2">ayant livré {on âme</seg>
+<seg n="175.3">pour de l'argent certainement.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE  GARDIEN.</speaker><p>
+
+<s n="176"><seg n="176.1">Ah!</seg>
+<seg n="176.2">que c’est malheureux,</seg>
+<seg n="176.3">à-qui (s’il) semble-bon certainement</seg>
+<seg n="176.4">de trouver-bon même ce-qui-est-faux.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="177"><seg n="177.1">Parle élégamment</seg>
+<seg n="177.2">maintenant sur l'opinion :</seg>
+</s>
+<s n="178"><seg n="178.1">mais si vous ne m'indiquez pas,</seg>
+<seg n="178.2">ceux qui ont fait ces choses,</seg>
+<seg n="178.3">vous direz-hautement que</seg>
+<seg n="178.4">les profits lâches</seg>
+<seg n="178.5">produisent des malheurs.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE  GARDIEN.</speaker><p>
+
+<s n="179"><seg n="179.1">Eh bien!</seg>
+<seg n="179.2">oui à-la-vérité qu’il soit découvert,</seg>
+</s>
+<s n="180"><seg n="180.1">mais pourtant si même</seg>
+<seg n="180.2">il ne peut étre pris,</seg>
+<seg n="180.3">car le sort décidera cela,</seg>
+<seg n="180.4">il ne sera pas possible que</seg>
+<seg n="180.5">tu voies moi revenu ici.</seg>
+</s>
+<s n="181"><seg n="181.1">Car même maintenant je dois</seg>
+<seg n="181.2">une reconnaissance grande aux dieux :</seg>
+<seg n="181.3">ayant été sauvé</seg>
+<seg n="181.4">au-delà de mon espérance et opinion.</seg>
+<pb n="57"/>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="182"><seg n="182.1">Les merveilles</seg>
+<seg n="182.2">sont nombreuses,</seg>
+<seg n="182.3">et rien n’est plus merveilleux</seg>
+<seg n="182.4">que l’homme.</seg>
+</s>
+<s n="183"><seg n="183.1">Cet éfre s’avance</seg>
+<seg n="183.2">même au-delà</seg>
+<seg n="183.3">de la mer blanchissante</seg>
+<seg n="183.4">avec le vent-du-Midi</seg>
+<seg n="183.5">amenant-des-orages, traversant</seg>
+<seg n="183.6">malgré les vagues-gonflées</seg>
+<seg n="183.7">rugissantes-antour ,</seg>
+</s>
+<s n="184"><seg n="184.1">et il harasse</seg>
+<seg n="184.2">la suprême des déesses,</seg>
+<seg n="184.3">Ja Terre impérissable,</seg>
+<seg n="184.4">infatigable,</seg>
+<seg n="184.5">les charrues</seg>
+<seg n="184.6">se-mouvant-autour</seg>
+<seg n="184.7">d’année en année,</seg>
+<seg n="184.8">la remuant</seg>
+<seg n="184.9">à l’aide de la race des-chevaux.</seg>
+</s>
+<s n="184"><seg n="184.1">Antistrophe I.</seg>
+</s>
+<s n="185"><seg n="185.1">Et il emmène</seg>
+<seg n="185.2">le peuple des oiseaux</seg>
+<seg n="185.3">au vol-rapide,</seg>
+<seg n="185.4">et les générations</seg>
+<seg n="185.5">des bêtes sauvages</seg>
+<seg n="185.6">et la race marine de la mer</seg>
+<seg n="185.7">dans des replis</seg>
+<seg n="185.8">tissus-en-filet ,</seg>
+<seg n="185.9">les ayant enveloppés</seg>
+</s>
+<s n="185"><seg n="185.1">l’homme industrieux</seg>
+</s>
+<s n="186"><seg n="186.1">Et il s'empare de la bête</seg>
+<seg n="186.2">qui-habite-les-champs,</seg>
+<seg n="186.3">qui-gravit-les-montagnes,</seg>
+<seg n="186.4">par des ruses,</seg>
+<seg n="186.5">et il augmente</seg>
+<seg n="186.6">le cheval au cou velu du joug</seg>
+<seg n="186.7">qui-descend-des-deux-côtés,</seg>
+<seg n="186.8">et le taureau de-la-montagne</seg>
+<seg n="186.9">indompté.</seg></s>
+<pb n="59"/>
+<s n="186"><seg n="186.1">Strophe II.</seg>
+</s>
+<s n="187"><seg n="187.1">Il a appris et la parole</seg>
+<seg n="187.2">et la pensée rapide-comme-le-vent,</seg>
+<seg n="187.3">et des mœurs</seg>
+<seg n="187.4">qui régissent-une-ville,</seg>
+<seg n="187.5">et à fuir le séjour-en-plein-air</seg>
+<seg n="187.6">pendant les gelées</seg>
+<seg n="187.7">funestes-à-ceux-qui-stationnent ainsi,</seg>
+<seg n="187.8">et les atteintes des-fortes-averses</seg>
+<seg n="187.9">ayant-des-ressources-à-tout :</seg>
+</s>
+<s n="188"><seg n="188.1">il ne s’avance sans-ressource</seg>
+<seg n="188.2">vers rien</seg>
+<seg n="188.3">de ce qui est à-venir ;</seg>
+</s>
+<s n="189"><seg n="189.1">seulement</seg>
+<seg n="189.2">il n’amènera pas</seg>
+<seg n="189.3">un moyen-de-fuir la mort :</seg>
+</s>
+<s n="190"><seg n="190.1">mais il a imaginé</seg>
+<seg n="190.2">des moyens-de-fuir</seg>
+<seg n="190.3">des maladies intraitables.</seg>
+<seg n="190.4">Antistrophe II.</seg>
+</s>
+<s n="191"><seg n="191.1">Ayant dans l’industrie de l’art</seg>
+<seg n="191.2">quelque chose d’habile,</seg>
+<seg n="191.3">_au-dessus de foufe espérance,</seg>
+<seg n="191.4">il marche</seg>
+<seg n="191.5">tantôt vers le mal,</seg>
+<seg n="191.6">d’autres-fois vers le bien,</seg>
+</s>
+<s n="192"><seg n="192.1">mal-combinant</seg>
+<seg n="192.2">les lois du pays</seg>
+<seg n="192.3">et le droit confirmé-par-serment</seg>
+<seg n="192.4">des dieux,</seg>
+<seg n="192.5">puissant-dans-la-ville :</seg>
+</s>
+<s n="193"><seg n="193.1">mais indigne-d’une-ville</seg>
+<seg n="193.2">celui à qui adhère</seg>
+<seg n="193.3">ce qui n’est pas bien,</seg>
+<seg n="193.4">pour cause d’audace,</seg>
+</s>
+<s n="194"><seg n="194.1">et qu’il ne devienne</seg>
+<seg n="194.2">ni voisin-de-foyer à moi,</seg>
+<seg n="194.3">ni désirant</seg>
+<seg n="194.4">la même chose.</seg>
+<seg n="194.5">lui qui fait ces choses.</seg></s>
+<pb n="61"/>
+<s n="195"><seg n="195.1">Je-suis-incertain</seg>
+<seg n="195.2">quant à ce prodige</seg>
+<seg n="195.3">surnaturel ,</seg>
+<seg n="195.4">de quelle façon</seg>
+<seg n="195.5">je contesterai</seg>
+<seg n="195.6">celle-ci ne pas être</seg>
+<seg n="195.7">la jeune Antigone,</seg>
+<seg n="195.8">la connaissant.</seg>
+</s>
+<s n="196"><seg n="196.1">O malheureuse,</seg>
+<seg n="196.2">et fille de ce père malheureux</seg>
+<seg n="196.3">OEdipe,</seg>
+<seg n="196.4">qu’y-a-t-il donc?</seg>
+</s>
+<s n="197"><seg n="197.1">ils n’amènent pas, sans doute,</seg>
+<seg n="197.2">toi certes désobéissant</seg>
+<seg n="197.3">aux décrets royaux</seg>
+<seg n="197.4">et l’ayant surprise</seg>
+<seg n="197.5">dans la démence.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE  GARDIEN.</speaker><p>
+
+<s n="198"><seg n="198.1">Celle-ci est celle</seg>
+<seg n="198.2">qui a consommé l’œuvre ;</seg>
+</s>
+<s n="199"><seg n="199.1">nous avons surpris celle-ci</seg>
+<seg n="199.2">ensevelissant.</seg>
+</s>
+<s n="200"><seg n="200.1">Mais où es£ Créon ?</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="201"><seg n="201.1">Celui-ci s’avance</seg>
+<seg n="201.2">revenant de sa maison</seg>
+<seg n="201.3">à propos.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="202"><seg n="202.1">Qu'est-ce donc?</seg>
+</s>
+<s n="203"><seg n="203.1">à quel accident</seg>
+<seg n="203.2">étant opportun me suis-je avancé ?</seg>
+</s></p></sp>
+<sp>
+<speaker>LE  GARDIEN.</speaker><p>
+
+<s n="204"><seg n="204.1">Roi,</seg>
+<seg n="204.2">rien n’est à-désavOuer-par-serment</seg>
+<seg n="204.3">aux mortels ;</seg>
+</s>
+<s n="205"><seg n="205.1">car la réflexion-tardive</seg>
+<seg n="205.2">convainc-de-mensonge l'opinion,</seg>
+</s>
+<s n="206"><seg n="206.1">puisque moi je me serais vanté</seg>
+<seg n="206.2">à-peine certes de vouloir venir ici</seg>
+<seg n="206.3">à cause de tes menaces,</seg>
+<seg n="206.4">dont j’ai été alarmé alors.</seg>
+</s>
+<s n="207"><seg n="207.1">Mais en effet la joie</seg>
+<seg n="207.2">en dehors</seg>
+<seg n="207.3">et au-delà de toutes les espérances</seg>
+<pb n="63"/>
+<seg n="207.4">ne ressemble en rien</seg>
+<seg n="207.5">à un autre plaisir quant à la grandeur.</seg>
+</s>
+<s n="208"><seg n="208.1">Je suis venu , quoique étant</seg>
+<seg n="208.2">astreint-au-contraire par desserments,</seg>
+<seg n="208.3">amenant cette jeune fille,</seg>
+<seg n="208.4">qui fut trouvée</seg>
+<seg n="208.5">préparant la sépulture.</seg>
+</s>
+<s n="209"><seg n="209.1">Ici le sort ne fut pas secoué,</seg>
+<seg n="209.2">mais cette trouvaille</seg>
+<seg n="209.3">est mienne, non d’un autre.</seg>
+</s>
+<s n="210"><seg n="210.1">Et maintenant, Ô roi,</seg>
+<seg n="210.2">ayant pris celle-ci,</seg>
+<seg n="210.3">et examine et convaincs-la</seg>
+<seg n="210.4">toi-même, comme {u veux ;</seg>
+</s>
+<s n="211"><seg n="211.1">mais mof je suis en-droit</seg>
+<seg n="211.2">d’être quitte de ces maux</seg>
+<seg n="211.3">devenu llre.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="212"><seg n="212.1">De quelle manière</seg>
+<seg n="212.2">et d’où ayant pris celle-ci l’amènes-tu?</seg>
+</s></p></sp>
+<sp>
+<speaker>LE  GARDIEN.</speaker><p>
+
+<s n="213"><seg n="213.1">Celle-ci</seg>
+<seg n="213.2">enterrait l’homme ;</seg>
+</s>
+<s n="214"><seg n="214.1">tu sais toutes les choses.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="215"><seg n="215.1">Est-ce que aussi</seg>
+<seg n="215.2">tu comprends</seg>
+<seg n="215.3">et dis vrai les choses que tu dis ?</seg>
+</s></p></sp>
+<sp>
+<speaker>LE  GARDIEN.</speaker><p>
+
+<s n="216"><seg n="216.1">Ayant vu</seg>
+<seg n="216.2">celle-ci au moins</seg>
+<seg n="216.3">ensevelissant le mort,</seg>
+<seg n="216.4">que tu as défendu d’ensevelir.</seg>
+</s>
+<s n="217"><seg n="217.1">Est-ce que je dis</seg>
+<seg n="217.2">des choses évidentes et claires ?</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="218"><seg n="218.1">Et comment est-elle aperçue</seg>
+<seg n="218.2">et at-elle été trouvée é{ant-surprise ?</seg>
+</s></p></sp>
+<sp>
+<speaker>LE  GARDIEN.</speaker><p>
+
+<s n="219"><seg n="219.1">La chose</seg>
+<seg n="219.2">était telle ;</seg>
+</s>
+<s n="220"><seg n="220.1">car sitôt que nous fûmes arrivés,</seg>
+<seg n="220.2">étant-menacés</seg>
+<seg n="220.3">par toi de ces horribles choses,</seg>
+<seg n="220.4">ayant balayé toute la poussière</seg>
+<seg n="220.5">qui tenait (couvrait) le mort .</seg>
+<pb n="65"/>
+<seg n="220.6">et ayant mis à nu bien</seg>
+<seg n="220.7">le corps pourrissant,</seg>
+<seg n="220.8">nous nous asseyons</seg>
+<seg n="220.9">sur les sommets des collines,</seg>
+</s>
+<s n="220"><seg n="220.1">à l’abri-du-vent,</seg>
+<seg n="220.11">fuyant l’odeur venant de lai,</seg>
+<seg n="220.12">afin qu’elle ne nous frappe pas,</seg>
+<seg n="220.13">l’homme excitant l’homme</seg>
+<seg n="220.14">à-la-vigilance</seg>
+<seg n="220.15">par des propos injurieux</seg>
+<seg n="220.16">lancés-par-l’un-contre-l’autre,</seg>
+<seg n="220.17">si quelqu'un voulait négliger</seg>
+<seg n="220.18">cette corvée (besogne).</seg>
+</s>
+<s n="221"><seg n="221.1">Ces choses étaient (duraient)</seg>
+<seg n="221.2">autant de temps</seg>
+<seg n="221.3">jusqu’à ce que le cercle brillant du so-</seg>
+<seg n="221.4">s'arrétât au-milieu du ciel, [leit</seg>
+<seg n="221.5">et que la chaleur brûlât.</seg>
+</s>
+<s n="222"><seg n="222.1">Et alors tout-à-coup</seg>
+<seg n="222.2">une tempête ayant soulevé du sol</seg>
+<seg n="222.3">un tourbillon,</seg>
+<seg n="222.4">tristesse qui-monte-aux-nues,</seg>
+<seg n="222.5">remplit la plain:</seg>
+<seg n="222.6">tourmentant toute la crinière</seg>
+<seg n="222.7">du bois de-la-plaine.</seg>
+</s>
+<s n="223"><seg n="223.1">Et au-milieu le grand éther</seg>
+<seg n="223.2">se remplit.</seg>
+</s>
+<s n="224"><seg n="224.1">Mais ayant-fermé-les yeux</seg>
+<seg n="224.2">nous supportions le mal envoyé-des-</seg>
+</s>
+<s n="225"><seg n="225.1">Et celui-ci s'étant éloigné  [dieux.</seg>
+<seg n="225.2">après un temps long,</seg>
+<seg n="225.3">la jeune fille est-apeñçue,</seg>
+<seg n="225.4">et elle se lamente de la voix perçante</seg>
+<seg n="225.5">d’un oiseau afligé,</seg>
+<seg n="225.6">comme quand il voit le lit du nid vide</seg>
+<seg n="225.7">privé de ses petits.</seg>
+</s>
+<s n="226"><seg n="226.1">Ainsi aussi celle-ci</seg>
+<seg n="226.2">sitôt qu’elle voit le corps nu,</seg>
+<seg n="226.3">elle gémit avec des sanglots,</seg>
+<seg n="226.4">et proféra des souhaits de-malheur</seg>
+<pb n="67"/>
+<seg n="226.5">contre ceux-qui-avaient-consommé</seg>
+<seg n="226.6">l'œuvre.</seg>
+</s>
+<s n="227"><seg n="227.1">Et sur-le-champ elle porte</seg>
+<seg n="227.2">de la poussière aride entre ses mains,</seg>
+<seg n="227.3">et elle honore le corps</seg>
+<seg n="227.4">par des libations-funèbres</seg>
+<seg n="227.5">trois-fois-versées</seg>
+<seg n="227.6">du baut d’une aiguière</seg>
+<seg n="227.7">d’airain bien-martelée.</seg>
+</s>
+<s n="228"><seg n="228.1">Et nous de l’autre côté ayant vue</seg>
+<seg n="228.2">nous nous élançons vers elle,</seg>
+<seg n="228.3">et nous saisissons tout-de-suite</seg>
+<seg n="228.4">elle nullement effrayée.</seg>
+</s>
+<s n="229"><seg n="229.1">Et nous l’accusions des actes</seg>
+<seg n="229.2">et de ceux-d’auparavant</seg>
+<seg n="229.3">et de ceux de maintenant.</seg>
+</s>
+<s n="230"><seg n="230.1">Mais elle se trouva</seg>
+<seg n="230.2">niant aucune chose</seg>
+<seg n="230.3">certes agréablement à moiau moins,</seg>
+<seg n="230.4">et en même temps péniblement.</seg>
+</s>
+<s n="231"><seg n="231.1">Car d’un côté l'avoir échappé</seg>
+<seg n="231.2">soi-même aux malheurs,</seg>
+<seg n="231.3">est très-doux,</seg>
+</s>
+<s n="232"><seg n="232.1">d’unautre côté iles£ pénible de pous-</seg>
+<seg n="232.2">ses amis dans le malheur. [ser</seg>
+</s>
+<s n="233"><seg n="233.1">Mais toutes ces choses</seg>
+<seg n="233.2">sont à moi</seg>
+<seg n="233.3">inférieures pour Les prendre,</seg>
+<seg n="233.4">à mon salut.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="234"><seg n="234.1">C’est toi</seg>
+<seg n="234.2">à qui je parle, toi qui penches</seg>
+<seg n="234.3">la tête vers la terre,</seg>
+</s>
+<s n="235"><seg n="235.1">affirmes-tu ou nies-tu disan/</seg>
+<seg n="235.2">ne pas avoir fait ces choses ?</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="236"><seg n="236.1">Et je dis avoir fait</seg>
+<seg n="236.2">et je ne nie pas, disant non.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="237"><seg n="237.1">Toi d’un côté</seg>
+<seg n="237.2">tu peux transporter</seg>
+<seg n="237.3">toi-même où tu veux, libre</seg>
+<seg n="237.4">en dehors d’une accusation grave.</seg></s>
+<pb n="69"/>
+<s n="238"><seg n="238.1">Mais toi dis-moi</seg>
+<seg n="238.2">sans longueur, mais avec-concision,</seg>
+</s>
+<s n="239"><seg n="239.1">savais-tu les choses proclamées</seg>
+<seg n="239.2">de ne pas faire ces choses ?</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="240"><seg n="240.1">Je Les savais.</seg>
+</s>
+<s n="241"><seg n="241.1">Mais comment</seg>
+<seg n="241.2">ne devais-je pas Les savoir?</seg>
+</s>
+<s n="242"><seg n="242.1">car elles étaient publiques.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="243"><seg n="243.1">Et après-cela tu as osé</seg>
+<seg n="243.2">outre-passer ces lois?</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="244"><seg n="244.1">Car nullement</seg>
+<seg n="244.2">Jupiter n’était celui qui a proclamé</seg>
+<seg n="244.3">ces choses à moi,</seg>
+<seg n="244.4">ni la Justice,</seg>
+<seg n="244.5">compagne des dieux d’en bas</seg>
+<seg n="244.6">qui ont fixé ces lois</seg>
+<seg n="244.7">parmi les hommes,</seg>
+</s>
+<s n="245"><seg n="245.1">et je ne croyais pas</seg>
+<seg n="245.2">tes proclamations</seg>
+<seg n="245.3">pouvoir tant,</seg>
+<seg n="245.4">qu’étant mortel,</seg>
+<seg n="245.5">doi pouvoir transgresser</seg>
+<seg n="245.6">les lois non-écrites</seg>
+<seg n="245.7">et infaillibles des dieux.</seg>
+</s>
+<s n="246"><seg n="246.1">Car celles-ci existent :</seg>
+<seg n="246.2">non d’aujourd’hui certes et d’hier,</seg>
+<seg n="246.3">mais éternellement,</seg>
+<seg n="246.4">et personne ne sait</seg>
+<seg n="246.5">depuis quel femps elles ont paru.</seg>
+</s>
+<s n="247"><seg n="247.1">Moi je ne devais pas</seg>
+<seg n="247.2">donner (subir) punition</seg>
+<seg n="247.3">de ces choses, auprès des dieux,</seg>
+<seg n="247.4">n’ayant redouté la volonté</seg>
+<seg n="247.5">d'aucun homme. ”</seg>
+</s>
+<s n="248"><seg n="248.1">Car je savais-bien</seg>
+<seg n="248.2">(et comment ne pas Le savoir)</seg>
+<seg n="248.3">moi devant-mourir,</seg>
+<seg n="248.4">même si toi</seg>
+<seg n="248.5">ne l'avais pas fait-proclamer-d'avance.</seg>
+</s>
+<s n="249"><seg n="249.1">Mais si je dois mourir</seg>
+<pb n="71"/>
+<seg n="249.2">avant le temps</seg>
+<seg n="249.3">moi j’appelle ceci uv profit.</seg>
+</s>
+<s n="250"><seg n="250.1">Car, quiconque vit</seg>
+<seg n="250.2">comme moi dans des maux nombreux,</seg>
+<seg n="250.3">comment celui-ci</seg>
+<seg n="250.4">ne remporte-t-il pas un avantage</seg>
+<seg n="250.5">étant mort ?</seg>
+</s>
+<s n="251"><seg n="251.1">Ainsi encourir cette destinée</seg>
+<seg n="251.2">est à moi certes comme aucune dou-</seg>
+</s>
+<s n="252"><seg n="252.1">mais [leur ;</seg>
+<seg n="252.2">si j'avais enduré le mort</seg>
+<seg n="252.3">qui est le fils de ma mère,</seg>
+<seg n="252.4">étant mort,</seg>
+<seg n="252.5">privé-de-sépulture,</seg>
+<seg n="252.6">je me serais afligée de ces choses ;</seg>
+</s>
+<s n="253"><seg n="253.1">mais de celles-ci jene m'en afflige pas.</seg>
+</s>
+<s n="254"><seg n="254.1">Si cependant je semble à toi</seg>
+<seg n="254.2">me trouver</seg>
+<seg n="254.3">faisant des choses folles actuellement,</seg>
+<seg n="254.4">je suis accusée de folie</seg>
+<seg n="254.5">peut-être par un fou.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="255"><seg n="255.1">Le naturel</seg>
+<seg n="255.2">de la-jeune-fille</seg>
+<seg n="255.3">se montre inflexible</seg>
+<seg n="255.4">venant d’un père inflexible ;</seg>
+</s>
+<s n="256"><seg n="256.1">et il ne sait point</seg>
+<seg n="256.2">céder aux malheurs.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="257"><seg n="257.1">Mais sache bien,</seg>
+<seg n="257.2">les esprits trop durs</seg>
+<seg n="257.3">s’abattent surtout;</seg>
+</s>
+<s n="258"><seg n="258.1">et tu pourrais voir</seg>
+<seg n="258.2">le fer le plus solide</seg>
+<seg n="258.3">très-dur</seg>
+<seg n="258.4">cuit par le feu</seg>
+<seg n="258.5">le plus souvent broyé et brisé ;</seg>
+</s>
+<s n="259"><seg n="259.1">je sais d’un autre côté</seg>
+<seg n="259.2">les chevaux irrités</seg>
+<seg n="259.3">étant remis-à l'ordre</seg>
+<seg n="259.4">par un petit frein.</seg>
+</s>
+<s n="260"><seg n="260.1">Car il n’est-pas permis</seg>
+<pb n="73"/>
+<seg n="260.2">de penser hautainement</seg>
+<seg n="260.3">à celui qui est esclave</seg>
+<seg n="260.4">de ses voisins.</seg>
+</s>
+<s n="261"><seg n="261.1">Mais celle-ci a su</seg>
+<seg n="261.2">faire-un-outrage alors d’un côté</seg>
+<seg n="261.3">en transgressant les lois</seg>
+<seg n="261.4">promulguées.</seg>
+</s>
+<s n="262"><seg n="262.1">De l’autre côté quand elle l’eut fait,</seg>
+<seg n="262.2">celui-ci est le second outrage,</seg>
+<seg n="262.3">de se vanter de ces choses;</seg>
+<seg n="262.4">et de rire Les ayant faites.</seg>
+</s>
+<s n="263"><seg n="263.1">Or en vérité moi d’un côté</seg>
+<seg n="263.2">je ne suis pas homme,</seg>
+<seg n="263.3">de l’autre côté celle-ci est homme,</seg>
+<seg n="263.4">si ces violences</seg>
+<seg n="263.5">doivent demeurer sans-punition pour</seg>
+</s>
+<s n="264"><seg n="264.1">Mais soit qu’elle se trouve [celle-ci.</seg>
+<seg n="264.2">fille de ma sœur</seg>
+<seg n="264.3">ou d’une parenté plus proche à nous</seg>
+<seg n="264.4">que tout ce que prolége noire</seg>
+<seg n="264.5">Jupiter Herceus,</seg>
+<seg n="264.6">et celle-ci et sa sœur</seg>
+<seg n="264.7">n’échapperont pas</seg>
+<seg n="264.8">au plus mauvais sort.</seg>
+</s>
+<s n="265"><seg n="265.1">Car naturellement</seg>
+<seg n="265.2">j’accuse celle-là de cette sépulture,</seg>
+<seg n="265.3">d'en avoir formé-le-dessein également.</seg>
+</s>
+<s n="266"><seg n="266.1">Aussi appelez-la.</seg>
+</s>
+<s n="267"><seg n="267.1">Car j'ai vu tout-à-l’heure dans l’inté-</seg>
+<seg n="267.2">elle transportée-de-fureur, [rieur</seg>
+<seg n="267.3">et n'étant pas maîtresse de ses sens.</seg>
+</s>
+<s n="268"><seg n="268.1">Or l'esprit de ceux qui ne trament</seg>
+<seg n="268.2">rien honnêtement</seg>
+<seg n="268.3">dans l'ombre</seg>
+<seg n="268.4">a coutume d'être surpris</seg>
+<seg n="268.5">recéleur auparavant.</seg>
+</s>
+<s n="269"><seg n="269.1">Je hais certes pourtant</seg>
+<seg n="269.2">aussi alors que quelqu’un</seg>
+<seg n="269.3">surpris dans ses crimes</seg>
+<seg n="269.4">voudra après colorer cela.</seg>
+<pb n="75"/>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="270"><seg n="270.1">Veux-tu</seg>
+<seg n="270.2">quelque chose de plus considérable,</seg>
+<seg n="270.3">qu’ayant pris moi me tuer?</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="271"><seg n="271.1">Moi en vérité rien ;</seg>
+</s>
+<s n="272"><seg n="272.1">tenant ceci, je tiens toutes les choses.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="273"><seg n="273.1">Que tardes-tu donc ?</seg>
+</s>
+<s n="274"><seg n="274.1">car rien de tes discours :</seg>
+<seg n="274.2">n’est agréable à moi, [mais;</seg>
+<seg n="274.3">et ne puisse être trouvé agréable ja-</seg>
+</s>
+<s n="275"><seg n="275.1">ainsi de l’autre côté aussi mes choses</seg>
+<seg n="275.2">sont faites étant-désagréables à toi.</seg>
+</s>
+<s n="276"><seg n="276.1">Certes d’où obtiendrais-je</seg>
+<seg n="276.2">une gloire réellement plus-glorieuse,</seg>
+<seg n="276.3">qu’en plaçant mon frère-germain .</seg>
+<seg n="276.4">dans le tombeau?</seg>
+</s>
+<s n="277"><seg n="277.1">ceci serait dit plaire</seg>
+<seg n="277.2">à tous ceux-là, si la crainte</seg>
+<seg n="277.3">n’enfermait pas leur langue.</seg>
+</s>
+<s n="278"><seg n="278.1">Mais la royauté est-heureuse</seg>
+<seg n="278.2">et en beaucoup d’autres choses,</seg>
+<seg n="278.3">eten ce qu’il est permis à elle</seg>
+<seg n="278.4">de faire et de dire</seg>
+<seg n="278.5">les choses qu’elle veut.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="279"><seg n="279.1">Toi seule</seg>
+<seg n="279.2">parmi ces Cadméens</seg>
+<seg n="279.3">tu vois cela.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="280"><seg n="280.1">Aussi ceux-ci</seg>
+<seg n="280.2">le voient,</seg>
+</s>
+<s n="281"><seg n="281.1">mais ils ferment la bouche</seg>
+<seg n="281.2">à cause de toi.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="282"><seg n="282.1">Mais n’as-tu-pas-honte,</seg>
+<seg n="282.2">si tu penses autrement que ceux-ci?</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="283"><seg n="283.1">C’est qu’en rien</seg>
+<seg n="283.2">il n’est honteux</seg>
+<seg n="283.3">de respecter</seg>
+<seg n="283.4">ceux qui-sont-sortis-des-mêmes -en-</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="284"><seg n="284.1">N’é/ail-il donc pas [trailles.</seg>
+<seg n="284.2">frère-germain</seg>
+<seg n="284.3">aussi celui qui est mort</seg>
+<seg n="284.4">combatlant coutre Lui?</seg>
+<pb n="77"/>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="285"><seg n="285.1">Frère-germain</seg>
+<seg n="285.2">et par une mère</seg>
+<seg n="285.3">et par un même père.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="286"><seg n="286.1">Comment</seg>
+<seg n="286.2">alors honores-tu</seg>
+<seg n="286.3">d’un service impie celui-là ></seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="287"><seg n="287.1">Le mort qui a péri</seg>
+<seg n="287.2">ne déposera pas ces choses.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="288"><seg n="288.1">Cependant si tu honores lui</seg>
+<seg n="288.2">à légal</seg>
+<seg n="288.3">de cet impie.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="289"><seg n="289.1">Aussi nullement</seg>
+<seg n="289.2">p’a-t-il péri éfant son esclave,</seg>
+<seg n="289.3">mais son frère.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="290"><seg n="290.1">Cependant en dévastant</seg>
+<seg n="290.2">cette terre,</seg>
+</s>
+<s n="291"><seg n="291.1">celui-ci en résistant pour elle.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="292"><seg n="292.1">Cependant</seg>
+<seg n="292.2">Pluton au moins demande</seg>
+<seg n="292.3">ces lois.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="293"><seg n="293.1">Mais</seg>
+<seg n="293.2">le vertueux</seg>
+<seg n="293.3">n’est pas égal au misérable</seg>
+<seg n="293.4">pour recevoir-sa-part.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="294"><seg n="294.1">Qui sait</seg>
+<seg n="294.2">si ces choses sont saintes en-bas ?</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="295"><seg n="295.1">Certes jamais ne sera</seg>
+<seg n="295.2">l'ennemi ami,</seg>
+<seg n="295.3">pas même quand il serait mort.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="296"><seg n="296.1">Certes je ne suis pas née</seg>
+<seg n="296.2">pour partager-la-haine,</seg>
+<seg n="296.3">mais pour partager-l'amour.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="297"><seg n="297.1"></seg>
+<seg n="297.2">aime ceux-là,</seg>
+<seg n="297.3">s’il faut aimer ;</seg>
+</s>
+<s n="298"><seg n="298.1">mais moi déant vivant</seg>
+<seg n="298.2">femme ne gouvernera.</seg>
+</s></p></sp>
+<sp>
+<speaker>CHOEUR.</speaker><p>
+
+<s n="299"><seg n="299.1">Mais aussi</seg>
+<seg n="299.2">Ismène que voici</seg>
+<seg n="299.3">devant les porles,</seg>
+<pb n="79"/>
+<seg n="299.4">faisant couler en bas</seg>
+<seg n="299.5">des pleurs d’amour-de-sœur ;</seg>
+</s>
+<s n="300"><seg n="300.1">et un nuage au-dessus de ses sourcils</seg>
+<seg n="300.2">défigure son visage</seg>
+<seg n="300.3">par une rougeur couleur-de-sang,</seg>
+<seg n="300.4">humectant</seg>
+<seg n="300.5">sa joue belle-à-voir.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="301"><seg n="301.1">Eh bien toi,</seg>
+<seg n="301.2">qui t’étant-glissée-secrètement</seg>
+<seg n="301.3">dans nos demeures,</seg>
+<seg n="301.4">comme une vipère,</seg>
+<seg n="301.5">buvais moi (suçais mon sang)</seg>
+<seg n="301.6">étant cachée,</seg>
+<seg n="301.7">et je ne savais pas même</seg>
+<seg n="301.8">nourrissant deux furics,</seg>
+<seg n="301.9">et insurrections</seg>
+</s>
+<s n="301"><seg n="301.1">contre mon trône :</seg>
+<seg n="301.11">allons, dis maifitenant à moi,</seg>
+<seg n="301.12">affirmeras-tu aussi</seg>
+<seg n="301.13">avoir-pris-part à cette sépulture,</seg>
+<seg n="301.14">ou nieras-tu-par-serment ne pas sa-</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="302"><seg n="302.1"></seg>
+<seg n="302.2">si toutefois celle-ci y-consent,</seg>
+<seg n="302.3">et je suis complice du crime</seg>
+<seg n="302.4">et j'en porte Les conséquences.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="303"><seg n="303.1">Mais la justice</seg>
+<seg n="303.2">ne souffrira pas toi en cela au moins,</seg>
+<seg n="303.3">puisque ni {oi n’as voulu</seg>
+<seg n="303.4">ni moi ne £’ai rendu-participant.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="304"><seg n="304.1">Mais je n’ai-pas-honte</seg>
+<seg n="304.2">dans les tiens malheurs</seg>
+<seg n="304.3">faisant moi-même</seg>
+<seg n="304.4">compagnon-navigateur de {on _—.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="305"><seg n="305.1">Pluton [heur..</seg>
+<seg n="305.2">et ceux aux-enfers</seg>
+<seg n="305.3">sont témoins, sachant</seg>
+<seg n="305.4">desquels es{ l’action.</seg>
+</s>
+<s n="306"><seg n="306.1">Mais moi je ne me contente pas</seg>
+<seg n="306.2">d’une amie</seg>
+<seg n="306.3">qui-aime dans ses discours.</seg>
+<pb n="81"/>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="307"><seg n="307.1">Sœur,</seg>
+<seg n="307.2">ne me juge pas indigne cependant</seg>
+<seg n="307.3">de pouvoir et mourir avec toi</seg>
+<seg n="307.4">et honorer-par-les-rites-funèbres</seg>
+<seg n="307.5">le mort.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="308"><seg n="308.1">Que tu ne meures pas</seg>
+<seg n="308.2">en-commun-avec moi,</seg>
+<seg n="308.3">et ne fasses pas appartenir à toi</seg>
+<seg n="308.4">les choses auxquelles tu n’as pas lou-</seg>
+</s>
+<s n="309"><seg n="309.1">Je suffirai mourant [ché.</seg>
+<seg n="309.2">moi (il suffira que je meure, moi).</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="310"><seg n="310.1">Et quelle vie</seg>
+<seg n="310.2">sera chère à moi,</seg>
+<seg n="310.3">étant abandonnée de toi ?</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="311"><seg n="311.1">Demande à Créon ;</seg>
+</s>
+<s n="312"><seg n="312.1">car tu es pleine-de-soins pour celui-là.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="313"><seg n="313.1">Pourquoi</seg>
+<seg n="313.2">affliges-tu moi par ces choses,</seg>
+<seg n="313.3">n’en retirant-avanlage aucun ?</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="314"><seg n="314.1">Si je ris un rire</seg>
+<seg n="314.2">contre toi</seg>
+<seg n="314.3">je ris certes souffrant.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="315"><seg n="315.1">Mais dans quelle chose donc</seg>
+<seg n="315.2">pourrais-je servir maintenant toiP</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="316"><seg n="316.1">Sauve-toi toi-même.</seg>
+</s>
+<s n="317"><seg n="317.1">Je n’envie pas toi</seg>
+<seg n="317.2">t’échapper (tes moyens de salut).</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="318"><seg n="318.1">Malheureuse que je suis</seg>
+<seg n="318.2">et je serais frustrée de ta mort?</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="319"><seg n="319.1">C’est que toi d’un côté</seg>
+<seg n="319.2">tu as préféré vivre</seg>
+<seg n="319.3">moi de l’autre côté mourir.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="320"><seg n="320.1">Mais non pas</seg>
+<seg n="320.2">pour des paroles</seg>
+<seg n="320.3">miennes non-dites au moins.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="321"><seg n="321.1">Précisément</seg>
+<seg n="321.2">toi tu te semblais par celles-ci,</seg>
+</s>
+<s n="322"><seg n="322.1">moi je me semblais par celles-là être</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="323"><seg n="323.1">Et cependant [raisonnable.</seg>
+<seg n="323.2">le délit de nous est égal.</seg>
+<pb n="83"/>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="324"><seg n="324.1">Rassure-toi.</seg>
+</s>
+<s n="325"><seg n="325.1">Toi certes tu vis ;</seg>
+</s>
+<s n="326"><seg n="326.1"></seg>
+<seg n="326.2">est morte depuis longtemps</seg>
+<seg n="326.3">de manière à servir les morts.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="327"><seg n="327.1">J'affirme</seg>
+<seg n="327.2">de ces-deux jeunes-filles</seg>
+<seg n="327.3">l’une s’être montrée</seg>
+<seg n="327.4">insensée tout-à-l’heure,</seg>
+<seg n="327.5">l’autre dès le premier-moment où elle</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="328"><seg n="328.1">O roi, [est née.</seg>
+<seg n="328.2">c'est que jamais la raison ne reste</seg>
+<seg n="328.3">à ceux qui sont malheureux,</seg>
+<seg n="328.4">pas même celle qui a germé naturelle-</seg>
+<seg n="328.5">mais elle s’altère. [ment</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="329"><seg n="329.1">Elle s’allère, à toi certes</seg>
+<seg n="329.2">quand tu as entrepris</seg>
+<seg n="329.3">de faire de mauvaises choses</seg>
+<seg n="329.4">avec les mauvais.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="330"><seg n="330.1">Mais quel agrément-de-vivre</seg>
+<seg n="330.2">reste-t-il à moi seule sans celle-ci?</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="331"><seg n="331.1">Mais cependant</seg>
+<seg n="331.2">ne dis pas : celle-ci,</seg>
+<seg n="331.3">car elle n’est plus.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="332"><seg n="332.1">Eh quoi, tu tueras</seg>
+<seg n="332.2">la fiancée de l’enfant de toi-même ?</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="333"><seg n="333.1">C’est que les champs</seg>
+<seg n="333.2">aussi des autres</seg>
+<seg n="333.3">sont labourables.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="334"><seg n="334.1">Non pas</seg>
+<seg n="334.2">convenablement (comme cela agréait)</seg>
+<seg n="334.3">comme cela était entre lui et celle-ci.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="335"><seg n="335.1">Moi je déteste</seg>
+<seg n="335.2">des femmes perverses pour mes fils.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="336"><seg n="336.1">O Hémon très-chéri,</seg>
+<seg n="336.2">que ton père outrage toi.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="337"><seg n="337.1">Réellement tu fatigues</seg>
+<seg n="337.2">moi trop, :</seg>
+<seg n="337.3">et toi et ton lit-nuptial.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="338"><seg n="338.1">Est-ce-que tu priveras</seg>
+<seg n="338.2">le fils de toi-même de celle-ci ?</seg>
+<pb n="85"/>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="339"><seg n="339.1">Pluton est</seg>
+<seg n="339.2">celui-qui-doit-mettre-un terme</seg>
+<seg n="339.3">à ces noces.</seg>
+</s></p></sp>
+<sp>
+<speaker>ISMÈNE.</speaker><p>
+
+<s n="340"><seg n="340.1">Il a été arrété,</seg>
+<seg n="340.2">à ce qu'il paraît,</seg>
+<seg n="340.3">celle-ci devoir mourir.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="341"><seg n="341.1">Et par toi et par moi.</seg>
+</s>
+<s n="342"><seg n="342.1">N’y meltez plus de retards;</seg>
+</s>
+<s n="343"><seg n="343.1">mais emmenez-les dans l’intérieur,</seg>
+<seg n="343.2">Ô esclaves ;</seg>
+</s>
+<s n="344"><seg n="344.1"></seg>
+<seg n="344.2">celles-ci être femmes</seg>
+<seg n="344.3">et non pas en-liberté-de-sortir.</seg>
+</s>
+<s n="345"><seg n="345.1">, Car certes même les audacieux s’en</seg>
+<seg n="345.2">quand ils voient [fuient</seg>
+<seg n="345.3">la mort déjà proche de la vie.</seg>
+</s></p></sp>
+<sp>
+<speaker>CHOEUR.</speaker><p>
+
+<s n="346"><seg n="346.1">Heureux</seg>
+<seg n="346.2">ceux auxquels la vie</seg>
+<seg n="346.3">reste exempte de malheurs.</seg>
+</s>
+<s n="347"><seg n="347.1">Car à ceux auxquels la maison</seg>
+<seg n="347.2">est ébranlée</seg>
+<seg n="347.3">par-un-dieu ,</seg>
+<seg n="347.4">rien de funeste</seg>
+<seg n="347.5">ne reste-en-arrière s’avançant</seg>
+<seg n="347.6">vers la multitude de la postérité.</seg>
+</s>
+<s n="348"><seg n="348.1">De même que la vague-gonflée</seg>
+<seg n="348.2">quand elle parcourt</seg>
+<seg n="348.3">Ja nuit au-fond-de-la-mer</seg>
+<seg n="348.4">poussée par les vents de-la-mer</seg>
+<seg n="348.5">très-violents</seg>
+<seg n="348.6">de-la-Thrace,</seg>
+<seg n="348.7">roule un sable</seg>
+<seg n="348.8">noir et agité-par-le-vent,</seg>
+<seg n="348.9">du fond ;</seg>
+</s>
+<s n="349"><seg n="349.1">et que les rivages</seg>
+<seg n="349.2">qui répercutent les flots</seg>
+<seg n="349.3">retentissent d’un bruit-gémissant.</seg>
+<seg n="349.4">Antistrophe.</seg>
+</s>
+<s n="350"><seg n="350.1">Je vois</seg>
+<seg n="350.2">les malheurs antiques</seg>
+<seg n="350.3">de la maison des Labdacides</seg>
+<pb n="87"/>
+<seg n="350.4">se précipitant</seg>
+<seg n="350.5">à la suite des malheurs</seg>
+<seg n="350.6">de ceux-qui-sont-morts,</seg>
+</s>
+<s n="351"><seg n="351.1">et la génération</seg>
+<seg n="351.2">ne délivre (rachète) pas la génération,</seg>
+<seg n="351.3">mais un des dieux</seg>
+<seg n="351.4">s’acharne-à-sa-ruine</seg>
+<seg n="351.5">et clle n’a pas de délivrance.</seg>
+</s>
+<s n="352"><seg n="352.1">Car maintenant,</seg>
+<seg n="352.2">la lumière qui s'était répandue</seg>
+<seg n="352.3">sur l'extrémité de la racine</seg>
+<seg n="352.4">dans la maison d’OEdipe,</seg>
+<seg n="352.5">” encore la poussière</seg>
+<seg n="352.6">ensanglantée</seg>
+<seg n="352.7">des dieux des enfers</seg>
+<seg n="352.8">moissonne elle ;</seg>
+<seg n="352.9">et l’imprudence de langage,</seg>
+</s>
+<s n="352"><seg n="352.1">et la furie vengeresse du cœur.</seg>
+<seg n="352.11">Strophe II.</seg>
+</s>
+<s n="353"><seg n="353.1">O Jupiter,</seg>
+<seg n="353.2">quel orgueil</seg>
+<seg n="353.3">des hommes</seg>
+<seg n="353.4">Pourrait arrêter</seg>
+<seg n="353.5">ta puissance,</seg>
+<seg n="353.6">que ne vainc jamais</seg>
+<seg n="353.7">ni le sommeil</seg>
+<seg n="353.8">qui-vieillit-tout ,</seg>
+<seg n="353.9">ni les mois</seg>
+</s>
+<s n="353"><seg n="353.1">infatigables des dieux vainquent lui;</seg>
+</s>
+<s n="354"><seg n="354.1">mais {u gouvernes</seg>
+<seg n="354.2">l'éclat rayonnant</seg>
+<seg n="354.3">de l’'Olympe</seg>
+<seg n="354.4">en souverain |</seg>
+<seg n="354.5">non-vieilli par le temps.</seg>
+</s>
+<s n="355"><seg n="355.1">Cette loi-ci °</seg>
+<seg n="355.2">sera-d’un-grand-secours</seg>
+<seg n="355.3">et immédiatement</seg>
+<seg n="355.4">et à l’avenir</seg>
+<seg n="355.5">et (comme) par le passé :</seg>
+</s>
+<s n="356"><seg n="356.1">rien ne s’avance</seg>
+<pb n="89"/>
+<seg n="356.2">bien-loin au moins</seg>
+<seg n="356.3">en dehors du malheur</seg>
+<seg n="356.4">dans la vie des mortels.</seg>
+<seg n="356.5">Antistrophe II.</seg>
+</s>
+<s n="357"><seg n="357.1">Car assurément l’espérance</seg>
+<seg n="357.2">à-la-course-errante</seg>
+<seg n="357.3">est un avantage</seg>
+<seg n="357.4">en vérité pour beaucoup d’hommes,</seg>
+<seg n="357.5">mais pour beaucoup d’autres</seg>
+<seg n="357.6">lc désappointement</seg>
+<seg n="357.7">de leurs désirs volages.</seg>
+</s>
+<s n="358"><seg n="358.1">Mais elle s’avance</seg>
+<seg n="358.2">vers celui qui-ne le sait en rien</seg>
+<seg n="358.3">avant qu’on ait brûlé-tout-près</seg>
+<seg n="358.4">du feu chaud</seg>
+<seg n="358.5">son pied.</seg>
+</s>
+<s n="359"><seg n="359.1">Car une parole célèbre</seg>
+<seg n="359.2">a été proférée</seg>
+<seg n="359.3">par quelqu'un</seg>
+<seg n="359.4">avec sagesse :</seg>
+<seg n="359.5">le mal sembler un-jour</seg>
+<seg n="359.6">être le bien, à celui</seg>
+<seg n="359.7">auquel le dieu.</seg>
+<seg n="359.8">pousse les sens au crime.</seg>
+</s>
+<s n="360"><seg n="360.1">Puis il vit (passe)</seg>
+<seg n="360.2">un temps minime</seg>
+<seg n="360.3">en dehors du malheur</seg>
+</s>
+<s n="361"><seg n="361.1">Mais voici Hémon,</seg>
+<seg n="361.2">le dernier rejeton</seg>
+<seg n="361.3">des enfants tiens ;</seg>
+</s>
+<s n="362"><seg n="362.1">n'est-il pas venu</seg>
+<seg n="362.2">s’afligeant du sort</seg>
+<seg n="362.3">de la jeune-fiancée,</seg>
+<seg n="362.4">qui-allait-être-mariée,</seg>
+<seg n="362.5">d’Antigone ,</seg>
+<seg n="362.6">vivement-ressentant</seg>
+<seg n="362.7">te désappointement du lit-auptial ?</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="363"><seg n="363.1">Tout-àl’hesre</seg>
+<seg n="363.2">nous en Saurons</seg>
+<seg n="363.3">plus long que les devins.</seg></s>
+<pb n="91"/>
+<s n="364"><seg n="364.1">O enfant,</seg>
+<seg n="364.2">tu n’es pas ici (j'espère)</seg>
+<seg n="364.3">transporté-de-rage contre fon père</seg>
+<seg n="364.4">en apprenant l'arrêt définitif</seg>
+<seg n="364.5">porté contre {a future-épouse ?</seg>
+</s>
+<s n="365"><seg n="365.1">ou serons-nous chers</seg>
+<seg n="365.2">à toi au moins,</seg>
+<seg n="365.3">agissant de-toutes-les-manières ?</seg>
+</s></p></sp>
+<sp>
+<speaker>HÉMON.</speaker><p>
+
+<s n="366"><seg n="366.1">Mon père, je suis tien ;</seg>
+</s>
+<s n="367"><seg n="367.1">tu diriges mes affaires à moi</seg>
+<seg n="367.2">ayant des conseils bons,</seg>
+<seg n="367.3">que je suivrai moi.</seg>
+</s>
+<s n="368"><seg n="368.1">Car aucun mariage comme-de-raison</seg>
+<seg n="368.2">ne sera plus important pour moi</seg>
+<seg n="368.3">à remporter</seg>
+<seg n="368.4">que toi me gouvernant bien.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="369"><seg n="369.1">O mon fils,</seg>
+<seg n="369.2">c’est ainsi qu’il faut</seg>
+<seg n="369.3">avoir dans le cœur (sentir)</seg>
+<seg n="369.4">toutes choses se tenir derrière</seg>
+<seg n="369.5">la volonté paternelle.</seg>
+</s>
+<s n="370"><seg n="370.1">Car à cause de cela</seg>
+<seg n="370.2">les hommes désirent</seg>
+<seg n="370.3">avoir des enfants soumis</seg>
+<seg n="370.4">«dans leurs maisons,</seg>
+<seg n="370.5">les ayant engendrés</seg>
+<seg n="370.6">et afin qu’ils se vengent</seg>
+<seg n="370.7">de l’ennemi par les maux qu'ils Lui</seg>
+<seg n="370.8">et qu’ils honorent l'ami [ont</seg>
+<seg n="370.9">d'égalité avec le père.</seg>
+</s>
+<s n="371"><seg n="371.1">Mais quiconque engendre</seg>
+<seg n="371.2">des enfants sans-utilité pour lui</seg>
+<seg n="371.3">quelle autre chose diras-tu +</seg>
+<seg n="371.4">celui-ci avoir engendrée</seg>
+<seg n="371.5">que des tourments pour lui-même,</seg>
+<seg n="371.6">et un grand rire (sujet de moquerie)</seg>
+<seg n="371.7">pour ses ennemis ?</seg>
+</s>
+<s n="372"><seg n="372.1">O mon fils,</seg>
+<seg n="372.2">que jamais donc tu ne bannisses</seg>
+<seg n="372.3">la raison, entraîné par la volupté,</seg>
+<pb n="93"/>
+<seg n="372.4">à cause d'une femme,</seg>
+<seg n="372.5">sachant, que ceci est :</seg>
+<seg n="372.6">un objet-de-caresses qui-glace,</seg>
+<seg n="372.7">qu’une mauvaise femme</seg>
+<seg n="372.8">qui-partage-notre-lit dans la maison.</seg>
+</s>
+<s n="373"><seg n="373.1">Car quelle plaie</seg>
+<seg n="373.2">plus grande y-auraitil,</seg>
+<seg n="373.3">qu’un mauvais ami ?</seg>
+</s>
+<s n="374"><seg n="374.1">Laisse donc cette jeune-personne</seg>
+<seg n="374.2">épouser quelqu'un aux enfers</seg>
+<seg n="374.3">l'ayant repoussée comme une enre-</seg>
+</s>
+<s n="375"><seg n="375.1">Car, puisque moi j'ai surpris [mie</seg>
+<seg n="375.2">elle seule de toute la ville</seg>
+<seg n="375.3">désobéissant ouvertement,</seg>
+<seg n="375.4">au moins je ne montrerai pas moi</seg>
+<seg n="375.5">menteur à la ville,</seg>
+<seg n="375.6">mais je Za tuerai.</seg>
+</s>
+<s n="376"><seg n="376.1">Sur cela qu’elle implore</seg>
+<seg n="376.2">Jupiter protecteur-des-droits-du-sang.</seg>
+</s>
+<s n="377"><seg n="377.1">Car assurément si j’élève</seg>
+<seg n="377.2">ceux-qui-sont-mes-parents</seg>
+<seg n="377.3">par la naissance dans-a-désobéissance</seg>
+<seg n="377.4">à-plus-forte raison</seg>
+<seg n="377.5">ceux hors de ma famille :</seg>
+</s>
+<s n="378"><seg n="378.1">car, quiconque est un homme</seg>
+<seg n="378.2">vigoureux ,</seg>
+<seg n="378.3">dans les choses domestiques,</seg>
+<seg n="378.4">se montrera étant juste</seg>
+<seg n="378.5">aussi dans les choses de la ville.</seg>
+</s>
+<s n="379"><seg n="379.1">Et moi j’aurais-pleine-confiance,</seg>
+<seg n="379.2">cet homme</seg>
+<seg n="379.3">devoir gouverner bien d’un côté,</seg>
+<seg n="379.4">et de l’autre vouloir</seg>
+<seg n="379.5">être gouverné volontiers</seg>
+<seg n="379.6">et rester probablement un camarace</seg>
+<seg n="379.7">juste et bon</seg>
+<seg n="379.8">rangé-à-son-poste</seg>
+<seg n="379.9">dans la tourmente de la bataille.</seg>
+</s>
+<s n="380"><seg n="380.1">Mais quiconque en passant-outre</seg>
+<seg n="380.2">ou viole les lois ,</seg>
+<pb n="95"/>
+<seg n="380.3">ou pense commander</seg>
+<seg n="380.4">à ceux qui gouvernent,</seg>
+<seg n="380.5">il n’y a pas de chance pour celui-ci</seg>
+<seg n="380.6">des éloges de moi. [d'obtenir</seg>
+</s>
+<s n="381"><seg n="381.1">Mais il faut écouter celui, '</seg>
+<seg n="381.2">que la ville aurait élevé au trône</seg>
+<seg n="381.3">ct dans les petites’ choses,</seg>
+<seg n="381.4">et dans les choses justes,</seg>
+<seg n="381.5">et daris les choses opposées.</seg>
+</s>
+<s n="382"><seg n="382.1">til n’est pas de mal 7</seg>
+<seg n="382.2">plus grand que l'anarchie.</seg>
+</s>
+<s n="383"><seg n="383.1">Celle-ci perd les villes;</seg>
+</s>
+<s n="384"><seg n="384.1">elle rend les maisons désertes,</seg>
+</s>
+<s n="385"><seg n="385.1">elle en-rompant-les-rangs-cause</seg>
+<seg n="385.2">les désertions</seg>
+<seg n="385.3">dans la lutte de la lance. .</seg>
+</s>
+<s n="386"><seg n="386.1">Mais l’obéissance sauve</seg>
+<seg n="386.2">la plupart des corps</seg>
+<seg n="386.3">des hommes réglés.</seg>
+</s>
+<s n="387"><seg n="387.1">C'est ainsi qu’il faut défendre</seg>
+<seg n="387.2">les choses bien-ordonnées,</seg>
+<seg n="387.3">et il ne faut se laisser-vaincre</seg>
+<seg n="387.4">nullement d’une femme.</seg>
+</s>
+<s n="388"><seg n="388.1">Car mieux vaut,</seg>
+<seg n="388.2">s'il faut, .</seg>
+<seg n="388.3">tomber du trône par un homme,</seg>
+</s>
+<s n="389"><seg n="389.1">et probablement nous ne serions pas</seg>
+<seg n="389.2">plus-faibles que des femmes. [appelés</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="390"><seg n="390.1">Si nous</seg>
+<seg n="390.2">ne nous trompons pas .</seg>
+<seg n="390.3">à cause de notre âge,</seg>
+<seg n="390.4">tu parais à nous au moins</seg>
+<seg n="390.5">dire raisonnablement</seg>
+<seg n="390.6">les choses sur lesquelles tu parles</seg>
+</s></p></sp>
+<sp>
+<speaker>HÉMON.</speaker><p>
+
+<s n="391"><seg n="391.1">Mon père,</seg>
+<seg n="391.2">les dieux implantent aux hommes</seg>
+<seg n="391.3">la raison comme étant la plus sublime</seg>
+<seg n="391.4">de toutes les choses qui existent.</seg>
+</s>
+<s n="392"><seg n="392.1">y Or moi je ne pourrais dire</seg>
+<seg n="392.2">nine voudrais savoir (dire),</seg>
+<pb n="97"/>
+<seg n="392.3">que tu dis ces choses</seg>
+<seg n="392.4">point convenablement.</seg>
+</s>
+<s n="393"><seg n="393.1">Cependant il pourrait étre</seg>
+<seg n="393.2">un avis, qui-est bien, àun autre aussi.</seg>
+</s>
+<s n="394"><seg n="394.1">Je suis donc fait</seg>
+<seg n="394.2">pour épier pour toi toutes choses</seg>
+<seg n="394.3">que l’on puisse dire ou l’on puisse faire</seg>
+<seg n="394.4">ou puisse avoir à blâmer.</seg>
+</s>
+<s n="395"><seg n="395.1">Car ton regard</seg>
+<seg n="395.2">est redoutable à l’homme du-peuple,</seg>
+<seg n="395.3">voulant-tenir des discours tels,</seg>
+<seg n="395.4">dont tu ne serais pas délecté</seg>
+<seg n="395.5">en les entendant. :</seg>
+</s>
+<s n="396"><seg n="396.1">Mais il est facile à moi</seg>
+<seg n="396.2">d’entendre ces choses</seg>
+<seg n="396.3">dans les ténèbres (secrètement)</seg>
+<seg n="396.4">comme la ville pleure</seg>
+<seg n="396.5">cette jeune-fille,</seg>
+<seg n="396.6">disant qu’elle périt</seg>
+<seg n="396.7">de-la-manière-la-plus-horrible,</seg>
+<seg n="396.8">pour les actions les plus glorieuses ;</seg>
+<seg n="396.9">la plus innocente de toutes les femmes,</seg>
+</s>
+<s n="397"><seg n="397.1">laquelle ne souffrit pas</seg>
+<seg n="397.2">le frère-germain d’elle-même</seg>
+<seg n="397.3">étant tombé dans les combats</seg>
+<seg n="397.4">privé-de-sépulture,</seg>
+<seg n="397.5">être-maltraité ni par des chiens</seg>
+<seg n="397.6">dévorant-des-chairs-crues,</seg>
+<seg n="397.7">ni par quelqu’un des oiseaux ;</seg>
+</s>
+<s n="398"><seg n="398.1">celle-ci n’est-elle pas digne</seg>
+<seg n="398.2">de recevoir une récompense d’or ?</seg>
+</s>
+<s n="399"><seg n="399.1">Telle la rumeur obscure</seg>
+<seg n="399.2">marche-en-envahissant (se répand)</seg>
+<seg n="399.3">silencieusement ;</seg>
+</s>
+<s n="400"><seg n="400.1">mais il n’est à moi, mon père,</seg>
+<seg n="400.2">aucun bien plus précieux</seg>
+<seg n="400.3">que toi te-trouvant heureux.</seg>
+</s>
+<s n="401"><seg n="401.1">Car quelle image</seg>
+<seg n="401.2">plus grande de gloire</seg>
+<seg n="401.3">y-a-t-il pour les enfants</seg>
+<pb n="99"/>
+<seg n="401.4">qu’un père florissant,</seg>
+<seg n="401.5">ou quelle pour le père</seg>
+<seg n="401.6">plus grandequecellequ'iltiredeses</seg>
+</s>
+<s n="402"><seg n="402.1">Neporte(n’adopte)donc pas [enfants.</seg>
+<seg n="402.2">en-toi-même un seul mode-de-sentir</seg>
+<seg n="402.3">celui de croire être bien ce qui est</seg>
+<seg n="402.4">comme tu dis, toi,</seg>
+<seg n="402.5">et pas autre chose.</seg>
+</s>
+<s n="403"><seg n="403.1">Car quiconque croit lui-même</seg>
+<seg n="403.2">ou être-raisonnable seul,</seg>
+<seg n="403.3">ou posséder une langue, ou une âme,</seg>
+<seg n="403.4">qu’aucun autre ne possède,</seg>
+<seg n="403.5">ceux-là ont-été-vus vides</seg>
+<seg n="403.6">étant dépliés.</seg>
+</s>
+<s n="404"><seg n="404.1">Mais 1? n’est nullement honteux</seg>
+<seg n="404.2">un homme, même s’il est habile,</seg>
+<seg n="404.3">apprendre de nombreuses choses,</seg>
+<seg n="404.4">et ne pas se roidir trop.</seg>
+</s>
+<s n="405"><seg n="405.1">Tu vois près des torrents</seg>
+<seg n="405.2">grossis-par-les-pluies-d’hiver .</seg>
+<seg n="405.3">que, tous ceux des arbres qui cèdent</seg>
+<seg n="405.4">conservent leurs branches,</seg>
+</s>
+<s n="406"><seg n="406.1">mais ceux qui-tendent-contre</seg>
+<seg n="406.2">périssent avec-la-racine.</seg>
+</s>
+<s n="407"><seg n="407.1">De même quiconque</seg>
+<seg n="407.2">ne cède en-aucune-façon</seg>
+<seg n="407.3">ayant tendu le pied du vaisseau (la</seg>
+<seg n="407.4">avec-violence, [bouline)</seg>
+<seg n="407.5">navigue dorénavant 5</seg>
+<seg n="407.6">sur des bancs renversés</seg>
+<seg n="407.7">les ayant retournés en bas.</seg>
+</s>
+<s n="408"><seg n="408.1">Mais quitte £a colère</seg>
+<seg n="408.2">et accorde un changement d’idée.</seg>
+</s>
+<s n="409"><seg n="409.1">Car si quelque esprit</seg>
+<seg n="409.2">se-trouve aussi dans moi,</seg>
+<seg n="409.3">qui suis le plus jeune,</seg>
+<seg n="409.4">je dis moi,</seg>
+<seg n="409.5">valoir-mieux beaucoup,</seg>
+<seg n="409.6">tout homme naître</seg>
+<seg n="409.7">étant rempli de science.</seg></s>
+<pb n="101"/>
+<s n="410"><seg n="410.1">Mais s’in'est pas ainsi</seg>
+<seg n="410.2">(car cela aime</seg>
+<seg n="410.3">à ne pas pencher de ce côté)</seg>
+<seg n="410.4">il est bon aussi d'apprendre</seg>
+<seg n="410.5">de ceux qui parlent bien.</seg>
+</s></p></sp>
+<sp>
+<speaker>CHOEUR.</speaker><p>
+
+<s n="411"><seg n="411.1">O roi,</seg>
+<seg n="411.2">s’il dit quelque chose d’opportun,</seg>
+<seg n="411.3">il est raisonnable,</seg>
+<seg n="411.4">et toi te faire-renseigner,</seg>
+<seg n="411.5">et toi de l'autre côté par celui-ci,</seg>
+</s>
+<s n="412"><seg n="412.1">car il a été parlé bien</seg>
+<seg n="412.2">de part et d’autre.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="413"><seg n="413.1">Nous qui sommes de-cet-ège,</seg>
+<seg n="413.2">apprendrons nous maintenant</seg>
+<seg n="413.3">à être-sensés par un homme</seg>
+<seg n="413.4">tel de nature (de cet âge)?</seg>
+</s></p></sp>
+<sp>
+<speaker>HÉMON.</speaker><p>
+
+<s n="414"><seg n="414.1">N'apprends pas</seg>
+<seg n="414.2">ce qui n’est pas juste;</seg>
+</s>
+<s n="415"><seg n="415.1">mais si je suis jeune</seg>
+<seg n="415.2">il ne faut pas regarder</seg>
+<seg n="415.3">plutôt l’âge que les œuvres.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="416"><seg n="416.1">Une œuvre donc est</seg>
+<seg n="416.2">de vénérer ceux qui désobéissent ?</seg>
+</s></p></sp>
+<sp>
+<speaker>HÉMON.</speaker><p>
+
+<s n="417"><seg n="417.1">Je ne f’exhorterai pas mème</seg>
+<seg n="417.2">à être-plein-de-respect</seg>
+<seg n="417.3">pour les méchants.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="418"><seg n="418.1">Est-ce que celle-ci</seg>
+<seg n="418.2">n’a donc pas été saisie</seg>
+<seg n="418.3">par une pareille maladie?</seg>
+</s></p></sp>
+<sp>
+<speaker>HÉMON.</speaker><p>
+
+<s n="419"><seg n="419.1">Le peuple</seg>
+<seg n="419.2">habitant-la-même-ville</seg>
+<seg n="419.3">de cette Thèbes Le nie,</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="420"><seg n="420.1">Est-ce quela ville dira à nous</seg>
+<seg n="420.2">ce qu’il faut moi commander ?</seg>
+</s></p></sp>
+<sp>
+<speaker>HÉMON.</speaker><p>
+
+<s n="421"><seg n="421.1">Vois-tu</seg>
+<seg n="421.2">que tu as dit cela</seg>
+<seg n="421.3">comme un trop jeune-homme ?</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="422"><seg n="422.1">Est-ce-qu’il appartient</seg>
+<seg n="422.2">à un autre</seg>
+<seg n="422.3">qu’à moi-même de gouverner ce pays?</seg>
+<pb n="103"/>
+</s></p></sp>
+<sp>
+<speaker>HÉMON.</speaker><p>
+
+<s n="423"><seg n="423.1">Mais ce n’est pas une ville,</seg>
+<seg n="423.2">celle qui est La propriété</seg>
+<seg n="423.3">d'un seul homme.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="424"><seg n="424.1">La ville</seg>
+<seg n="424.2">n'est-elle pas regardée</seg>
+<seg n="424.3">comme étant à celui qui {a gouverne?</seg>
+</s></p></sp>
+<sp>
+<speaker>HÉMON.</speaker><p>
+
+<s n="425"><seg n="425.1">Certes toi</seg>
+<seg n="425.2">tu gouvernerais bien</seg>
+<seg n="425.3">seul un pays désert.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="426"><seg n="426.1">Celui-là, à ce qu’il paraît,</seg>
+<seg n="426.2">défend cette femme,</seg>
+</s></p></sp>
+<sp>
+<speaker>HÉMON.</speaker><p>
+
+<s n="427"><seg n="427.1">Si-loutefois</seg>
+<seg n="427.2">tu es femme toi,</seg>
+</s>
+<s n="428"><seg n="428.1">car c’est de toi pourtant</seg>
+<seg n="428.2">que je prends-soin.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="429"><seg n="429.1">O le plus vil des hommes,</seg>
+<seg n="429.2">allant en procèsavec don père!</seg>
+</s></p></sp>
+<sp>
+<speaker>HÉMON.</speaker><p>
+
+<s n="430"><seg n="430.1">C’est que je ne vois pas</seg>
+<seg n="430.2">toi étant-en-faute</seg>
+<seg n="430.3">pour de justes choses. .</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="431"><seg n="431.1">Est-ce-que je-suis-en-faute</seg>
+<seg n="431.2">ayant-soin</seg>
+<seg n="431.3">de mes pouvoirs ?</seg>
+</s></p></sp>
+<sp>
+<speaker>HÉMON.</speaker><p>
+
+<s n="432"><seg n="432.1">C’est que tu n’en as pas-soin,</seg>
+<seg n="432.2">foulant-aux-pieds</seg>
+<seg n="432.3">les honneurs dus aux dieux.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="433"><seg n="433.1">O caractère impur,</seg>
+<seg n="433.2">et inférieur à (dominé par)</seg>
+<seg n="433.3">une femme!</seg>
+</s></p></sp>
+<sp>
+<speaker>HÉMON.</speaker><p>
+
+<s n="434"><seg n="434.1">Tu ne surprendras pas moi</seg>
+<seg n="434.2">élant inférieur (esclave) réellement</seg>
+<seg n="434.3">de choses honteuses.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="435"><seg n="435.1">Au moins ce discours à toi</seg>
+<seg n="435.2">est tout pour elle.</seg>
+</s></p></sp>
+<sp>
+<speaker>HÉMON.</speaker><p>
+
+<s n="436"><seg n="436.1">Certes aussi pour toi</seg>
+<seg n="436.2">et pour moi</seg>
+<seg n="436.3">et les dieux des-enfers.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="437"><seg n="437.1">Il ne sera pas</seg>
+<seg n="437.2">que tu épouses jamais</seg>
+<seg n="437.3">celle-ci vivant encore,</seg>
+<pb n="105"/>
+</s></p></sp>
+<sp>
+<speaker>HÉMON.</speaker><p>
+
+<s n="438"><seg n="438.1">Celle-ci mourra donc ;</seg>
+</s>
+<s n="439"><seg n="439.1">et morte elle fera-périr quelqu'un.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="440"><seg n="440.1">Et même si audacieux</seg>
+<seg n="440.2">tu t’avances menaçant ?</seg>
+</s></p></sp>
+<sp>
+<speaker>HÉMON.</speaker><p>
+
+<s n="441"><seg n="441.1"></seg>
+<seg n="441.2">que de parler</seg>
+<seg n="441.3">contre des opinions futiles ?</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="442"><seg n="442.1">Tu enseigneras-la-sagesse</seg>
+<seg n="442.2">en pleurant,</seg>
+<seg n="442.3">étant toi-même dépourvu de sagesse.</seg>
+</s></p></sp>
+<sp>
+<speaker>HÉMON.</speaker><p>
+
+<s n="443"><seg n="443.1">Si tu n’élais pas mon père,</seg>
+<seg n="443.2">j'aurais dit .</seg>
+<seg n="443.3">toi ne pas bien être-dans-fon-sens.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="444"><seg n="444.1"></seg>
+<seg n="444.2">d'unefemme,</seg>
+<seg n="444.3">ne m’étourdis-pas-par-fon-caquet.</seg>
+</s></p></sp>
+<sp>
+<speaker>HÉMON.</speaker><p>
+
+<s n="445"><seg n="445.1">Tu veux dire quelque chose,</seg>
+<seg n="445.2">et n’entendre rien, quoique disant.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="446"><seg n="446.1">En vérité?</seg>
+</s>
+<s n="447"><seg n="447.1">Mais sache par cet Olympe,</seg>
+<seg n="447.2">que tu n’outrageras pas moi</seg>
+<seg n="447.3">par tes reproches en te réjouissant.</seg>
+</s>
+<s n="448"><seg n="448.1">Amenez la femme-odieuse</seg>
+<seg n="448.2">afin qu’elle meure sur-le-champ</seg>
+<seg n="448.3">proche de son fiancé présent,</seg>
+<seg n="448.4">devant ses yeux.</seg>
+</s></p></sp>
+<sp>
+<speaker>HÉMON.</speaker><p>
+
+<s n="449"><seg n="449.1">Certes point près de moi</seg>
+<seg n="449.2">(ne crois jamais cela)</seg>
+<seg n="449.3">ni celle-ci ne mourra</seg>
+<seg n="449.4">ni tu ne verras quelque part</seg>
+<seg n="449.5">ma tête</seg>
+<seg n="449.6">la regardant de ses yeux,</seg>
+<seg n="449.7">afin que tu te-mettes-en fureur</seg>
+<seg n="449.8">étant-avec ceux-qui-veulent éfre avec</seg>
+<seg n="449.9">de tes amis. [loi</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="450"><seg n="450.1">O roi,</seg>
+<seg n="450.2">l’homme s’en est allé</seg>
+<seg n="450.3">vite (emporté) par la colère.</seg>
+</s>
+<s n="451"><seg n="451.1">Mais une âme dans-un-tel-état</seg>
+<seg n="451.2">étant-aMigée est à redouter.</seg>
+<pb n="107"/>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="452"><seg n="452.1">Qu'il fasse,</seg>
+<seg n="452.2">qu’il ait-des-prétentions plus grandes</seg>
+<seg n="452.3">que pour un homme</seg>
+<seg n="452.4">en-s’en-allant ;</seg>
+</s>
+<s n="453"><seg n="453.1">cependant il ne délivrera pas de leur</seg>
+<seg n="453.2">ces deux-jeunes-filles. [sort</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="454"><seg n="454.1">Est-ce quetu as-l’inten-</seg>
+<seg n="454.2">de tuer même elles toutes-deux? [tion</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="455"><seg n="455.1">Non certainement pas celle</seg>
+<seg n="455.2">qui-n’y a pas touché ;</seg>
+</s>
+<s n="456"><seg n="456.1">car enfin tu dis bien.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="457"><seg n="457.1">Mais encore de quelle</seg>
+<seg n="457.2">penses-tu tuer elle ? [mort</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="458"><seg n="458.1">La conduisant,</seg>
+<seg n="458.2">où est un sentier</seg>
+<seg n="458.3">abandonné des mortels,</seg>
+<seg n="458.4">je la cacherai vivante</seg>
+<seg n="458.5">dans le souterrain d’un-rocher,</seg>
+<seg n="458.6">ayant mis-devant elle,</seg>
+<seg n="458.7">autant de nourriture,</seg>
+<seg n="458.8">que seulement lexpiation l'exige,</seg>
+<seg n="458.9">afin que toute la ville</seg>
+</s>
+<s n="458"><seg n="458.1">évite la souillure.</seg>
+</s>
+<s n="459"><seg n="459.1">Etlàimplorant Pluton,</seg>
+<seg n="459.2">qu’elle adore seul des dienx,</seg>
+<seg n="459.3">elle obtiendra peut-être ne pas mourir,</seg>
+<seg n="459.4">ou elle apprendra du moins</seg>
+<seg n="459.5">sans doute alors</seg>
+<seg n="459.6">que vénérer les éfres aux enfers</seg>
+<seg n="459.7">est une peine inutile.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="460"><seg n="460.1">Amour,</seg>
+<seg n="460.2">invincible au combat,</seg>
+<seg n="460.3">Amour, toi qui te précipites</seg>
+<seg n="460.4">sur les richesses,</seg>
+<seg n="460.5">qui reposes</seg>
+<seg n="460.6">sur les joues molles</seg>
+<seg n="460.7">de la jeune-fille,</seg>
+<seg n="460.8">et erres</seg>
+<seg n="460.9">au-delà-des-mers</seg>
+</s>
+<s n="460"><seg n="460.1">et dans des cabanes agrestes;</seg></s>
+<pb n="109"/>
+<s n="461"><seg n="461.1">et ni aucun</seg>
+<seg n="461.2">des immortels</seg>
+<seg n="461.3">n’est en-état-d’éviter toi</seg>
+<seg n="461.4">ni aucun parmi les hommes</seg>
+<seg n="461.5">d’existence-éphémère.</seg>
+</s>
+<s n="462"><seg n="462.1">Mais celui qui fa</seg>
+<seg n="462.2">est-saisi-de-fureur.</seg>
+<seg n="462.3">Anlistrophe I.</seg>
+</s>
+<s n="463"><seg n="463.1">Toi aussi tu emportes</seg>
+<seg n="463.2">les sens des justes</seg>
+<seg n="463.3">vers l'injustice</seg>
+<seg n="463.4">devenus ainsi injustes;</seg>
+</s>
+<s n="464"><seg n="464.1">toi aussi tu es</seg>
+<seg n="464.2">ayant suscité</seg>
+<seg n="464.3">cette querelle</seg>
+<seg n="464.4">consanguine d’hormes (de parents).</seg>
+</s>
+<s n="465"><seg n="465.1">Et le charme ‘</seg>
+<seg n="465.2">éclatant des paupières</seg>
+<seg n="465.3">de la jeune-fille ravissante</seg>
+<seg n="465.4">triomphe,</seg>
+<seg n="465.5">parèdre</seg>
+<seg n="465.6">des institutions grandes</seg>
+<seg n="465.7">parmi les dieux-souverains.</seg>
+</s>
+<s n="466"><seg n="466.1">Car la déesse Vénus</seg>
+<seg n="466.2">folâtre au point d’étre irrésistible.</seg>
+</s>
+<s n="467"><seg n="467.1">Mais déjà maintenant moi-même aussi</seg>
+<seg n="467.2">je suis-emporté hors des lois</seg>
+<seg n="467.3">voyant ces choses,</seg>
+<seg n="467.4">et je ne puis plus-longtemps</seg>
+<seg n="467.5">retenir les sources de larmes</seg>
+<seg n="467.6">quand je vois,</seg>
+<seg n="467.7">cette Antigone</seg>
+<seg n="467.8">accomplissant sa roule vers</seg>
+<seg n="467.9">la couche tout-assoupissante.</seg>
+</s>
+<s n="467"><seg n="467.1">Strophe II.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="468"><seg n="468.1">Regardez-moi,</seg>
+<seg n="468.2">O citoyens</seg>
+<seg n="468.3">de la terre paternelle,</seg>
+<seg n="468.4">allant</seg>
+<seg n="468.5">mon dernier chemin,</seg>
+<pb n="111"/>
+<seg n="468.6">et voyant</seg>
+<seg n="468.7">le dernier éclat</seg>
+<seg n="468.8">du soleil ,</seg>
+<seg n="468.9">et jamais ensuite;</seg>
+</s>
+<s n="469"><seg n="469.1">mais Pluton ,</seg>
+<seg n="469.2">qui-assoupit-tous</seg>
+<seg n="469.3">conduit moi vivante</seg>
+<seg n="469.4">vers le rivage de l’Achéron,</seg>
+<seg n="469.5">ni participant</seg>
+<seg n="469.6">au mariage;</seg>
+</s>
+<s n="470"><seg n="470.1">ni aucun chant</seg>
+<seg n="470.2">nuptial,</seg>
+<seg n="470.3">n’a chanté jamais moi;</seg>
+</s>
+<s n="471"><seg n="471.1">mais j'épouserai</seg>
+<seg n="471.2">l’Achéron.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="472"><seg n="472.1">Ainsi tu t’éloignes</seg>
+<seg n="472.2">vers ce refuge des morts,</seg>
+<seg n="472.3">célèbre , et ayant gloire,</seg>
+<seg n="472.4">ni frappée ‘</seg>
+<seg n="472.5">par des maladies qui-consument,</seg>
+<seg n="472.6">niétant échue-en-partage àquelqu’un</seg>
+<seg n="472.7">comme prix d'épée, ‘</seg>
+<seg n="472.8">mais tu descendras</seg>
+<seg n="472.9">aux enfers</seg>
+</s>
+<s n="472"><seg n="472.1">indépendaute,</seg>
+<seg n="472.11">vivante,</seg>
+<seg n="472.12">seule assurément d’enfre les mortels.</seg>
+<seg n="472.13">Antistrophe II.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="473"><seg n="473.1">J'ai bien entendu</seg>
+<seg n="473.2">la Phrygienne reçue-hospitalièrement</seg>
+<seg n="473.3">la fille de Tantale</seg>
+<seg n="473.4">avoir péri étant-bien-à-plaindre,</seg>
+<seg n="473.5">surl’extréme(sur le sommet du) Sipyle</seg>
+<seg n="473.6">laquelle une germination de-rocher,</seg>
+<seg n="473.7">comme un lierre qui-étreint,</seg>
+<seg n="473.8">a domptée ;</seg>
+</s>
+<s n="474"><seg n="474.1">et, comme esf le bruit des hommes,</seg>
+<seg n="474.2">et la neige ne quitte</seg>
+<seg n="474.3">jamais elle</seg>
+<seg n="474.4">flétrie par la pluie,</seg>
+<pb n="113"/>
+<seg n="474.5">et elle humecte</seg>
+<seg n="474.6">ses épaules</seg>
+<seg n="474.7">du-haut de ses sourcils (yeux)</seg>
+<seg n="474.8">baignés-de-larmes ;</seg>
+</s>
+<s n="475"><seg n="475.1">à laquelle étant-très-semblable,</seg>
+<seg n="475.2">le destin ensevelit moi.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="476"><seg n="476.1">Mais</seg>
+<seg n="476.2">elle est cependant une déesse</seg>
+<seg n="476.3">et née-de-dieux ;</seg>
+</s>
+<s n="477"><seg n="477.1">mais nous nous sommes des humains</seg>
+<seg n="477.2">et nés-de-mortels.</seg>
+</s>
+<s n="478"><seg n="478.1">Et c’est une grande chose à toi</seg>
+<seg n="478.2">mourante</seg>
+<seg n="478.3">que d'entendre (d’être réputée)</seg>
+<seg n="478.4">avoir reçu-en-partage</seg>
+<seg n="478.5">des-destinées-semblables</seg>
+<seg n="478.6">à celles des demi-dieux.</seg>
+<seg n="478.7">Strophe III.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="479"><seg n="479.1">Hélas ,</seg>
+<seg n="479.2">je suis moqnée (on se rit de moi).</seg>
+</s>
+<s n="480"><seg n="480.1">Pourquoi, par les dieux de-la-patrie,</seg>
+<seg n="480.2">insultes-tu moi</seg>
+<seg n="480.3">n'étant pas morte encore,</seg>
+<seg n="480.4">mais visible (vivante)?</seg>
+</s>
+<s n="481"><seg n="481.1">Oo ville,</seg>
+<seg n="481.2">Ô hommes |</seg>
+<seg n="481.3">aux-nombreux-domaines</seg>
+<seg n="481.4">de cette ville,</seg>
+<seg n="481.5">ah sources dircéennes</seg>
+<seg n="481.6">et hois-sacré de Thèbes</seg>
+<seg n="481.7">aux-beaux-chars,</seg>
+<seg n="481.8">je prends-en-sus cependant</seg>
+<seg n="481.9">Vous en témoins-avec mot,</seg>
+</s>
+<s n="481"><seg n="481.1">quelle (comment) non-pleurée</seg>
+<seg n="481.11">de mes amis</seg>
+<seg n="481.12">d’après quelles lois</seg>
+<seg n="481.13">je vais</seg>
+<seg n="481.14">vers le cachot</seg>
+<seg n="481.15">construit-en-forme-de-tambeau</seg>
+<seg n="481.16">du sépulcre étrange.</seg></s>
+<pb n="115"/>
+<s n="482"><seg n="482.1">Oh malheureuse que je suis</seg>
+<seg n="482.2">devant habiter</seg>
+<seg n="482.3">non avec ceux-qui-vivent</seg>
+<seg n="482.4">non avec ceux-qui-sont-morts.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="483"><seg n="483.1">T'étant avancée</seg>
+<seg n="483.2">à l'extrémité de l’audace</seg>
+<seg n="483.3">sur le seuil élevé</seg>
+<seg n="483.4">de la Justice,</seg>
+<seg n="483.5">Ô mon enfant,</seg>
+<seg n="483.6">tu es tombée en arrière.</seg>
+</s>
+<s n="484"><seg n="484.1">Tu expies</seg>
+<seg n="484.2">quelque entreprise-criminelle</seg>
+<seg n="484.3">de-ton-père.</seg>
+<seg n="484.4">Antistrophe III.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="485"><seg n="485.1">Tu as touché</seg>
+<seg n="485.2">des sujets-de-sollicitude</seg>
+<seg n="485.3">très-douloureux à moi,</seg>
+<seg n="485.4">le sort-lamentable</seg>
+<seg n="485.5">trois-fois-retourné (trois fois repro-</seg>
+<seg n="485.6">de mon père [duit]</seg>
+<seg n="485.7">et de la complète ruine de nous,</seg>
+<seg n="485.8">célèbres Labdacides.</seg>
+</s>
+<s n="486"><seg n="486.1">Hélas! malheurs maternels</seg>
+<seg n="486.2">de la couche-nuptiale ,</seg>
+<seg n="486.3">et étreintes</seg>
+<seg n="486.4">incestueuses</seg>
+<seg n="486.5">de ma mère infortunée</seg>
+<seg n="486.6">avec mon père</seg>
+<seg n="486.7">dont moi</seg>
+<seg n="486.8">malheureuse</seg>
+<seg n="486.9">je naquis un jour ;</seg>
+</s>
+<s n="487"><seg n="487.1">vers lesquels je vais</seg>
+<seg n="487.2">changeant-de-demeure</seg>
+<seg n="487.3">dans-cette-position moi,</seg>
+<seg n="487.4">chargée-d’imprécations,</seg>
+<seg n="487.5">privée-du-mariage.</seg>
+</s>
+<s n="488"><seg n="488.1">O frère qui-as obtenu</seg>
+<seg n="488.2">des noces-infortunées,</seg>
+<seg n="488.3">étant mort tu as tué moi</seg>
+<seg n="488.4">existant encore.</seg>
+<pb n="117"/>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="489"><seg n="489.1">Observer-les-lois</seg>
+<seg n="489.2">est une certaine piété,</seg>
+</s>
+<s n="490"><seg n="490.1">mais le pouvoir (l’ordre)</seg>
+<seg n="490.2">de celui à qui est-à-souci le pouvoir</seg>
+<seg n="490.3">n’est nullement</seg>
+<seg n="490.4">à-transgresser.</seg>
+</s>
+<s n="491"><seg n="491.1">Or ion caractère</seg>
+<seg n="491.2">qui-ne-prend-conseil-que-de-lui-même</seg>
+<seg n="491.3">a perdu toi. |</seg>
+<seg n="491.4">Épode.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="492"><seg n="492.1">Je suis conduite</seg>
+<seg n="492.2">malheureuse ,</seg>
+<seg n="492.3">dans ce chemin prêt à me recevoir</seg>
+<seg n="492.4">‘ sans-être-pleurée, sans-amis,</seg>
+<seg n="492.5">privée-du-mariage.</seg>
+</s>
+<s n="493"><seg n="493.1">I n’est plus permis</seg>
+<seg n="493.2">à moi infortunée de voir cet œil</seg>
+<seg n="493.3">sacré du météore-enflammé (soleil) ;</seg>
+</s>
+<s n="494"><seg n="494.1">et aucun de mes amis</seg>
+<seg n="494.2">ne gémit sur ma mort</seg>
+<seg n="494.3">ainsi restant sans-pleurs.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="495"><seg n="495.1">Savez-vous bien</seg>
+<seg n="495.2">que, s’il était utile de dire</seg>
+<seg n="495.3">des chansons et des plaintes</seg>
+<seg n="495.4">avant de mourir</seg>
+<seg n="495.5">pas même un ne cesserail?</seg>
+</s>
+<s n="496"><seg n="496.1">Ne l’emmènerez-vous pas au plus vite?</seg>
+</s>
+<s n="497"><seg n="497.1">et laissez-la seule, abandonnée</seg>
+<seg n="497.2">l'ayant entourée</seg>
+<seg n="497.3">du sépulcre couvert,</seg>
+<seg n="497.4">comme j'ai dit moi,</seg>
+<seg n="497.5">soit qu’il faille mourir,</seg>
+<seg n="497.6">soit qu’elle veuille rester-enterrée</seg>
+<seg n="497.7">vivante</seg>
+<seg n="497.8">sous un pareil toit,</seg>
+</s>
+<s n="498"><seg n="498.1">car nous sommesexempts-de-sacrilége</seg>
+<seg n="498.2">quant à cette jeune-personne;</seg>
+</s>
+<s n="499"><seg n="499.1">mais certainement elle sera privée</seg>
+<seg n="499.2">de communication</seg>
+<seg n="499.3">avec les choses en-haut(de ce monde).</seg>
+<pb n="119"/>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="500"><seg n="500.1">O sépulcre,</seg>
+<seg n="500.2">O lit-nuptial, 6 habitation</seg>
+<seg n="500.3">enfouie (souterraine)</seg>
+<seg n="500.4">gardée-toujours par mot,</seg>
+<seg n="500.5">où je vais</seg>
+<seg n="500.6">vers ceux de-moi-même (les miens),</seg>
+<seg n="500.7">desquels étant morts</seg>
+<seg n="500.8">Proserpine a reçu parmi les mânes</seg>
+<seg n="500.9">le plus considérable nombre,</seg>
+</s>
+<s n="500"><seg n="500.1">dont moi je descends la dernière</seg>
+<seg n="500.11">et le plus misérablement de beaucoup</seg>
+<seg n="500.12">avant la portion de viequim'élait ac-</seg>
+<seg n="500.13">être passée à moi. [cordée</seg>
+</s>
+<s n="501"><seg n="501.1">Mais y étant allée</seg>
+<seg n="501.2">je nourris ceci avec-certitude</seg>
+<seg n="501.3">parmi mes espérances</seg>
+<seg n="501.4">moi devoir venir d’un côté</seg>
+<seg n="501.5">chère à mon père,</seg>
+<seg n="501.6">et de l’autre agréable à toi, 6 ma mère,</seg>
+<seg n="501.7">et chère à toi,</seg>
+<seg n="501.8">tête fraternelle.</seg>
+</s>
+<s n="502"><seg n="502.1">Parce que moi j’ai lavé</seg>
+<seg n="502.2">vous étant morts</seg>
+<seg n="502.3">et ai honoré et donné</seg>
+<seg n="502.4">des libations versées-sur-le-tombeau</seg>
+<seg n="502.5">de-ma-propre-main,</seg>
+</s>
+<s n="503"><seg n="503.1">mais maintenant soignant-bien</seg>
+<seg n="503.2">ton corps, 6 mon Polynice,</seg>
+<seg n="503.3">je reçois-pour-récompense</seg>
+<seg n="503.4">de telles choses.</seg>
+</s>
+<s n="504"><seg n="504.1">Néanmoins moi j'ai honoré toi</seg>
+<seg n="504.2">pour ceux quiont-de-bons-sentiments;</seg>
+</s>
+<s n="505"><seg n="505.1">car je n’aurais jamais pris-sur-moi</seg>
+<seg n="505.2">ce soin malgré les citoyens,</seg>
+<seg n="505.3">ni si javais été</seg>
+<seg n="505.4">mère d'enfants,</seg>
+<seg n="505.5">ni si le mari à moi</seg>
+<seg n="505.6">pourrissait étant mort.</seg>
+</s>
+<s n="506"><seg n="506.1">Au profit de quelle loi donc</seg>
+<seg n="506.2">dis-je ces choses ? </seg></s>
+<pb n="121"/>
+<s n="507"><seg n="507.1">D'un côté il serait un autre époux à</seg>
+<seg n="507.2">l'époux étant mort, [moi</seg>
+<seg n="507.3">et un enfant d’un autre homme</seg>
+<seg n="507.4">si je venais à perdre celui-ci;</seg>
+</s>
+<s n="508"><seg n="508.1">mais mère et père</seg>
+<seg n="508.2">étant cachés dans Za maison de Plu-</seg>
+<seg n="508.3">il n’est pas quelqu'un [ton,</seg>
+<seg n="508.4">qui puisse jamais naître</seg>
+<seg n="508.5">étant mon frère.</seg>
+</s>
+<s n="509"><seg n="509.1">Cependant moi</seg>
+<seg n="509.2">ayant-honoré-de-préférence-à-tout</seg>
+<seg n="509.3">toi d’après une loi pareille,</seg>
+<seg n="509.4">j'ai paru mal-faire ces choses</seg>
+<seg n="509.5">à Créon,</seg>
+<seg n="509.6">et oser des choses terribles,</seg>
+<seg n="509.7">à tête fraternelle.</seg>
+</s>
+<s n="510"><seg n="510.1">Et maintenant m’ayant saisi</seg>
+<seg n="510.2">par les mains ainsi</seg>
+<seg n="510.3">il entraîne moi</seg>
+<seg n="510.4">privée-de-la-couche-nuptiale,</seg>
+<seg n="510.5">privée-d’hyménée</seg>
+<seg n="510.6">n'ayant reçu-du-sort</seg>
+<seg n="510.7">ni ma part dans le mariage</seg>
+<seg n="510.8">ni dans l’éducation des-enfants ;</seg>
+</s>
+<s n="511"><seg n="511.1">mais ainsi abandonnée par mes amis,</seg>
+<seg n="511.2">je vais, la malheureuse ,</seg>
+<seg n="511.3">vivante</seg>
+<seg n="511.4">dans le réduit-souterrain des morts,</seg>
+<seg n="511.5">quelle loi des dieux</seg>
+<seg n="511.6">ayant transgressée ?</seg>
+</s>
+<s n="512"><seg n="512.1">De quoi sert-il moi l’infortunée</seg>
+<seg n="512.2">jeter-les-yeux encore sur les dieux,</seg>
+</s>
+<s n="513"><seg n="513.1">d’appeler qui d’entre mes alliés ?</seg>
+</s>
+<s n="514"><seg n="514.1">puisque au moins déjà</seg>
+<seg n="514.2">agissant-pieusement</seg>
+<seg n="514.3">j'ai gagné le reproche-del’impiété.</seg>
+</s>
+<s n="515"><seg n="515.1">Mais si réellement donc ces choses</seg>
+<seg n="515.2">sont bonnes parmi les dieux</seg>
+<seg n="515.3">nous pardonnerons</seg>
+<seg n="515.4">ayant souffert comme ayant mal agi,</seg></s>
+<pb n="123"/>
+<s n="516"><seg n="516.1">mais si ceux-c1 agissent mal,</seg>
+<seg n="516.2">qu’ils n’endurent pas</seg>
+<seg n="516.3">encore de plus nombreux maux</seg>
+<seg n="516.4">qu'ils n’en font à moi injustement.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="517"><seg n="517.1">Les mêmes</seg>
+<seg n="517.2">souffles-impétueux</seg>
+<seg n="517.3">des mêmes tempêtes de l’âme</seg>
+<seg n="517.4">tiennent encore celle-ci.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="518"><seg n="518.1">Pour cela</seg>
+<seg n="518.2">il sera donné un sujet-de-pleurer ces</seg>
+<seg n="518.3">à ceux-qui-la-conduisent [choses</seg>
+<seg n="518.4">à cause de Zeur lenteur.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="519"><seg n="519.1">Hélas,</seg>
+<seg n="519.2">cette parole est arrivée</seg>
+<seg n="519.3">très-près de ma mort.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="520"><seg n="520.1">Je n’exhorte nullement</seg>
+<seg n="520.2">à prendre-confiance</seg>
+<seg n="520.3">ces choses</seg>
+<seg n="520.4">ne pas se déterminer dans ce sens.</seg>
+</s></p></sp>
+<sp>
+<speaker>ANTIGONE.</speaker><p>
+
+<s n="521"><seg n="521.1">O ville</seg>
+<seg n="521.2">paternelle</seg>
+<seg n="521.3">de Thèbes, ma terre,</seg>
+<seg n="521.4">et dieux</seg>
+<seg n="521.5">antiques,</seg>
+<seg n="521.6">je suis entraînée maintenant,</seg>
+<seg n="521.7">et je ne tarde plus.</seg>
+</s>
+<s n="522"><seg n="522.1">Regardez,</seg>
+<seg n="522.2">chefs de Thèbes,</seg>
+<seg n="522.3">la princesse</seg>
+<seg n="522.4">la seule qui-reste,</seg>
+<seg n="522.5">quelles choses j'endure</seg>
+<seg n="522.6">de quels hommes,</seg>
+<seg n="522.7">ayant-eu-en-honneur</seg>
+<seg n="522.8">la piété.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="523"><seg n="523.1">Aussi le corps</seg>
+<seg n="523.2">de Danaé</seg>
+<seg n="523.3">a supporté d'échanger</seg>
+<seg n="523.4">la lumière céleste</seg>
+<seg n="523.5">dans des demeures</seg>
+<seg n="523.6">de-plaques-d’airain-liées-entre-elles,</seg></s>
+<pb n="125"/>
+<s n="524"><seg n="524.1">mais étant cachée</seg>
+<seg n="524.2">dans une habitation sépulcrale,</seg>
+<seg n="524.3">elle fut tenue-prisonnière.</seg>
+</s>
+<s n="525"><seg n="525.1">Cependant elle était illustre d’origine,</seg>
+<seg n="525.2">Ô ma fille, ma fille,</seg>
+<seg n="525.3">et elle conservait dans son sein</seg>
+<seg n="525.4">les semences de-la-pluie-d’or</seg>
+<seg n="525.5">de Jupiter.</seg>
+</s>
+<s n="526"><seg n="526.1">Mais la puissance</seg>
+<seg n="526.2">de-la-destinée</seg>
+<seg n="526.3">est une formidable puissance,</seg>
+</s>
+<s n="527"><seg n="527.1">ni la pluie,</seg>
+<seg n="527.2">ni Mars,</seg>
+<seg n="527.3">ni le château-fort,</seg>
+<seg n="527.4">ni les vaisseaux noirs</seg>
+<seg n="527.5">battus-par-la-mer</seg>
+<seg n="527.6">ne pourraient échapper à elle.</seg>
+<seg n="527.7">Antistrophe I:</seg>
+</s>
+<s n="528"><seg n="528.1">Et le fils de Dryas</seg>
+<seg n="528.2">d’humeur-impétueuse</seg>
+<seg n="528.3">le roi des Édoniens</seg>
+<seg n="528.4">fat enchatné</seg>
+<seg n="528.5">pour ses manières</seg>
+<seg n="528.6">injurieuses</seg>
+<seg n="528.7">enfermé par Bachus</seg>
+<seg n="528.8">dans une prison de-pierre.</seg>
+</s>
+<s n="529"><seg n="529.1">Tellement l’impétuosité -de-la -ven-</seg>
+<seg n="529.2">découle [geance</seg>
+<seg n="529.3">terrible et éclatante de la fureur.</seg>
+</s>
+<s n="530"><seg n="530.1">Celui-là reconnut le dieu</seg>
+<seg n="530.2">le touchant (blessant)</seg>
+<seg n="530.3">dans sa folie</seg>
+<seg n="530.4">par des discours injurieux.</seg>
+</s>
+<s n="531"><seg n="531.1">” Car d’un côté il voulait réprimer</seg>
+<seg n="531.2">les femmes saisies-de-fureur-divine,</seg>
+<seg n="531.3">et le feu bachique, puis il irritait</seg>
+<seg n="531.4">les Muses amies-de-la-flûte.</seg>
+<seg n="531.5">Strophe II.</seg>
+</s>
+<s n="532"><seg n="532.1">piès des eaux Cyanées :</seg>
+<seg n="532.2">de la mer double</seg>
+<pb n="127"/>
+<seg n="532.3">sont les bords du-Bosphore</seg>
+<seg n="532.4">et le Salmydesse</seg>
+<seg n="532.5">des Thraces,</seg>
+<seg n="532.6">où Mars</seg>
+<seg n="532.7">proche-de-la-ville</seg>
+<seg n="532.8">vit la blessure maudite</seg>
+<seg n="532.9">aux (des) deux fils-de-Phinée</seg>
+</s>
+<s n="532"><seg n="532.1">infligée-pour-priver-de-la-vue</seg>
+<seg n="532.11">par la femme cruelle,</seg>
+<seg n="532.12">piqûre d’armes-pointues</seg>
+<seg n="532.13">comportant-cécité</seg>
+<seg n="532.14">y aux orbites criant-vengeance desyeux</seg>
+<seg n="532.15">à l’aide de mains ensanglantées</seg>
+<seg n="532.16">et de pointes de navettes.</seg>
+<seg n="532.17">Antistrophe II.</seg>
+</s>
+<s n="533"><seg n="533.1">Et dépérissant, les malheureux,</seg>
+<seg n="533.2">ils déploraient leur sort malheureux,</seg>
+<seg n="533.3">ayant leur naissance</seg>
+<seg n="533.4">due-au-mariage-malheureux</seg>
+<seg n="533.5">de leur mère ; (tenait)</seg>
+</s>
+<s n="534"><seg n="534.1">celle-ci de l’autre côté avait obtenu</seg>
+<seg n="534.2">semence (origine) en vérité</seg>
+<seg n="534.3">des Érechthides</seg>
+<seg n="534.4">d’antique-origine;</seg>
+</s>
+<s n="535"><seg n="535.1">mais la fille-de-Borée,</seg>
+<seg n="535.2">l'enfant des dieux</seg>
+<seg n="535.3">égalant-les-chevaux dans la course</seg>
+<seg n="535.4">sur la glace</seg>
+<seg n="535.5">qui-résiste-à-la-pression-des-pieds,</seg>
+<seg n="535.6">fut élevée ‘</seg>
+<seg n="535.7">dans des antres lointains</seg>
+<seg n="535.8">parmi les tempêtes paternelles;</seg>
+</s>
+<s n="536"><seg n="536.1">mais les Parques</seg>
+<seg n="536.2">à-la-vie-longue</seg>
+<seg n="536.3">Ô ma fille,</seg>
+<seg n="536.4">tenaient (sévissaient)</seg>
+<seg n="536.5">aussi contre elle.</seg>
+</s></p></sp>
+<sp>
+<speaker>TIRÉSIAS.</speaker><p>
+
+<s n="537"><seg n="537.1">Chefs de Thèbes,</seg>
+<seg n="537.2">nous sommes venus</seg>
+<seg n="537.3">par une route commune,</seg>
+<pb n="129"/>
+<seg n="537.4">voyant {ous-deux par un seul homme.</seg>
+</s>
+<s n="538"><seg n="538.1">Car celle-ci est la manière-de-voyager</seg>
+<seg n="538.2">aux aveugles ,</seg>
+<seg n="538.3">à savoir à l’aide d’un guide. .</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="539"><seg n="539.1">O vieillard</seg>
+<seg n="539.2">Tirésias ,</seg>
+<seg n="539.3">qu’y-a-t-il donc de nouveau ?</seg>
+</s></p></sp>
+<sp>
+<speaker>TIRÉSIAS.</speaker><p>
+
+<s n="540"><seg n="540.1">Je vous l’apprendrai.</seg>
+</s>
+<s n="541"><seg n="541.1">Et toi obéis au devin,</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="542"><seg n="542.1">Aussi ne m'écartais-je pas</seg>
+<seg n="542.2">de ta pensée</seg>
+<seg n="542.3">auparavant au moins.</seg>
+</s></p></sp>
+<sp>
+<speaker>TIRÉSIAS.</speaker><p>
+
+<s n="543"><seg n="543.1">Aussi</seg>
+<seg n="543.2">tu gouvernes</seg>
+<seg n="543.3">cette ville</seg>
+<seg n="543.4">en ligne droite (heureusement).</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="544"><seg n="544.1">J'ai à certifier</seg>
+<seg n="544.2">ayant éprouvé (que j'ai éprouvé)</seg>
+<seg n="544.3">des choses utiles.</seg>
+</s></p></sp>
+<sp>
+<speaker>TIRÉSIAS.</speaker><p>
+
+<s n="545"><seg n="545.1">Songe,</seg>
+<seg n="545.2">marchant (que tu marches)</seg>
+<seg n="545.3">de nouveau maintenant</seg>
+<seg n="545.4">sur le tranchant de la fortune.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="546"><seg n="546.1">Mais qu’est-ce ?</seg>
+</s>
+<s n="547"><seg n="547.1">car je frissonne</seg>
+<seg n="547.2">à cause de ta bouche (ton discours).</seg>
+</s></p></sp>
+<sp>
+<speaker>TIRÉSIAS.</speaker><p>
+
+<s n="548"><seg n="548.1">Tu le sauras,</seg>
+<seg n="548.2">écoutant les indices</seg>
+<seg n="548.3">de mon art.</seg>
+</s>
+<s n="549"><seg n="549.1">Car assis dans Le siége</seg>
+<seg n="549.2">antique augural,</seg>
+<seg n="549.3">où était à moi le port (réceptacle)</seg>
+<seg n="549.4">de tout oiseau,</seg>
+<seg n="549.5">j'entends un son inconnu</seg>
+<seg n="549.6">d'oiseaux, criant</seg>
+<seg n="549.7">avec un bruit de-mauvais-présage</seg>
+<seg n="549.8">et rendu-sauvage,</seg>
+<seg n="549.9">et je reconnus eux se déchirant</seg>
+</s>
+<s n="549"><seg n="549.1">les uns les autres</seg>
+<seg n="549.11">avec carnage à l’aide de leurs ongles;</seg></s>
+<pb n="131"/>
+<s n="550"><seg n="550.1">car le bruit des ailes</seg>
+<seg n="550.2">n’était pas incertain.</seg>
+</s>
+<s n="551"><seg n="551.1">Or effrayé,</seg>
+<seg n="551.2">je-fis-épreuve tout de suite</seg>
+<seg n="551.3">de la pyromancie ,</seg>
+<seg n="551.4">sur les autels tout-en-feu ;</seg>
+</s>
+<s n="552"><seg n="552.1">mais le feu ne jaillit pas</seg>
+<seg n="552.2">hors des victimes;</seg>
+</s>
+<s n="553"><seg n="553.1">mais la matière-grasse des cuisses</seg>
+<seg n="553.2">se liquéfiant</seg>
+<seg n="553.3">s’absorbait sur la cendre,</seg>
+<seg n="553.4">et fumait, et crachait-end’air ;</seg>
+</s>
+<s n="554"><seg n="554.1">et les parties-bilieuses</seg>
+<seg n="554.2">furent dispersées</seg>
+<seg n="554.3">étant enlevées dans les airs,</seg>
+</s>
+<s n="555"><seg n="555.1">et les os-des-cuisses roulant-en-bas</seg>
+<seg n="555.2">gisaient-en-dehors de la graisse</seg>
+<seg n="555.3">entourante (roulée-autour).</seg>
+</s>
+<s n="556"><seg n="556.1">J'apprenais de ce jeune-homme</seg>
+<seg n="556.2">telles étre les prédictions</seg>
+<seg n="556.3">dépérissantes</seg>
+<seg n="556.4">des sacrifices informes.</seg>
+</s>
+<s n="557"><seg n="557.1">Car celui-ci es{ guide à moi,</seg>
+<seg n="557.2">mais moi aux autres.</seg>
+</s>
+<s n="558"><seg n="558.1">Et la ville est-malade de ces choses</seg>
+<seg n="558.2">à cause de ta volonté.</seg>
+</s>
+<s n="559"><seg n="559.1">Car les autels et les foyers</seg>
+<seg n="559.2">tous à nous</seg>
+<seg n="559.3">sont pleins (remplis) par les oiseaux</seg>
+<seg n="559.4">et les chirns</seg>
+<seg n="559.5">de la pâture venant du fils d’OEdipe</seg>
+<seg n="559.6">malheureux, tombé.</seg>
+</s>
+<s n="560"><seg n="560.1">Et alors les dieux</seg>
+<seg n="560.2">n’acceptent plus de nous</seg>
+<seg n="560.3">nos prières jointes-aux-sacrifices</seg>
+<seg n="560.4">ni la flamme des cuisses ;</seg>
+</s>
+<s n="561"><seg n="561.1">ni oiseau ne fait-retentir</seg>
+<seg n="561.2">des cris de-bon-augure,</seg>
+<seg n="561.3">ayant mangé la graisse</seg>
+<seg n="561.4">du sang d’homme-pourri.</seg></s>
+<pb n="133"/>
+<s n="562"><seg n="562.1">Songe donc à ces choses</seg>
+<seg n="562.2">ô mon fils ;</seg>
+</s>
+<s n="563"><seg n="563.1">car faillir</seg>
+<seg n="563.2">. est chose commune</seg>
+<seg n="563.3">à tous les hommes ;</seg>
+</s>
+<s n="564"><seg n="564.1">mais quiconque quand il a failli,</seg>
+<seg n="564.2">y porte-remède</seg>
+<seg n="564.3">et n’est pas inébranlable</seg>
+<seg n="564.4">étant tombé dans le mal,</seg>
+<seg n="564.5">celui-là n’est plus un homme</seg>
+<seg n="564.6">imprudent ni malheureux.</seg>
+</s>
+<s n="565"><seg n="565.1">L’opiniâtreté en effet</seg>
+<seg n="565.2">est convaincue de sottise.</seg>
+</s>
+<s n="566"><seg n="566.1">Cède donc au mort</seg>
+<seg n="566.2">et ne frappe pas celui qui a péri.</seg>
+</s>
+<s n="567"><seg n="567.1">Quel acte-de-force</seg>
+<seg n="567.2">que de tuer-encore-une-fois</seg>
+<seg n="567.3">celui quiest mort? -</seg>
+</s>
+<s n="568"><seg n="568.1">Je dis bien</seg>
+<seg n="568.2">étant-disposé bien pour toi ;</seg>
+</s>
+<s n="569"><seg n="569.1">- or il est très-agréable d'apprendre</seg>
+<seg n="569.2">de quelqu'un qui dit bien,</seg>
+<seg n="569.3">s’il dit chose-utile.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="570"><seg n="570.1">O vieillard,</seg>
+<seg n="570.2">tous vous dirigez-des-traits</seg>
+<seg n="570.3">contre cet homme (moi),</seg>
+<seg n="570.4">comme des archers contre un but ;</seg>
+<seg n="570.5">et je ne suis pas même en-repos</seg>
+<seg n="570.6">par vous du côté de l’art-de-prédire,</seg>
+</s>
+<s n="571"><seg n="571.1">mais depuis longtemps</seg>
+<seg n="571.2">je suis vendu</seg>
+<seg n="571.3">et je suis devenu-marchandise (trahi)</seg>
+<seg n="571.4">par ceux de ma famille.</seg>
+</s>
+<s n="572"><seg n="572.1">Faites-des-profits,</seg>
+<seg n="572.2">gagnez-en-trafiquant</seg>
+<seg n="572.3">le succin (or) de Sardes,</seg>
+<seg n="572.4">si vous voulez,</seg>
+<seg n="572.5">et l’or-de l'Inde ;</seg>
+</s>
+<s n="573"><seg n="573.1">mais vous ne cacherez pa</seg>
+<seg n="573.2">dans un tombeau celui-là,</seg>
+<pb n="135"/>
+<seg n="573.3">pas même si les aigles de Jupiter,</seg>
+<seg n="573.4">le saisissant veulent porter</seg>
+<seg n="573.5">lui comme leur pâture</seg>
+<seg n="573.6">au trône de Jupiter,</seg>
+</s>
+<s n="574"><seg n="574.1">pas même ainsi (alors) jene permettrai</seg>
+<seg n="574.2">d’enterrer lui,</seg>
+<seg n="574.3">ne craignant pas cette souillure.</seg>
+</s>
+<s n="575"><seg n="575.1">Car je sais bien</seg>
+<seg n="575.2">qu'aucun des hommes n’a-le-pouvoir</seg>
+<seg n="575.3">de souiller (profaner) les dieux.</seg>
+</s>
+<s n="576"><seg n="576.1">Mais ceux même qui-sont-habiles</seg>
+<seg n="576.2">en bien des choses parmi les mortels</seg>
+<seg n="576.3">Ô vieillard Tirésias,</seg>
+<seg n="576.4">tombent d’une chute honteuse,</seg>
+<seg n="576.5">quand ils disent adroïtement</seg>
+<seg n="576.6">des paroles honteuses</seg>
+<seg n="576.7">pour le gain.</seg>
+</s></p></sp>
+<sp>
+<speaker>TIRÉSIAS.</speaker><p>
+
+<s n="577"><seg n="577.1">Hélas,</seg>
+</s>
+<s n="578"><seg n="578.1">est-ce que quelqu’un des hommes</seg>
+<seg n="578.2">sait,</seg>
+<seg n="578.3">est-ce qu’il imagine,</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="579"><seg n="579.1">Quelle chose ?</seg>
+</s>
+<s n="580"><seg n="580.1">quelle esé celte chose que tu dis</seg>
+<seg n="580.2">comme étant commune-à-tous ?</seg>
+</s></p></sp>
+<sp>
+<speaker>TIRÉSIAS.</speaker><p>
+
+<s n="581"><seg n="581.1">Combien la prudence</seg>
+<seg n="581.2">est la meilleure des possessions ?</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON</speaker><p>
+
+<s n="582"><seg n="582.1"></seg>
+<seg n="582.2">d’autant que ne pas être-sensé</seg>
+<seg n="582.3">est le mal le plus considérable.</seg>
+</s></p></sp>
+<sp>
+<speaker>TIRÉSIAS.</speaker><p>
+
+<s n="583"><seg n="583.1">Et cependant toi</seg>
+<seg n="583.2">tu te-trouves-être plein</seg>
+<seg n="583.3">de cette maladie.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="584"><seg n="584.1">Je ne veux pas</seg>
+<seg n="584.2">dire-contre (répondre)</seg>
+<seg n="584.3">d’une-manière-injurieuse au devin.</seg>
+</s></p></sp>
+<sp>
+<speaker>TIRÉSIAS.</speaker><p>
+
+<s n="585"><seg n="585.1">Et pourtant</seg>
+<seg n="585.2">tu parles ainsi,</seg>
+<seg n="585.3">disant moi prédire des choses fausses.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="586"><seg n="586.1">C’est que toute l4 race</seg>
+<seg n="586.2">des-devins esé amie-de-l'argent.</seg>
+<pb n="137"/>
+</s></p></sp>
+<sp>
+<speaker>TIRÉSIAS.</speaker><p>
+
+<s n="587"><seg n="587.1">Et celle des tyrans</seg>
+<seg n="587.2">aime le gain-sordide.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="588"><seg n="588.1">Est-ce-que tu sais</seg>
+<seg n="588.2">disant (que tu dis)à ceux-qui-sont rois</seg>
+<seg n="588.3">les choses que tu peux dire?</seg>
+</s></p></sp>
+<sp>
+<speaker>TIRÉSIAS.</speaker><p>
+
+<s n="589"><seg n="589.1">Je le sais;</seg>
+</s>
+<s n="590"><seg n="590.1">car tu es ayant sauvé</seg>
+<seg n="590.2">cette ville à l’aide de moi.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="591"><seg n="591.1">Tues un devin habile,</seg>
+<seg n="591.2">mais almant à mal-agir.</seg>
+</s></p></sp>
+<sp>
+<speaker>TIRÉSIAS.</speaker><p>
+
+<s n="592"><seg n="592.1">Tu exciteras moi</seg>
+<seg n="592.2">à dire les choses immcbiles (enfermées)</seg>
+<seg n="592.3">dans mon cœur.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="593"><seg n="593.1">Mets-les-en-mouvement,</seg>
+<seg n="593.2">mais seulement en ne parlant pas</seg>
+<seg n="593.3">dans-le-but de profits.</seg>
+</s></p></sp>
+<sp>
+<speaker>TIRÉSIAS.</speaker><p>
+
+<s n="594"><seg n="594.1">C’est que je crois</seg>
+<seg n="594.2">parler ainsi maintenant en effet,</seg>
+<seg n="594.3">quant à ta part (quant à toi).</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="595"><seg n="595.1">Car sache</seg>
+<seg n="595.2">ne devant pas acheter</seg>
+<seg n="595.3">ma raison. ‘</seg>
+</s></p></sp>
+<sp>
+<speaker>TIRÉSIAS.</speaker><p>
+
+<s n="596"><seg n="596.1">Sache donc</seg>
+<seg n="596.2">bien au moins à-ton-tour</seg>
+<seg n="596.3">ne devant plus accomplir</seg>
+<seg n="596.4">beaucoup de roues (rotations)</seg>
+<seg n="596.5">rivalisant entre elles</seg>
+<seg n="596.6">du soleil , pendant lesquelles</seg>
+<seg n="596.7">tu seras</seg>
+<seg n="596.8">ayant donné-en-retour toi-même</seg>
+<seg n="596.9">un homme hors (sorti) .</seg>
+</s>
+<s n="596"><seg n="596.1">de tes entrailles mort</seg>
+<seg n="596.11">en-échange des morts,</seg>
+<seg n="596.12">de ce que tu es d'un côté</seg>
+<seg n="596.13">ayant précipité</seg>
+<seg n="596.14">en bas quelqu'un de ceux-en-haut</seg>
+<seg n="596.15">et as placé dans un sépulcre</seg>
+<seg n="596.16">ignominieusement son âme-vivante ;</seg>
+</s>
+<s n="597"><seg n="597.1">puis de l’autre côté tu retiens</seg>
+<seg n="597.2">ici un corps mort</seg>
+<pb n="139"/>
+<seg n="597.3">sans-obsèques , sans-sépulture,</seg>
+<seg n="597.4">privé des dieux d’en bas,</seg>
+</s>
+<s n="598"><seg n="598.1">choses dont il n’est donnéà-disposer</seg>
+<seg n="598.2">ni à toi ni aux dieux d’en-hant,</seg>
+<seg n="598.3">mais ils sont violentés</seg>
+<seg n="598.4">en ces choses par toi.</seg>
+</s>
+<s n="599"><seg n="599.1">Les Furies des enfers et des dieux</seg>
+<seg n="599.2">qui blessent</seg>
+<seg n="599.3">et qui finissent-par-détruire</seg>
+<seg n="599.4">dressent-des-embûches-à toi</seg>
+<seg n="599.5">pour ces choses, L</seg>
+<seg n="599.6">‘de façon que loi être pris</seg>
+<seg n="599.7">dans ces mêmes maux."</seg>
+</s>
+<s n="600"><seg n="600.1">Et considère,</seg>
+<seg n="600.2">si je dis ces choses</seg>
+<seg n="600.3">gagné-avec-de-l’argent.</seg>
+</s>
+<s n="601"><seg n="601.1">Car le retard d’un temps</seg>
+<seg n="601.2">Ron considérable</seg>
+<seg n="601.3">montrera les lamentations</seg>
+<seg n="601.4">des hommes, des femmes</seg>
+<seg n="601.5">dans ton palais. -</seg>
+</s>
+<s n="602"><seg n="602.1">De l’autre côté toutes les villes enne-</seg>
+<seg n="602.2">se-lèvent-en-alarme [mies</seg>
+<seg n="602.3">des villes de tous ceux dont</seg>
+<seg n="602.4">ou les chiens ou les bètes sauvages</seg>
+<seg n="602.5">ou quelque oiseau ailé :</seg>
+<seg n="602.6">ont consacré (souillé) les lambeaux ,</seg>
+<seg n="602.7">portant une odeur impure</seg>
+<seg n="602.8">dans la ville</seg>
+<seg n="602.9">qui-renferme-leurs-foyers.</seg>
+</s>
+<s n="603"><seg n="603.1">J'ai lancé comme un archer</seg>
+<seg n="603.2">de tels traits</seg>
+<seg n="603.3">sûrs de frapper contre {on cœur</seg>
+<seg n="603.4">dont tu n’éviteras pas la brûlure,</seg>
+<seg n="603.5">étant en-colère contre toi;</seg>
+<seg n="603.6">car tu es-incommode.</seg>
+</s>
+<s n="604"><seg n="604.1">Mais toi, mon enfant, emmène-nous</seg>
+<seg n="604.2">dans nos demeures, afin que celui-ci</seg>
+<seg n="604.3">lance (décharge) sa colère</seg>
+<seg n="604.4">sur de plus jeunes que moi,</seg>
+<pb n="141"/>
+<seg n="604.5">et apprenne à nourrir (avoir)</seg>
+<seg n="604.6">la langue plus tranquille</seg>
+<seg n="604.7">et le jugement de son cœur</seg>
+<seg n="604.8">meilleur qu’il ne le porte maintenant.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="605"><seg n="605.1">O roi,</seg>
+<seg n="605.2">.cet homme s’en est allé</seg>
+<seg n="605.3">ayant prédit des choses horribles.</seg>
+</s>
+<s n="606"><seg n="606.1">Mais nous savons lui n’avoir prédit</seg>
+<seg n="606.2">jamais encore de mensonge</seg>
+<seg n="606.3">à la ville</seg>
+<seg n="606.4">depuis que moi je revêts</seg>
+<seg n="606.5">cette chevelure blanche</seg>
+<seg n="606.6">au lieu de la noire.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="607"><seg n="607.1">Je l'ai reconnu moi aussi</seg>
+<seg n="607.2">et je suis troublé dans mon cœur.</seg>
+</s>
+<s n="608"><seg n="608.1">Car d'abordilesé désagréabledecéder,</seg>
+</s>
+<s n="609"><seg n="609.1">mais en résistant</seg>
+<seg n="609.2">on peut avec ce désagrément</seg>
+<seg n="609.3">frapper (briser) encore</seg>
+<seg n="609.4">sa colère par le malheur.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="610"><seg n="610.1">Créon,</seg>
+<seg n="610.2">fils de Ménécée,</seg>
+<seg n="610.3">il faut de la prudence.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="611"><seg n="611.1">Quoi donc faut-il faire ?</seg>
+</s>
+<s n="612"><seg n="612.1">parle;</seg>
+</s>
+<s n="613"><seg n="613.1"></seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="614"><seg n="614.1">Relâche</seg>
+<seg n="614.2">d’un côté la jeune-fille</seg>
+<seg n="614.3">de sa demeure enfouie (souterraine)</seg>
+<seg n="614.4">ÿ étant allé ;</seg>
+</s>
+<s n="615"><seg n="615.1">de l’autre eôté bâtis un tombeau</seg>
+<seg n="615.2">à celui qui est publiquement-exposé.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="616"><seg n="616.1">Quant à ces choses</seg>
+<seg n="616.2">tu Les approuves donc</seg>
+<seg n="616.3">et crois-utile de céder ?</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="617"><seg n="617.1">O roi,</seg>
+<seg n="617.2">certes au plus vite.</seg>
+</s>
+<s n="618"><seg n="618.1">Car les châtiments aux-pieds-agiles</seg>
+<seg n="618.2">des dieux</seg>
+<seg n="618.3">atteignent-par le-chemin-le-plus-court</seg>
+<seg n="618.4">les méchants.</seg>
+<pb n="143"/>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="619"><seg n="619.1">C’est avec peineit est vrai</seg>
+<seg n="619.2">mais je me désiste de mon intention,</seg>
+<seg n="619.3">pour faire ceci;</seg>
+</s>
+<s n="620"><seg n="620.1">mais il ne faut pas lutter-obstinément</seg>
+<seg n="620.2">coutre la nécessité.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="621"><seg n="621.1">Fais ces choses</seg>
+<seg n="621.2">maintenant,</seg>
+<seg n="621.3">y étant allé,</seg>
+<seg n="621.4">et n’en remets-pas-le-soin à d’autres.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="622"><seg n="622.1">J'irai donc</seg>
+<seg n="622.2">ainsi que je suis (tout de suite).</seg>
+</s>
+<s n="623"><seg n="623.1">Allez, allez, serviteurs,</seg>
+<seg n="623.2">et ceux présents et ceux absents,</seg>
+<seg n="623.3">courez au lieu facile-à-découvrir,</seg>
+<seg n="623.4">ayant pris des hachesentre vos mains.</seg>
+</s>
+<s n="624"><seg n="624.1">Mais moi, puisque nofre opinion</seg>
+<seg n="624.2">en-est-revenue là,</seg>
+<seg n="624.3">je l'ai enchatnée d’abord moi-même</seg>
+<seg n="624.4">et je La délivrerai éfant présent.</seg>
+</s>
+<s n="625"><seg n="625.1">Car je crains</seg>
+<seg n="625.2">que la meilleure chose ne soit</seg>
+<seg n="625.3">de passer sa vie</seg>
+<seg n="625.4">en conservant les lois établies.</seg>
+<seg n="625.5">Strophe I.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="626"><seg n="626.1">Toi-aux-nombreux-</seg>
+<seg n="626.2">délices de la nymphe [noms</seg>
+<seg n="626.3">Cadméenne</seg>
+<seg n="626.4">et rejeton</seg>
+<seg n="626.5">de Jupiter au-tonnerre-redoutable,</seg>
+<seg n="626.6">doi qui veilles-sur</seg>
+<seg n="626.7">Vitale célèbre,</seg>
+<seg n="626.8">et règnes de l’autre côté</seg>
+<seg n="626.9">dans les golfes communs-à-tous</seg>
+</s>
+<s n="626"><seg n="626.1">de érès Éleusinienne,</seg>
+<seg n="626.11">Ô Bacchas,</seg>
+<seg n="626.12">qui habites Thèbes,</seg>
+<seg n="626.13">la métropole des bacchantes,</seg>
+<seg n="626.14">près des courants liquides</seg>
+<seg n="626.15">de l’Isménus,</seg>
+<pb n="145"/>
+<seg n="626.16">et sur les semailles</seg>
+<seg n="626.17">du dragon cruel.</seg>
+<seg n="626.18">Antistrophe I.</seg>
+</s>
+<s n="627"><seg n="627.1">Et la flamme ;</seg>
+<seg n="627.2">petillante</seg>
+<seg n="627.3">sur le rocher</seg>
+<seg n="627.4">au-double-sommet voit toi,</seg>
+<seg n="627.5">là où se promènent</seg>
+<seg n="627.6">les nymphes de-Coryce</seg>
+<seg n="627.7">les bacchantes</seg>
+<seg n="627.8">et où se trouve la source</seg>
+<seg n="627.9">de Castalie;</seg>
+</s>
+<s n="628"><seg n="628.1">et les collines couvertes-de-lierre</seg>
+<seg n="628.2">des montagnes de-Nysa</seg>
+<seg n="628.3">et la côte verdoyante</seg>
+<seg n="628.4">aux-nombreuses-vignes</seg>
+<seg n="628.5">conduisent toi, des paroles saint:s</seg>
+<seg n="628.6">retentissant-avec-les-cris-évoë,</seg>
+<seg n="628.7">visitant (lorsque tu visites)</seg>
+<seg n="628.8">les carrefours de-Thèbes.</seg>
+<seg n="628.9">Strophe II.</seg>
+</s>
+<s n="629"><seg n="629.1">Laquelle ville tu honorcs</seg>
+<seg n="629.2">comme la suprême</seg>
+<seg n="629.3">de toutes les villes,</seg>
+<seg n="629.4">en-même-temps que £a mère</seg>
+<seg n="629.5">foudroyée.</seg>
+</s>
+<s n="630"><seg n="630.1">Et maintenant,</seg>
+<seg n="630.2">que la ville avec-tout-son-peuple</seg>
+<seg n="630.3">est poussée</seg>
+<seg n="630.4">vers un fléau -</seg>
+<seg n="630.5">violent,</seg>
+<seg n="630.6">viens d’un pied purificateur</seg>
+<seg n="630.7">sur le sommet</seg>
+<seg n="630.8">du-Parnasse,</seg>
+<seg n="630.9">ou à travers le détroit</seg>
+</s>
+<s n="630"><seg n="630.1">gémissant.</seg>
+<seg n="630.11">Antistrophe IT.</seg>
+</s>
+<s n="631"><seg n="631.1">O toi qui-conduis-le-chœur</seg>
+<seg n="631.2">des astres</seg>
+<seg n="631.3">exhalant le feu</seg>
+<pb n="147"/>
+<seg n="631.4">et qui-présides</seg>
+<seg n="631.5">aux voix</seg>
+<seg n="631.6">nocturnes,</seg>
+<seg n="631.7">adolescent,</seg>
+<seg n="631.8">rejeton de Jupiter,</seg>
+<seg n="631.9">parais</seg>
+</s>
+<s n="631"><seg n="631.1">avec les thyades</seg>
+<seg n="631.11">de-Naxos</seg>
+<seg n="631.12">tes compagnes,</seg>
+<seg n="631.13">qui célèbrent-par-des-danses</seg>
+<seg n="631.14">transportées-de-fureur,</seg>
+<seg n="631.15">pendant-toutela-nuit,</seg>
+<seg n="631.16">toi leur souverain</seg>
+<seg n="631.17">Jacchus.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE MESSAGER.</speaker><p>
+
+<s n="632"><seg n="632.1">Voisins</seg>
+<seg n="632.2">du palais de Cadmus et d’Amphion,</seg>
+<seg n="632.3">il n’est pas quelle vie</seg>
+<seg n="632.4">d’homme qui-se-tient-debout</seg>
+<seg n="632.5">ni je puisse louer jamais</seg>
+<seg n="632.6">ni je puisse blâmer.</seg>
+</s>
+<s n="633"><seg n="633.1">Car toujours</seg>
+<seg n="633.2">la fortune relève , et la fortune</seg>
+<seg n="633.3">fait-percher (renverse)</seg>
+<seg n="633.4">et l’heureux</seg>
+<seg n="633.5">et le malheureux.</seg>
+</s>
+<s n="634"><seg n="634.1">Et il n’est aucun devin</seg>
+<seg n="634.2">aux mortels</seg>
+<seg n="634.3">de l’état-présent-des-affaires.</seg>
+</s>
+<s n="635"><seg n="635.1">Car Créon était digne-d’envie autrefois</seg>
+<seg n="635.2">comme il semble à moi,</seg>
+<seg n="635.3">ayant sauvé en-vérité</seg>
+<seg n="635.4">de la main des ennemis</seg>
+<seg n="635.5">cette terre Cadméenne ;</seg>
+</s>
+<s n="636"><seg n="636.1">et ayant pris l’empire-souverain</seg>
+<seg n="636.2">intégral du pays</seg>
+<seg n="636.3">il gouvernait, florissant</seg>
+<seg n="636.4">d’une race noble d'enfants.</seg>
+</s>
+<s n="637"><seg n="637.1">Et maintenant toutes ces choses</seg>
+<seg n="637.2">se sont débandées (ont disparu).</seg>
+</s>
+<s n="638"><seg n="638.1">Car quand les hommes</seg>
+<pb n="149"/>
+<seg n="638.2">ont perdu leurs joies,</seg>
+<seg n="638.3">je n’estime pas moi</seg>
+<seg n="638.4">celui-là vivre,</seg>
+<seg n="638.5">mais je Le crois</seg>
+<seg n="638.6">un cadavre qui-respire.</seg>
+</s>
+<s n="639"><seg n="639.1">Car sois riche grandement d’abord</seg>
+<seg n="639.2">dans {a maison, si tu veux;</seg>
+</s>
+<s n="640"><seg n="640.1">puis vis, ayant</seg>
+<seg n="640.2">l'appareil du-souverain;</seg>
+</s>
+<s n="641"><seg n="641.1">mais si le plaisir</seg>
+<seg n="641.2">est-éloigné de ces choses,</seg>
+<seg n="641.3">moi je n’achèterais pas</seg>
+<seg n="641.4">pour l’ombre de la fumée</seg>
+<seg n="641.5">à un homme les autres choses</seg>
+<seg n="641.6">comparativement au plaisir.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="642"><seg n="642.1">Mais quel esf encore</seg>
+<seg n="642.2">ce malheur-accablant des rois,</seg>
+<seg n="642.3">gu’apportant tu es venu?</seg>
+</s></p></sp>
+<sp>
+<speaker>LE MESSAGER.</speaker><p>
+
+<s n="643"><seg n="643.1">Ils sont morts,</seg>
+</s>
+<s n="644"><seg n="644.1">et ceux qui vivent soné cause</seg>
+<seg n="644.2">ceux-là être morts</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="645"><seg n="645.1">Et qui tue?</seg>
+</s>
+<s n="646"><seg n="646.1">et qui est gisant é/ant tué?</seg>
+</s>
+<s n="647"><seg n="647.1"></seg>
+</s></p></sp>
+<sp>
+<speaker>LE MESSAGER.</speaker><p>
+
+<s n="648"><seg n="648.1">Hémon est mort;</seg>
+</s>
+<s n="649"><seg n="649.1">mais il est ensanglanté</seg>
+<seg n="649.2">par-une-main-parente.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="650"><seg n="650.1">Est-ce</seg>
+<seg n="650.2">de la main de-son-père</seg>
+<seg n="650.3">ou de la sienne-propre ?</seg>
+</s></p></sp>
+<sp>
+<speaker>LE MESSAGER.</speaker><p>
+
+<s n="651"><seg n="651.1">Lui-même</seg>
+<seg n="651.2">par lui-même, irrité</seg>
+<seg n="651.3">contre son père à cause du meurtre,</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="652"><seg n="652.1">O devin,</seg>
+<seg n="652.2">que tu as accompli donc</seg>
+<seg n="652.3">ton discours devenu juste (véritable).</seg>
+</s></p></sp>
+<sp>
+<speaker>LE MESSAGER.</speaker><p>
+
+<s n="653"><seg n="653.1">Les choses étant ainsi,</seg>
+<seg n="653.2">il est-utile de mettre-en-délibération</seg>
+<seg n="653.3">les autres choses.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="654"><seg n="654.1">Et cependant Je vois</seg>
+<seg n="654.2">la malheureuse Eurydice,</seg>
+<pb n="151"/>
+<seg n="654.3">l'épouse de Créon, près d'ici;</seg>
+</s>
+<s n="655"><seg n="655.1">et elle est-ici venue du palais,</seg>
+<seg n="655.2">ou ayant écouté</seg>
+<seg n="655.3">ee qui regarde son fils</seg>
+<seg n="655.4">ou par hasard.</seg>
+</s></p></sp>
+<sp>
+<speaker>EURYDICE.</speaker><p>
+
+<s n="656"><seg n="656.1">O vous tous citoyens,</seg>
+<seg n="656.2">j'ai entendu certainement la narration,</seg>
+<seg n="656.3">allant vers la sortie,</seg>
+<seg n="656.4">pour que je vinsse adressant</seg>
+<seg n="656.5">des prières à la déesse Minerve</seg>
+</s>
+<s n="657"><seg n="657.1">et je me trouve en-effet</seg>
+<seg n="657.2">relâchant</seg>
+<seg n="657.3">les verrous de la porte</seg>
+<seg n="657.4">tirée-en-arrière</seg>
+<seg n="657.5">et le bruit du malheur domestique</seg>
+<seg n="657.6">frappe moi à travers les oreilles,</seg>
+</s>
+<s n="658"><seg n="658.1">et je tombe à-la-renverse</seg>
+<seg n="658.2">auprès de mes esclaves</seg>
+<seg n="658.3">ayant eu-peur et je défaillis.</seg>
+</s>
+<s n="659"><seg n="659.1">Mais dites de-nouveau</seg>
+<seg n="659.2">quel était ce discours.</seg>
+</s>
+<s n="660"><seg n="660.1">Car je l’écouterai</seg>
+<seg n="660.2">n'étant pas</seg>
+<seg n="660.3">sans-expérience des maux.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE MESSAGER.</speaker><p>
+
+<s n="661"><seg n="661.1">Chère maîtresse,</seg>
+<seg n="661.2">moi je Le dirai</seg>
+<seg n="661.3">et comme témoin qui-a-assisté,</seg>
+<seg n="661.4">et je n’omettrai aucun mot</seg>
+<seg n="661.5">de la vérité.</seg>
+</s>
+<s n="662"><seg n="662.1">Car pourquoi amollirais-je toi</seg>
+<seg n="662.2">dans des choses dans lesquelles</seg>
+<seg n="662.3">nous paraltrons</seg>
+<seg n="662.4">menteurs plus tard ?</seg>
+</s>
+<s n="663"><seg n="663.1">la vérité est toujours droite.</seg>
+</s>
+<s n="664"><seg n="664.1">Moi donc je suivais</seg>
+<seg n="664.2">comme guide ton époux,</seg>
+<seg n="664.3">vers la plaine élevée,</seg>
+<seg n="664.4">où gisait encore</seg>
+<seg n="664.5">le corps délaissé sans-miséricorde,</seg>
+<seg n="664.6">déchiré-par-les-chiens de Polynice ;</seg></s>
+<pb n="153"/>
+<s n="665"><seg n="665.1">et ayant prié</seg>
+<seg n="665.2">la déesse des-carrefours et Pluton</seg>
+<seg n="665.3">de conserver des sentiments</seg>
+<seg n="665.4">bienveillants ,</seg>
+<seg n="665.5">ayant lavé celui-ci d’une lotion lustrale</seg>
+<seg n="665.6">nous brûlions-ensemble</seg>
+<seg n="665.7">ce qui encore restait,</seg>
+<seg n="665.8">avec des rameaux</seg>
+<seg n="665.9">nouvellement-arrachés,</seg>
+</s>
+<s n="665"><seg n="665.1">et ayant entassé</seg>
+<seg n="665.11">une tombe au-sommet-élevé</seg>
+<seg n="665.12">de terre de-la-patrie,</seg>
+<seg n="665.13">nous voulions entrer en-second lieu</seg>
+<seg n="665.14">dans le lit-nuptial des enfers</seg>
+<seg n="665.15">creux pavé-de-pierres de la jeune-fille.</seg>
+</s>
+<s n="666"><seg n="666.1">Et quelqu’un entend de-loin un son</seg>
+<seg n="666.2">de lamentations distinctes</seg>
+<seg n="666.3">près de la chambre-nuptiale</seg>
+<seg n="666.4">privée-des-honneurs-funèbres,</seg>
+<seg n="666.5">et il l’annonce</seg>
+<seg n="666.6">à Créon son maître,</seg>
+<seg n="666.7">y étant allé;</seg>
+</s>
+<s n="667"><seg n="667.1">les sons-confus de la voix de-détresse</seg>
+<seg n="667.2">entourent</seg>
+<seg n="667.3">celui-ci venant plus près,</seg>
+<seg n="667.4">et il profère la parole lamentable,</seg>
+<seg n="667.5">en soupirant :</seg>
+</s>
+<s n="668"><seg n="668.1">O malheureux moi,</seg>
+<seg n="668.2">est-ce que je suis devin ?</seg>
+</s>
+<s n="669"><seg n="669.1">est-ce que je marche</seg>
+<seg n="669.2">sur le chemin le plus funeste</seg>
+<seg n="669.3">des voyages passés?</seg>
+</s>
+<s n="670"><seg n="670.1">la voix de mon enfant caresse moi</seg>
+</s>
+<s n="671"><seg n="671.1">Mais, esclaves, -</seg>
+<seg n="671.2">allez plus près vite,</seg>
+<seg n="671.3">et vous tenant-près du tombeau</seg>
+<seg n="671.4">examinez l'emboitement</seg>
+<seg n="671.5">du monceau</seg>
+<seg n="671.6">les-pierres-en-étant-arrachées,</seg>
+<seg n="671.7">ayant pénétré jusqu’à l'entrée même</seg>
+<pb n="155"/>
+<seg n="671.8">si j'entends réellement</seg>
+<seg n="671.9">la voix de Hémon,</seg>
+</s>
+<s n="671"><seg n="671.1">ou si je suis abusé par les dieux.</seg>
+</s>
+<s n="672"><seg n="672.1">Nous explorions ces choses</seg>
+<seg n="672.2">sur les ordres de nofre maître</seg>
+<seg n="672.3">découragé;</seg>
+</s>
+<s n="673"><seg n="673.1">et nous vimes celle-ci</seg>
+<seg n="673.2">dans La partie la plus recnlée</seg>
+<seg n="673.3">du tombeau</seg>
+<seg n="673.4">peudue par le cou,</seg>
+<seg n="673.5">attachée par un nœud-coulant</seg>
+<seg n="673.6">au-tissu-de-fil de mousseline,</seg>
+</s>
+<s n="674"><seg n="674.1">Pautre gisant-prèss’étant-laissé-tomber</seg>
+<seg n="674.2">autour du milieu de son corps</seg>
+<seg n="674.3">déplorant la ruine</seg>
+<seg n="674.4">du lit-naptial (de la fiancée)</seg>
+<seg n="674.5">descendu aux enfers</seg>
+<seg n="674.6">et les œuvres de son père,</seg>
+<seg n="674.7">et le mariage infortuné.</seg>
+</s>
+<s n="675"><seg n="675.1">Lorsque celui-ci voit lui ,</seg>
+<seg n="675.2">ayant soupiré d’une manière-affreuse,</seg>
+<seg n="675.3">il s’avance dans l’intérieur vers lui</seg>
+<seg n="675.4">et il Z’appelle</seg>
+<seg n="675.5">s'étant écrié douloureusement :</seg>
+</s>
+<s n="676"><seg n="676.1">O malheureux,</seg>
+<seg n="676.2">“quelle action as-tu faite ?</seg>
+</s>
+<s n="677"><seg n="677.1">quelle intention avais-tu ?</seg>
+</s>
+<s n="678"><seg n="678.1">par quel genre d’accident</seg>
+<seg n="678.2">as-tu voulu périr ?</seg>
+</s>
+<s n="679"><seg n="679.1">Sors, mon fils,</seg>
+</s>
+<s n="680"><seg n="680.1">j'implore toi en suppliant.</seg>
+</s>
+<s n="681"><seg n="681.1">Mais le jeune-homme ayant contemplé</seg>
+<seg n="681.2">celui-ci avec des yeux farouches,</seg>
+<seg n="681.3">l'ayant repoussé - dédaigneusement</seg>
+<seg n="681.4">et n’ayant dit-contre rien [par sonair</seg>
+<seg n="681.5">üre les branches-de-la-garde doubles</seg>
+<seg n="681.6">de l'épée ;</seg>
+</s>
+<s n="682"><seg n="682.1"></seg>
+<seg n="682.2">qui se précipita-dehors en fuite ;</seg>
+</s>
+<s n="683"><seg n="683.1">alors l’infortuné</seg>
+<seg n="683.2">irrité contre lui-même,</seg>
+<pb n="157"/>
+<seg n="683.3">enfonça, comme il était (tont de suite)</seg>
+<seg n="683.4">l’arme-pointue jnsqu’au-milieu</seg>
+<seg n="683.5">dans les côtes</seg>
+<seg n="683.6">se-penchant-en-avant-avec-force,</seg>
+<seg n="683.7">et maître-de-ses-sens encore il serre</seg>
+<seg n="683.8">la vierge dans son bras languissant</seg>
+</s>
+<s n="684"><seg n="684.1">et il pousse dehors (laisse-échapper)</seg>
+<seg n="684.2">un respiration violente</seg>
+<seg n="684.3">accompagnée d’une filtration de-sang</seg>
+<seg n="684.4">d’une joue pâle, étant hors-d'haleine.</seg>
+</s>
+<s n="685"><seg n="685.1">Et mort il gît autour de la morte</seg>
+<seg n="685.2">ayant obtenu-en-partage</seg>
+<seg n="685.3">le malheureux les solennitésnuptiales</seg>
+<seg n="685.4">dans les demeures de Pluton,</seg>
+<seg n="685.5">ayant montré parmi les hommes</seg>
+<seg n="685.6">l'imprudence,</seg>
+<seg n="685.7">à quel point étant le plus grand mal</seg>
+<seg n="685.8">elle s'attache à l’homme.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="686"><seg n="686.1">Que présumeras-tu</seg>
+<seg n="686.2">ceci étre?</seg>
+</s>
+<s n="687"><seg n="687.1">la femme est partie en-arrière</seg>
+<seg n="687.2">avant d’avoir dit</seg>
+<seg n="687.3">parole bonne ou mauvaise.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE MESSAGER.</speaker><p>
+
+<s n="688"><seg n="688.1">Et moi aussi</seg>
+<seg n="688.2">je suis étonné ;</seg>
+</s>
+<s n="689"><seg n="689.1">mais je me nourris d’espérances,</seg>
+<seg n="689.2">elle apprenant les malheurs de son tits</seg>
+<seg n="689.3">ne pas devoir avoir-l’intention</seg>
+<seg n="689.4">d'exposer ses lamentations à la ville,</seg>
+<seg n="689.5">mais sous son toit en dedans,</seg>
+<seg n="689.6">devoir exposer à ses esclaves</seg>
+<seg n="689.7">le sujet-de-deuil domestique</seg>
+<seg n="689.8">pour le pleurer.</seg>
+</s>
+<s n="690"><seg n="690.1">Carelle n'est pas inexpérimentée d'esprit</seg>
+<seg n="690.2">au point de mal-agir.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="691"><seg n="691.1">Je ne sais ; ‘</seg>
+</s>
+<s n="692"><seg n="692.1">mais enfin et le silence trop grand</seg>
+<seg n="692.2">et la clameur vainement grande</seg>
+<seg n="692.3">semble à moi s'attacher à l’homme</seg>
+<seg n="692.4">comme une chose grave</seg>
+<pb n="159"/>
+</s></p></sp>
+<sp>
+<speaker>LE MESSAGER.</speaker><p>
+
+<s n="693"><seg n="693.1">Mais nous saurons</seg>
+<seg n="693.2">nous approchant du palais,</seg>
+<seg n="693.3">si en effet elle ne couvre pas</seg>
+<seg n="693.4">secrètement</seg>
+<seg n="693.5">quelque chose refoulée</seg>
+<seg n="693.6">dans son cœur irrité ;</seg>
+</s>
+<s n="694"><seg n="694.1">car enfin tu dis bien ;</seg>
+</s>
+<s n="695"><seg n="695.1">c’est qu'il y a certes du grave</seg>
+<seg n="695.2">dans le trop grand silence.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="696"><seg n="696.1">Cependant</seg>
+<seg n="696.2">voici que le roi</seg>
+<seg n="696.3">survient lui-même</seg>
+<seg n="696.4">ayant dans la main</seg>
+<seg n="696.5">un monument remarquable,</seg>
+<seg n="696.6">s’il est justice de Le dire,</seg>
+<seg n="696.7">non pas une calamité</seg>
+<seg n="696.8">causée-par-des-étrangers,</seg>
+<seg n="696.9">mais ayant mal-agi lui-même.</seg>
+</s>
+<s n="696"><seg n="696.1">Strophe I.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="697"><seg n="697.1">Oh!</seg>
+<seg n="697.2">fautes cruelles</seg>
+<seg n="697.3">mortelles</seg>
+<seg n="697.4">de mes sens insensés!</seg>
+</s>
+<s n="698"><seg n="698.1">O vous qui voyez</seg>
+<seg n="698.2">des membres-de-la-même-famille</seg>
+<seg n="698.3">et ayant tué</seg>
+<seg n="698.4">et étant morts!</seg>
+</s>
+<s n="699"><seg n="699.1">O démence</seg>
+<seg n="699.2">de mes conseils!</seg>
+</s>
+<s n="700"><seg n="700.1">O mon fils, mon fils!</seg>
+<seg n="700.2">tu es mort, tues détachéde la vie</seg>
+<seg n="700.3">jeune encore d’une mort jeune(précoce)</seg>
+<seg n="700.4">par les miennes et non par les tiennes</seg>
+<seg n="700.5">imprudences ;</seg>
+<seg n="700.6">hélas, hélas!</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="701"><seg n="701.1">Hélas!</seg>
+<seg n="701.2">que tu parais voir tard la justice.</seg>
+<seg n="701.3">Strophe II.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="702"><seg n="702.1">Hélas!</seg>
+</s>
+<s n="703"><seg n="703.1">ie suis l’ayant reconnue,</seg>
+<pb n="161"/>
+<seg n="703.2">malheureux;</seg>
+</s>
+<s n="704"><seg n="704.1">mais un dieu a frappé</seg>
+<seg n="704.2">sur ma tête</seg>
+<seg n="704.3">alors certes alors ayant moi</seg>
+<seg n="704.4">comme un sujet-de-colère grand ;</seg>
+</s>
+<s n="705"><seg n="705.1">et il [m]’a lancé</seg>
+<seg n="705.2">dans des routes sauvages,</seg>
+</s>
+<s n="706"><seg n="706.1">hélas ! renversant</seg>
+<seg n="706.2">la joie foulée-aux-pieds.</seg>
+</s>
+<s n="707"><seg n="707.1">Malheur! malheur !</seg>
+</s>
+<s n="708"><seg n="708.1">O labeurs</seg>
+<seg n="708.2">infortunés des mortels!</seg>
+</s></p></sp>
+<sp>
+<speaker>SECOND MESSAGER.</speaker><p>
+
+<s n="709"><seg n="709.1">O mon maître,</seg>
+<seg n="709.2">combien ayant et possédant des maux</seg>
+<seg n="709.3">portant les uns, ceux-ci,</seg>
+<seg n="709.4">entre les mains</seg>
+<seg n="709.5">tu parais être venu</seg>
+<seg n="709.6">et devoir voir tantôt</seg>
+<seg n="709.7">les autres maux dans la maison.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="710"><seg n="710.1">Mais qu’y-a-t-il de nouveau</seg>
+<seg n="710.2">de plus mal encore</seg>
+<seg n="710.3">après ces maux ?</seg>
+</s></p></sp>
+<sp>
+<speaker>SECOND MESSAGER.</speaker><p>
+
+<s n="711"><seg n="711.1">La femme,</seg>
+<seg n="711.2">la mère-en-tous-les-sens de ce défunt</seg>
+<seg n="711.3">est morte, la malheureuse récemment</seg>
+<seg n="711.4">de coups nouvellement-frappés.</seg>
+<seg n="711.5">Antistrophe I.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="712"><seg n="712.1">Hélas ! port</seg>
+<seg n="712.2">implacable de Pluton!</seg>
+</s>
+<s n="713"><seg n="713.1">Pourquoi donc tues-tu moi,</seg>
+<seg n="713.2">pourquoi me tues-tu P</seg>
+</s>
+<s n="714"><seg n="714.1">O toi qui-as-apporté à moi</seg>
+<seg n="714.2">des calamités mauvaises-à-annoncer,</seg>
+<seg n="714.3">quel discours profères-tu ?</seg>
+</s>
+<s n="715"><seg n="715.1">Hélas! tu as achevé</seg>
+<seg n="715.2">un homme perdu.</seg>
+</s>
+<s n="716"><seg n="716.1">Que dis-tu, Ô jeune homme,</seg>
+<seg n="716.2">quelle parole nouvelle distu à moi,</seg>
+<seg n="716.3">hélas! hélas !</seg>
+<seg n="716.4">la mort sanglante</seg>
+<pb n="163"/>
+<seg n="716.5">de-mon-épouse</seg>
+<seg n="716.6">s’étendre-autour (s’ajouter)</seg>
+<seg n="716.7">à cette destruction ?</seg>
+</s></p></sp>
+<sp>
+<speaker>LE SECOND MESSAGER.</speaker><p>
+
+<s n="717"><seg n="717.1">On peut Le</seg>
+</s>
+<s n="718"><seg n="718.1">Car ce n’est plus [voir.</seg>
+<seg n="718.2">dans les enfoncements du palais.</seg>
+<seg n="718.3">Antistrophe II.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="719"><seg n="719.1">Hélas! ‘</seg>
+</s>
+<s n="720"><seg n="720.1">Je vois, malheureux que je suis,</seg>
+<seg n="720.2">cet autre malheur, le second.</seg>
+</s>
+<s n="721"><seg n="721.1">Quel donc, quel destin</seg>
+<seg n="721.2">attend moi encore ?</seg>
+</s>
+<s n="722"><seg n="722.1">j'ai d’un côté entre les mains</seg>
+<seg n="722.2">mon fils récemment mort,</seg>
+<seg n="722.3">malheureux que je suis,</seg>
+<seg n="722.4">de l’autre je regarde le corps-mort</seg>
+<seg n="722.5">en-face de moi.</seg>
+</s>
+<s n="723"><seg n="723.1"></seg>
+<seg n="723.2">mère infortunée, hélas! mon fils.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE SECOND MESSAGER.</speaker><p>
+
+<s n="724"><seg n="724.1">Mais elle</seg>
+<seg n="724.2">cette femme mortellement-blessée</seg>
+<seg n="724.3">gisant-près-de-lautel tout-autour ,</seg>
+<seg n="724.4">relâche ses paupières</seg>
+<seg n="724.5">couvertes-de-ténèbres</seg>
+<seg n="724.6">ayant déploré d’abord</seg>
+<seg n="724.7">le sort illustre de Mégarée,</seg>
+<seg n="724.8">qui est mort auparavant ,</seg>
+<seg n="724.9">puis encore Le sort de celui-ci,</seg>
+</s>
+<s n="724"><seg n="724.1">et ayant maudit-en souhaitant en-der-</seg>
+<seg n="724.11">à toi l’assassin-de-ses-enfants,[nier-heu</seg>
+<seg n="724.12">des entreprises malheureuses.</seg>
+<seg n="724.13">Strophe III</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="725"><seg n="725.1">Hélas ! hélas !</seg>
+</s>
+<s n="726"><seg n="726.1">Je suis tenu-en-suspens par la peur.</seg>
+</s>
+<s n="727"><seg n="727.1">Pourquoi quelqu’un nefrappe-t-il pas</seg>
+<seg n="727.2">d’un coup de devant [moi</seg>
+<seg n="727.3">à l’aide d’une épée</seg>
+<seg n="727.4">aiguisée-des-deux-côtés ?</seg>
+</s>
+<s n="728"><seg n="728.1">Infortuné que je suis, hélas!</seg>
+</s>
+<s n="729"><seg n="729.1">mais je suis mêlé (uni)</seg>
+<seg n="729.2">à un malheur affreux.</seg>
+<pb n="165"/>
+</s></p></sp>
+<sp>
+<speaker>LE SECOND MESSAGER.</speaker><p>
+
+<s n="730"><seg n="730.1">Tu-fus-af-</seg>
+<seg n="730.2">par cette défunte-ci [firmé</seg>
+<seg n="730.3">comme ayant la faute certes</seg>
+<seg n="730.4">de ces malheurs-ci et de ceux-là.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="731"><seg n="731.1">Mais de quelle manière aussi</seg>
+<seg n="731.2">s’est-elle détachée de la vie</seg>
+<seg n="731.3">par le meurtre?</seg>
+</s></p></sp>
+<sp>
+<speaker>LE SECOND MESSAGER.</speaker><p>
+
+<s n="732"><seg n="732.1">S’étant frap-</seg>
+<seg n="732.2">elle-même au-dessous du foie  [pée</seg>
+<seg n="732.3">de-sa-propre-main,</seg>
+<seg n="732.4">aussitôt qu’elle sut ce malheur</seg>
+<seg n="732.5">violemment-déploré de son fils.</seg>
+<seg n="732.6">| Strophe IV.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="733"><seg n="733.1">Hélas! malheur !</seg>
+<seg n="733.2">ces choses ne s’adapteront jamais</seg>
+<seg n="733.3">à un autre parmi les mortels</seg>
+<seg n="733.4">venant de ma faute;</seg>
+</s>
+<s n="734"><seg n="734.1">car moi j'ai tué toi,</seg>
+<seg n="734.2">moi l’infortuné, moi ;</seg>
+</s>
+<s n="735"><seg n="735.1">je dis la vérité.</seg>
+</s>
+<s n="736"><seg n="736.1">- Hélas! esclaves,</seg>
+<seg n="736.2">emmenez-moi au plus vite</seg>
+<seg n="736.3">emmenez-moi de-devant-les pieds(loin</seg>
+<seg n="736.4">moi, qui ne suis pas [d’ici)</seg>
+<seg n="736.5">plus qu’un homme de-néant.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="737"><seg n="737.1">Tu conseilles</seg>
+<seg n="737.2">des choses-utiles</seg>
+<seg n="737.3">si il y a quelque utilité</seg>
+<seg n="737.4">dans les malheurs.</seg>
+</s>
+<s n="738"><seg n="738.1">Car les malheurs</seg>
+<seg n="738.2">qui sont devant les pieds (présents)</seg>
+<seg n="738.3">sont les meilleurs</seg>
+<seg n="738.4">étant les plus-courts.</seg>
+<seg n="738.5">Antistrophe III.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="739"><seg n="739.1">Qu'il vienne, qu'il vienne,</seg>
+<seg n="739.2">qu'il paraisse le dernier</seg>
+<seg n="739.3">de mes meurtres</seg>
+<seg n="739.4">qui très-heureusement amène à moi</seg>
+<seg n="739.5">le jour qui-termine (suprème),</seg>
+</s>
+<s n="740"><seg n="740.1">qu’il vienne, qu’il vienne,</seg>
+<seg n="740.2">afin que je ne voie plus un autre jour.</seg>
+<pb n="167"/>
+</s></p></sp>
+<sp>
+<speaker>LE SECOND MESSAGER.</speaker><p>
+
+<s n="741"><seg n="741.1">Ces choses</seg>
+<seg n="741.2">sont à venir.</seg>
+</s>
+<s n="742"><seg n="742.1">Il faut faire quelque chose</seg>
+<seg n="742.2">des choses placées-devant-nous.</seg>
+</s>
+<s n="743"><seg n="743.1">Car il-y-a-lieu-de-s occuper</seg>
+<seg n="743.2">de ces choses</seg>
+<seg n="743.3">pour ceux auxquels il convient</seg>
+<seg n="743.4">de s’en occuper.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="744"><seg n="744.1">Mais</seg>
+<seg n="744.2">je recherche par-prières ces choses</seg>
+<seg n="744.3">dont je suis désireux.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE SECOND MESSAGER.</speaker><p>
+
+<s n="745"><seg n="745.1">Ne demande-</seg>
+<seg n="745.2">‘ maintenant rien;  [par-tes-prières</seg>
+</s>
+<s n="746"><seg n="746.1">ear il n’est pas de délivrance</seg>
+<seg n="746.2">d’une calamité fatale</seg>
+<seg n="746.3">pour les mortels.</seg>
+<seg n="746.4">Antistrophe IV.</seg>
+</s></p></sp>
+<sp>
+<speaker>CRÉON.</speaker><p>
+
+<s n="747"><seg n="747.1">Veuillez emmener loin d'ici</seg>
+<seg n="747.2">un homme infortuné,</seg>
+<seg n="747.3">moi qui ai tué non-spontanément et</seg>
+<seg n="747.4">O mon fils , et toi celle-ci. [toi,</seg>
+</s>
+<s n="748"><seg n="748.1">O malheureux que je suis, ‘</seg>
+<seg n="748.2">et je n’ai pas même</seg>
+<seg n="748.3">comment vers un-des-deux</seg>
+<seg n="748.4">je dois-diriger-mes-yeux,</seg>
+<seg n="748.5">et où je dois courir.</seg>
+</s>
+<s n="749"><seg n="749.1">Car toutes les choses</seg>
+<seg n="749.2">entre mes mains (présentes)</seg>
+<seg n="749.3">sont de-travers,</seg>
+</s>
+<s n="750"><seg n="750.1">mais un sort insupportable</seg>
+<seg n="750.2">s’est heurté quant à ces choses</seg>
+<seg n="750.3">contre la tête à moi.</seg>
+</s></p></sp>
+<sp>
+<speaker>LE CHOEUR.</speaker><p>
+
+<s n="751"><seg n="751.1"></seg>
+<seg n="751.2">est de beaucoup la première chose</seg>
+<seg n="751.3">de la félicité,</seg>
+</s>
+<s n="752"><seg n="752.1">mais il faut n’être-irréligieux</seg>
+<seg n="752.2">en rien</seg>
+<seg n="752.3">dansles choses certes enversles dieux,</seg>
+</s>
+<s n="753"><seg n="753.1">mais les grands mots</seg>
+<seg n="753.2">des orgueilleux ,</seg>
+<pb n="169"/>
+<seg n="753.3">ayant donné-en-échange à eux</seg>
+<seg n="753.4">des coups grands,</seg>
+<seg n="753.5">ont l’habitude d’enseigner</seg>
+<seg n="753.6">l'être sage</seg>
+<seg n="753.7">dans la vieillesse.</seg></s></p>
+</sp>
+</div>
+
+</div>
+
+</body>
+</text>
+</TEI>
