@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="work" n="Ant.">Antigone</title>
+                <title type="sub">Machine readable text</title>
+                <author n="Soph.">Sophocles</author>
+                <editor role="editor">M. Renloew</editor>
+                <editor role="editor">M. Bellaguet</editor>
+                <sponsor>Perseus Project, Tufts University</sponsor>
+                <principal>Gregory Crane</principal>
+                <respStmt>
+                    <resp>Prepared under the supervision of</resp>
+                    <name>Gregory Crane</name>
+                </respStmt>
+                <funder>Tufts University</funder>
+            </titleStmt>
+            <extent>About 83Kb</extent>
+            <publicationStmt>
+                <publisher>Trustees of Tufts University</publisher>
+                <pubPlace>Medford, MA</pubPlace>
+                <authority>Perseus Project</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Sophocles</author>
+                        <title>Sophocle: Antigone</title>
+                        <imprint>
+                            <pubPlace>Paris, France</pubPlace>
+                            <publisher>Librairie de L. Hachette</publisher>
+                            <date>1858</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="line" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n='$1'])">
+                    <p>This pointer pattern extracts line</p>
+                </cRefPattern>
+             </refsDecl>
+            <!--<refsDecl n="CTS">
+
+                <cRefPattern n="card" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                    <p>This pointer pattern extracts cards</p>
+                </cRefPattern>
+
+            </refsDecl>-->
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021" who="GRC">Basic formatting.</change>
+</revisionDesc>
+    </teiHeader>
+
+    <text xml:lang="grc">
+        <body>
+            <div type="edition" n="urn:cts:greekLit:tlg0011.tlg002.TBA" xml:lang="grc">
+               <div type="textpart" subtype="episode">
+<pb n="2"/>
+<sp>
+<speaker>ANTIGONE</speaker><p><s> Ismène, chère sœur, sais-tu un seul des maux réservés aux enfants d'Oedipe  que Jupiter n’ait pas encore répandu sur nous?</s>
+<s>Douleurs, humiliations, opprobres, hélas!</s>
+<s>malgré notre innocence, nous avons l’une et l’autre tout éprouvé dans notre malheur.
+
+
+<pb n="4"/> Et aujourd’hui quel nouvel édit le roi vient-il de faire publier dans toute la ville ?</s>
+<s>En es-tu instruite?</s>
+<s>ou bien ignores-tu qu'on menace nos amis de les traiter en ennemis?
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Antigone, aucune nouvelle agréable ou fâcheuse sur nos amis, n’est parvenue jusqu’à moi, depuis la perte de nos deux frères expirés en un jour sous les coups l’un de l’autre;</s>
+<s>l’armée des Argiens a disparu cette nuit, et je ne vois plus rien qui doive ajouter à notre bonheur ou à nos maux. 
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Je le sais, et je t'ai appelée hors du palais, pour n'être entendue que de toi.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Qu’y a-t-il?</s>
+<s>tu parais agitée de quelque inquiétude.
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Eh quoi! Créon ne vient-il pas d'accorder la sépulture à l'un de nos frères, et de la refuser indignement à l’autre?</s>
+<s>Il a,
+
+
+<pb n="6"/> dit-on, par un arrêt équitable et légitime, enseveli Étéocle avec les honneurs dûs aux mânes.</s>
+<s>Mais pour le malheureux Polynice, on assure que Créon a fait publier dans la ville la défense de l’ensevelir ou de le pleurer. Abandonné sans honneur, sans tombeau, son corps doit servir de pâture aux oiseaux dévorants.</s>
+<s>Voilà ce que le généreux Créon t’ordonne ainsi qu’à moi, oui à moi-même, et tu vas le voir paraître pour déclarer hautement ses volontés à ceux qui les ignorent.</s>
+<s>Il attache un grand prix à cette défense;</s>
+<s>car quiconque osera désobéir, sera condamné à périr au milieu de la ville, lapidé par les mains du peuple.</s>
+<s>Voilà ce que j'avais à te dire; et bientôt tu feras voir si tu es digne de ta race, ou si tu démens le noble sang dont tu es issue.
+
+
+<pb n="8"/>
+
+
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Hélas! Infortunée, s’il en est ainsi, que peut servir ma soumission ou ma désobéissance ?
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Vois si tu veux me seconder et agir avec moi.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Que veux-tu faire ?</s>
+<s>quel est ton dessein ?
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Tes mains m’aideront-elles à porter le cadavre?
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Quoi! tu prétends l’ensevelir, malgré la défense publiée dans la ville ?
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Oui, j'ensevelirai celui qui est mon frère et le tien, quoique tu le méconnaisses:</s> 
+
+<s>jamais on ne m’accusera de trahison.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> O malheureuse ! et la défense de Créon?
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Il n’a point le droit de m'’éloigner de ma famille.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Hélas!</s>
+<s>songe, ô ma sœur, que notre père mourut chargé .</s>
+<s>de haine et d’opprobre après s’être puni des crimes qu’il reconnut luimême, en s’arrachant les yeux de ses propres mains: sa mère, en même temps son épouse et sa mère, termina ses jours par un lien
+
+
+<pb n="10"/> fatal: nos deux frères en un seul jour, s’égorgeant l’un l’autre, hélas !</s>
+<s>ont péri sous leurs propres coups.</s>
+<s>Et nous, restées seules de notre famille, vois quelle mort plus affreuse encore nous est réservée, si, rebelles à la loi, nous bravons l’édit et la puissance de nos tyrans.</s>
+<s>Songe d’ailleurs que nous ne sommes que des femmes, incapables de combattre des hommes;</s>
+<s>et qu’enfin, soumises à des mattres plus puissants que nous, nous devons supporter ces rigueurs et de plus cruelles encore.</s>
+<s>Quant à moi, priant les mânes de me pardonner si je cède à la violence, je me soumettrai à ceux qui sont armés du pouvoir.</s>
+<s>Car c’est le comble de la folie d’entreprendre ce qui est audessus de nos forces.
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Je ne le presse plus; et quand même maintenant tu voudrais t’unir à moi, je refuserais ton secours.</s>
+<s>Mais vois ce que tu
+
+
+<pb n="12"/> veux faire.</s>
+<s>Pour moi, je l’ensevelirai.</s>
+<s>Il sera glorieux de mourir après l'avoir fait.</s>
+<s>Je reposerai avec un frère chéri, et j'aurai rempli mon devoir;</s>
+<s>car j'ai plus longtemps à plaire aux morts qu'aux vivants,</s>
+<s>puisque je dois reposer avec eux à jamais.</s>
+<s>Toi, si tu le veux, méprise les lois les plus sacrées.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Ce n’est point par mépris, ma sœur;</s>
+<s>mais braver la volonté d’une ville entière, je n’en ai pas le courage.
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Allègue ces vains prétextes;</s>
+<s>moi, je vais élever une tombe aux restes d’un frère chéri.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Ah! malheureuse, que je tremble pour toi!
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Ne crains rien pour ma vie;</s>
+<s>songe à la tienne.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Mais au moins ne découvre ton projet à personne;</s>
+<s>cache-le avec soin:</s>
+<s>pour moi, il restera enfermé dans mon sein.
+
+
+<pb n="14"/>
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Non, non: cours le révéler;</s>
+<s>tu m'offenseras bien plus de le taire, que de le publier.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Tu poursuis avec ardeur ce qui glace mon cœur d’effroi. 
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Mais je sais que je satisfais ceux à qui je dois plaire.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Oui, si tu peux réussir;</s>
+<s>mais c’est vouloir une chose impossible.
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Eh bien! je m’arréterai quand je ne pourrai plus agir.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Il faudrait avant tout ne point tenter ce qui est impossible.
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Si tu continues ce langage, tu allumeras ma haine,</s>
+<s>et tu mériteras celle du frère que je pleure.</s>
+<s>Laisse-moi avec ma témérité braver le sort qui m’attend;</s>
+<s>quels que soient les maux que j'éprouve, je mourrai toujours avec gloire.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Eh bien! puisque tu le veux, pars,</s>
+<s>sœur imprudente et pourtant fidèle à tes amis.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Soleil aux rayons d'or, œil du jour, enfin Thèbes aux 
+
+<pb n="16"/> sept portes te voit reparaître plus éclatant que jamais, tes feux ont éclairé les sources de Dircé, et ces guerriers venus d’Argos, avec leurs armes et leurs boucliers étincelants, ont fui d’une course rapide en agitant les rênes de leurs coursiers.</s>
+<s>A leur tête, Polynice, enflé de ses prétentions douteuses, venait assaillir nos campagnes, semblable à l'aigle qui, en poussant des cris aigus, fond sur la terre en déployant ses ailes aussi blanches que la neige; autour de lui s’agitaient des milliers d'armes et de casques à la crinière flottante.</s>
+<s>Planant sur nos demeures, il menaçait de toutes parts nos sept portes de ses lances avides de carnage; mais il a fui avant d’avoir pu s'abreaver de notre sang, avant que Vulcain et ses flammes aient envahi le faite de nos
+
+
+<pb n="18"/> tours. Il a fui:</s>
+<s>la voix bruyante de Mars retentissant à ses côtés, a chassé ce dragon ennemi.</s>
+<s>Car Jupiter déteste l'orgueil et la jactance.</s>
+<s>Voyant les Argiens se précipiter à grands flots, fiers de leurs armes d’or qu’ils agitent avec bruit, il lance sa foudre et renverse celui qui déjà se préparait à crier victoire du haut de nos murailles.</s></p>
+<p><s>Il tombe avec fracas sous le coup qui l’a frappé, ce forcené qui tout à l'heure s’élançait sur nous, respirant la fureur et la vengeance. Tel fut son sort;</s>
+<s>pour les autres, le redoutable Mars de son bras puissant leur envoie la mort sous mille formes différentes.</s>
+<s>Les sept chefs qui marchaient vers nos sept portes contre autant de chefs
+
+
+<pb n="20"/> thébains, ont laissé leurs armes d’airain à Jupiter vainqueur.</s>
+<s>Mais, hélas! ces deux infortunés, enfants du même père, enfants de la même - mère, tournant l’un contre l’autre leurs lances victorieuses, ont partagé le même trépas.</s></p> 
+<p><s>Cependant la Victoire au nom glorieux est venue apporter la joie à la belliqueuse Thèbes.</s>
+<s>Bannissons donc le souvenir des combats:</s>
+<s>durant la nuit entière, formons des chœurs de danses dans les temples des dieux;</s>
+<s>et que Bacchus, dieu de Thèbes, préside à nos jeux bruyants.</s>
+<s>Mais voici le nouveau roi de la contrée, le fils de Ménécée. Les événements que les dieux viennent de susciter l’amènent en ce
+
+
+<pb n="22"/> lieu. Il médite sans doute quelque projet; car il a convoqué cette assemblée de vieillards qu’un même ordre a réunis.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Vieillards, les dieux ont enfin calmé la tempête qu’ils avaient déchaînée contre Thèbes;</s>
+<s>c’est vous, seuls d’entre tous les citoyens, que j'ai voulu rassembler ici,</s>
+<s>connaissant votre respect pour le sceptre et la puissance de Laïus, votre attachement à Oedipe  pendant son règne, et après sa mort votre fidélité envers ses fils.</s>
+<s>Mais, puisque le même jour les a vus périr par un double trépas, expirant sous les coups de leurs mains criminelles, le sceptre et la puissance de ceux qui ne sont plus m’appartiennent par le droit de naissance.</s>
+<s>On ne peut connaître l'âme, les sentiments et le caractère d’un homme, avant qu’il se soit montré dans l'exercice de la puissance et des lois.</s>
+<s>Pour moi, je le 
+
+
+<pb n="24"/> déclare, tout homme chargé de gouverner une cité, s'il n'adopte pas les résolutions les plus sages, s’il laisse enchaîner sa langue par la crainte, je le regarde et l'ai toujours regardé comme un mauvais roi;</s>
+<s>et celui qui préfère l'intérêt d’un ami à celui de la patrie, je le méprise.</s>
+<s>J'en atteste Jupiter à qui rien n’est caché, jamais je ne tairai les maux qui viendraient menacer la paix des citoyens, jamais je n’accorderai mon amitié à l'ennemi de la patrie, persuadé que le salut de la patrie fait le nôtre, et que, si nous prospérons avec elle, nous ne manquerons point d'amis.</s>
+<s>C'est par de tels principes que je rendrai cette ville florissante;</s>
+<s>c'est dans le même esprit que j'ai fait proclamer l’édit relatif aux enfants d’Oedipe .</s>
+<s>Étéocle, qui est mort en combattant vaillamment pour sa patrie, sera enfermé dans la tombe avec tous les honneurs
+
+
+<pb n="26"/> dus aux mânes des héros;</s>
+<s>mais pour son frère, pour Polynice, qui n’est revenu de son exil qu’avec le désir de livrer aux flammes sa patrie et les dieux de ses pères, qui a voulu s’abreuver du sang des Thébains, et les emmener en esclavage, j'ai fait publier dans la ville la défense de l’ensevelir ou de le pleurer;</s>
+<s>qu’abandonné sans sépulture, son corps soit la proie des chiens et des vautours, et devienne un spectacle d'horreur.</s>
+<s>Telle est ma volonté.</s>
+<s>Jamais le méchant n’obtiendra de moi les honneurs dus à l’homme vertueux;</s>
+<s>mais quiconque aura bien servi l’État, vivant ou mort je l'honorerai également.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Tels sont tes décrets, fils de Ménécée, à l'égard de l'ami et de l’ennemi de la patrie.</s>
+<s>Morts et vivants, nous sommes tous également soumis à tes lois.
+
+
+<pb n="28"/>
+
+
+
+
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Veillez donc à l’exécution de mes ordres.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Charge de ce soin de plus jeunes que nous.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Des gardes sont déjà placés auprès du cadavre.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Qu’as-tu donc à nous recommander encore ?
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Une sévérité inflexible pour ceux qui désobéiraient à mes lois.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Personne n’est assez insensé pour désirer la mort.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Et tel sera en effet leur salaire.</s>
+<s>Mais souvent l'espoir du gain conduit l’homme à sa perte.
+</s></p></sp>
+<sp><speaker>LE GARDIEN</speaker><p><s> Prince, je ne te dirai point que la rapidité de ma course m’a mis hors d’haleine;</s>
+<s>car agité de mille pensées pendant le route, souvent je me retournais, prêt à revenir sur mes pas.</s>
+<s>J'entendais une voix secrète me dire à chaque instant:</s>
+<s>Malheureux, pouquoi courir au-devant du châtiment ?</s>
+<s>Puis, au contraire: nfortuné, qui t’arrète?</s>
+<s>Et si Créon vient à l’apprendre d’une autre bouche, comment échapperas-tu à son courroux?</s>
+<s>Au milieu de ces réflexions, je
+
+
+<pb n="30"/> n’avançais qu'avec lenteur,</s>
+<s>et ainsi le chemin le plus court devient long.</s>
+<s>Enfin je me suis décidé à venir dans ce palais.</s>
+<s>Quoique je ne puisse rien t'expliquèr, je vais parler cependant.</s>
+<s>Car je viens soutenu par l’espoir de ne souffrir que ce qui est ordonné par le destin.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Qu’y at-il? D'où vient le trouble qui t’agite?
+</s></p></sp>
+<sp><speaker>LE GARDIEN</speaker><p><s> Je vais dire d’abord ce qui me regarde: </s>
+<s>je n’ai point fait l’action, et j'ignore quel en est l’auteur.</s>
+<s>Il serait donc injuste de m’en faire porter la peine.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Que de précautions! quel soin d’envelopper ton récit ?</s>
+<s>Mais tu me parais avoir quelque nouvelle à m’apprendre.
+</s></p></sp>
+<sp><speaker>LE GARDIEN</speaker><p><s> On hésite toujours à remplir un fâcheux message.:
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Parle donc enfin, et retire-toi.
+</s></p></sp>
+<sp><speaker>LE GARDIEN</speaker><p><s> Eh bien, j’obéis.</s>
+<s>On est venu tout à l’heure ensevelir
+
+<pb n="32"/> le mort, on a répandu sur lui de la poussière, et les cérémonies funèbres ont été accomplies.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Que dis-tu ?</s>
+<s>Quel homme a eu cette audace ?
+</s></p></sp>
+<sp><speaker>LE GARDIEN</speaker><p><s> Je ne sais;</s>
+<s>la terre n’était ni entamée par la hache, ni creusée par le hoyau;</s>
+<s>le sol, ferme et sans blessure, n’était pas non plus sillonné par les roues d’un char; nul indice ne pouvait trahir le coupable.</s>
+<s>Lorsque le premier des gardiens de jour nous eut avertis, cet événement nous parut un prodige funeste.</s>
+<s>Le corps était caché sans être enseveli.</s>
+<s>On l'avait seulement couvert d’un peu de poussière, comme pour éviter le crime d’impiété.</s>
+<s>On ne voyait aucune trace de bête féroce ou de chien qui fût venu le déchirer.</s>
+<s>Alors des paroles menaçantes circulent parmi nous; un gardien en accuse un autre;</s>
+<s>on était près d’en venir aux mains;</s>
+<s>personne n’était là pour l'empècher.</s>
+<s>Chacun paraissait coupable, nul n’était convaincu, et
+
+
+<pb n="34"/> tous échappaient, grâce à cette incertitude.</s>
+<s>Nous étions prêts à saisir le fer rouge, à marcher à travers les flammes, à prendre les dieux à témoin, et à jurer que nous étions innocents, et aussi étrangers au projet qu’à l’exécution du crime.</s>
+<s>Enfin, voyant toutes nos recherches inutiles, un de nous ouvre un avis qui, nous frappant de crainte, nous fit à tous baisser la tête.</s>
+<s>Car nous n'avions rien à opposer, et nous ne savions comment le suivre sans péril.</s>
+<s>C'était de te faire un récit fidèle et de ne te rien cacher.</s>
+<s>Cet avis l’emporta, et c’est moi, malheureux, que le sort a chargé de ce triste message.</s>
+<s>Je suis donc ici contre mon gré, et sans doute aussi contre le tien: car on n’aime point celui qui apporte de fâcheuses nouvelles.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> O roi, plus je réfléchis, plus je crois reconnattre ici la main des dieux.
+
+
+<pb n="36"/>
+
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Cesse de m'irriter par de pareils propos, si tu ne veux faire voir en toi la vieillesse unie à la folie.</s>
+<s>Oses-tu bien, en effet, dire que les dieux prennent soin de cet impie après sa mort?</s>
+<s>Auraient-ils voulu, en l’inhumant eux-mêmes, honorer comme un bienfaiteur celui qui venait brûler leurs temples et leurs offrandes, et détruire leurs pays et leurs lois?</s>
+<s>Vois-tu les dieux honorer les méchants?</s>
+<s>Non.</s>
+<s>Mais depuis longtemps quelques citoyens mécontents de mes ordres murmuraient en secret contre moi, en secouant la tête:</s>
+<s>leur front se courbait avec peine sous mon joug, et ils n’avaient pour moi que de la haine.</s>
+<s>Ce sont eux, je le sais, qui, par l'espoir des récompenses, auront séduit les coupables.</s>
+<s>Car il n’est point de métal plus funeste à l’homme que l’argent.</s>
+<s>C’est lui qui ravage les villes,</s>
+<s>qui chasse les citoyens de leurs foyers,</s>
+<s>qui corrompt les âmes vertueuses et les porte au vice;</s>
+<s>c'est lui qui a enseigné aux hommes
+
+
+<pb n="38"/> toutes les perfidies, toutes les impiétés.</s>
+<s>Mais ceux que l’appât du gain a rendus criminels en recevront un jour le juste châtiment.</s>
+<s>Oui, j'en jure par le respect dont j’honore Jupiter (et pour toi, retiens bien le serment que je fais), si vous ne découvrez pas le coupable, si vous ne l’amenez point devant mes yeux, la mort ne suffira point pour votre supplice; mais suspendus en l'air tout vivants, pour prix de votre audace, vous apprendrez par quelles voies vous devez désormais chercher à vous enrichir, et vous saurez enfin qu’il est des bornes que doit respecter votre avidité.</s>
+<s>Car des gains illégitimes sont plus souvent funestes qu’avantageux.
+</s></p></sp>
+<sp><speaker>LE GARDIEN</speaker><p><s> Me permettras-tu de parler,</s>
+<s>ou faut-il me retirer aussitôt?
+
+
+<pb n="40"/>
+
+
+
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Ne sais-tu pas déjà combien tes discours me fatiguent ?
+</s></p></sp>
+<sp><speaker>LE GARDIEN</speaker><p><s> Blessent-ils tes oreilles, ou ton cœur?
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Que t'importe où je souffre ?
+</s></p></sp>
+<sp><speaker>LE GARDIEN</speaker><p><s> Le coupable blesse ton cœur; et moi, tes oreilles
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Ah ! quel insigne bavard !
+</s></p></sp>
+<sp><speaker>LE GARDIEN</speaker><p><s> Du moins ce n’est pas moi qui ai fait cette action.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Non sans doute, toi, qui pour de l'argent as vendu ta vie.
+</s></p></sp>
+<sp><speaker>LE GARDIEN</speaker><p><s> Hélas! quel malheur, quand on a une opinion, de s'arrêter à celle qui est fausse!
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Argumente là-dessus à loisir;</s>
+<s>mais si vous ne m’amenez le coupable, vous pourrez dire que des gains criminels engendrent des supplices.
+</s></p></sp>
+<sp><speaker>LE GARDIEN</speaker><p><s> Puisse-t.il être découvert !</s>
+<s>Mais qu’il le soit ou non, car c’est le sort qui en décidera, jamais tu ne me verras reparaître en ces lieux.</s>
+<s>Sauvé contre toute espérance, je dois aux dieux bien des actions de grâces.
+
+
+<pb n="42"/>
+
+
+
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> De toutes les merveilles de la nature, la plus étonnante, c’est l’homme.</s>
+<s>C’est lui qui, poussé par les vents orageux, traverse les mers blanchissantes, et fend les flots qui mugissent autour de lui;</s>
+<s>il fatigue la terre, cette déesse vénérable, immortelle, inépuisable, en déchirant son sein chaque année avec la charrue que tratne un laborieux coursier.</s>
+<s>L'oiseau au vol rapide, et la bête farouche et l’habitant des eaux, ne peuvent échapper à l’industrie de l’homme, aux replis de ses filets noueux.</s>
+<s>Son adresse triomphe des monstres sauvages des montagnes, et amène sous le joug le coursier à l’épaisse crinière, et le taureau fougueux et indompté.</s></p>
+
+
+<pb n="44"/> <p><s>Il cultive la parole et les sciences sublimes: il connaît les lois qui régissent les cités; il sait préserver sa demeure des glaces de l'hiver et des traits de l’orage.</s>
+<s>Fécond en ressources, il porte sa prévoyance jusque dans l'avenir.</s>
+<s n="190">Il a trouvé l’art d'échapper aux malades les plus cruelles;</s>
+<s n="189">mais son art est impuissant pour échapper à la mort.</s></p>
+<p><s n="191">Habile, industrieux au delà de toute croyance, il marche tantôt vers le bien, tantôt vers le mal:</s>
+<s>il use du pouvoir, pour mal interpréter les lois humaines et divines,</s>
+<s>digne d’en être privé, lorsque dans son audace il nourrit des projets criminels.</s></p>
+<p><s>Qu'un tel homme ne partage ni mon foyer, ni ma pensée!</s></p>
+
+
+<pb n="46"/> <p><s>Mais quel prodige vient frapper mes regards ? Je n’en puis douter: j'aperçois la jeune Antigone.</s>
+<s>Fille infortunée du malheureux Oedipe , quoi!</s>
+<s>est-ce bien toi qu’on amène ici? Est-ce toi qui as enfreint la défense du roi, et qu’on a trouvée coupable d’une telle imprudence?
+</s></p></sp>
+<sp><speaker>LE GARDIEN</speaker><p><s> Oui, c’est celle qui a commis le crime.</s>
+<s>Nous l’avons surprise ensevelissant le corps.</s>
+<s>Mais où est Créon ?
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Le voici qui sort à propos de son palais.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Qu'y a-t-il de nouveaü ?</s>
+<s>J'arrive heureusement pour l'apprendre.
+</s></p></sp>
+<sp><speaker>LE GARDIEN</speaker><p><s> Prince, l’homme ne peut jurer de rien;</s>
+<s>souvent une première résolution est démentie par une autre.</s>
+<s>Je m'étais promis de ne plus revenir: tes menaces m’avaient effrayé.</s>
+<s>Mais par un bonheur inespéré et que n’égale aucun plaisir, je reviens en dépit de
+
+
+<pb n="48"/> mes serments, et j’amène cette jeune fille, qui a été surprise préparant une tombe au cadavre.</s>
+<s>Le sort cette fois ne fut point consulté.</s>
+<s>C’est moi qui ai fait cette heureuse découverte, et moi seul.</s>
+<s>Maintenant, prince, qu’elle est entre tes mains, Lu peux à ton gré l’interroger et la convaincre.</s>
+<s>Pour moi, libre désormais, je mérite d’échapper au châtiment.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Cette femme que tu amènes, comment, en quel lieu l’as-tu arrêtée ?
+</s></p></sp>
+<sp><speaker>LE GARDIEN</speaker><p><s> Elle ensevelissait le mort;</s>
+<s>tu sais tout.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Comprends-tu bien ce que tu dis? Ton témoignage est-il exact ? 
+</s></p></sp>
+<sp><speaker>LE GARDIEN</speaker><p><s> Je l’ai vue ensevelissant le corps, malgré ta défense.</s>
+<s>— Est-ce répondre avec clarté?
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Et comment l’a-t-on aperçue ?</s>
+<s>comment l'a-t-on prise sur le fait ?
+</s></p></sp>
+<sp><speaker>LE GARDIEN</speaker><p><s> Voici comment la chose s’est passée: à peine revenus à notre poste, effrayés de tes terribles menaces, nous écartons toute La poussière qui cachait le corps; nous découvrous avec soin le
+
+
+<pb n="50"/> cadavre à demi corrompu, nous nous asseyons ensuite sur une des hauteurs voisines, à l'abri du vent et de l’odeur infecte qu'il nous aurait apportée, et par des paroles piquantes nous nous excitons matuellement à la plus exacte vigilance.</s>
+<s>Nous sommes demeurés en cet état, jusqu’au moment où le disque éclatant du soleil, parvenu au milieu de sa course, embrasait l’air de ses feux.</s>
+<s>Alors un vent impétueux élève tout à coup un tourbillon qui obscurcit les cieux; il couvre toute la plaine, et dépouille de leur feuillage les arbres dont elle est ombragée.</s>
+<s>Les airs sont remplis de ses ravages:</s>
+<s>pour nous, les yeux fermés, nous supportons le fléau déchaîné par le ciel.</s>
+<s>Lorsqu'enfin il s’est apaisé, nous voyons cette jeune fille: elle poussait des cris aigus et lamentables, comme un oiseau qui ne retrouve plus sa jeune couvée dans son nid désert.</s>
+<s>C’est ainsi qu'à l’aspect du cadavre dépouillé de sa poussière, elle éclate en gémissements et prouonce de terribles imprécations contre les auteurs de éet outrage: </s>
+
+
+<pb n="52"/> 
+<s>et ses mains aussitôt répandent sur le mort une poussière sèche, qu’elle arrose par trois fois de libations épanchées du sein brillant d'un vase d’airain.</s>
+<s>A cette vue, nous courons à elle, nous la saisissons, sans qu’elle marque aucun effroi;</s>
+<s>nous l'interrogeons sur ce qui a précédé, sur ce qu’elle vient de faire;</s>
+<s>elle ne nie rien, et son aveu m'est à la fois agréable et douloureux.</s>
+<s>Car échapper soi même au châtiment est un bonheur,</s>
+<s>y exposer ses amis, un tourment.</s>
+<s>Et cependant il est naturel que tous ces égards cèdent au soin de mon salut.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> O toi qui baisses le front vers la terre,</s>
+<s>déclares-tu avoir fait cette action, ou le nies-tu ?
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Je déclare l’avoir faite, et ne le nie point.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Toi, libre du soupçon qui pesait sur ta tête, porte tes
+
+
+<pb n="54"/> pas où tu voudras;</s>
+<s>mais toi, explique-toi en peu de mots.</s>
+<s>Connaissais-tu la défense que j'avais fait publier ?
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Je la connaissais.</s>
+<s>Pouvais-je l’ignorer?</s>
+<s>Elle était publique.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Et pourtant tu as osé enfreindre cette loi ?
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Ce n’était ni Jupiter, ni la justice compagne des dieux mânes, qui avaient publié une telle défense; non, ils n’ont pas dicté aux hommes de semblables lois.</s>
+<s>Je n'ai pas cru que tes ordres eussent assez de force pour que les lois non écrites, mais impérissables, émanées des dieux dussent fléchir sous un mortel.</s>
+<s>Ce n'est pas d’aujourd’hui, ce n’est pas d’hier qu’elles existent; elles sont éternelles, et personne ne sait quand elles ont pris naissance.</s>
+<s>Je ne devais donc pas, effrayée des menaces d’un mortel, m’exposer à la vengeance des dieux.</s>
+<s>Je savais, avant ton décret, que je devais mourir (c'est un destin inévitable);</s>
+<s>mais si je meurs avant le temps, c’est un bonheur à mes yeux.</s>
+<s>Qui pourrait, en effet, au milieu des maux sans nombre
+
+
+<pb n="56"/> qui affligent ma vie, ne pas regarder la mort comme un bienfait ?</s>
+<s>Aussi le sort qui m'attend ne me cause aucune douleur.</s>
+<s>Mais si j'avais laissé sans sépulture le fils de ma mère, ma douleur en serait vive;</s>
+<s>ce que j'ai fait ne m’en cause aucune.</s>
+<s>Si donc tu-taxes ma conduite de folie, cette accusation est peut-être celle d’un insensé.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> À ce caractère inflexible on reconnait la fille de l’inflexible Oedipe ;</s>
+<s>elle ne sait point céder au malheur.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Mais sache que ces âmes si fières s’abattent aisément.</s>
+<s>On voit le fer dont le feu avait accru la dureté se rompre et se briser sans effort.</s>
+<s>Un faible frein suffit pour dompter les plus fougueux coursiers.
+
+
+<pb n="58"/> L’orgueil sied mal à celui qui est esclave de ceux qui l’entourent.</s>
+<s>C’est donc peu pour cette insensée d’avoir osé m’outrager en violant mes lois;</s>
+<s>elle joint encore à son crime un second outrage;</s>
+
+<s>elle se glorifie et s’applaudit de son action.</s>
+<s>Mais ou j'ai cessé d'être homme, ou elle l'est devenue elle-même, si son audace demeure impunie.</s>
+<s>Oui, qu’elle soit fille de ma sœur, qu’elle me soit unie par des liens encore plus étroits, elle et sa sœur n’échapperont point au sort le plus terrible;</s>
+<s>car elle est sans doute complice du même crime.</s>
+<s>Qu’on la fasse venir.</s>
+<s>Je l'ai vue tout à l'heure dans le palais, égarée, hors d’ellemême.</s>
+<s>Souvent un cœur qui médite quelque forfait dans l'ombre se trahit lui-même avant l'exécution.</s>
+<s>Je hais surtout celui qui, convaincu d’un crime, cherche par des paroles à en colorer la noirceur! 
+</s></p></sp>
+
+<pb n="60"/>
+
+
+
+<sp><speaker>ANTIGONE</speaker><p><s> Te faut-il encore plus que ma mort?
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Non, rien:</s>
+<s>elle me suñfit.
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Que tardes-lu donc?</s>
+<s>Car rien ne me plaît de ta bouche (et puisse-t-il en être toujours ainsi),</s>
+<s>et mes discours ne doivent pas être pour toi plus agréables.</s>
+<s>Cependant quelle gloire plus belle obtiendrais-je que d’avoir donné la sépulture à un frère ?</s>
+<s>Tous ceux qui m'écoutent me combleraient eux-mêmes d’éloges, si leur langue n'était enchaînée par la crainte.</s>
+<s>Mais un des avantages des rois, c'est de pouvoir dire et faire ce qui leur plait.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Tu es la seule des enfants de Cadmus à penser ainsi.
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Ils pensent comme moi;</s>
+<s>mais ta présence leur ferme la bouche.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Eh bien ! que ne rougis-tu d'agir autrement qu'eux ?
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> On ne peut jamais rougir d’honorer un frère.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> N'était-il donc pas ton frère, celui qui périt en combattant contre lui?
+
+
+<pb n="62"/>
+
+
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Il l’était, et naquit des mêmes parents.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Et pourquoi donc l’outrager par les honneurs rendus à l’autre
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Ce n'est pas le témoignage que j'attends de celui qui est dans la tombe.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Mais un impie reçoit de toi les mêmes honneurs que lui.
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Il n'était point son esclave, mais son frère.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Il ravageait sa patrie;</s>
+<s>l’autre combattait pour elle.
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Cependant ce sont ces lois que Pluton nous impose.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s>  Le crime et la vertu ne doivent point avoir le même partage.
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Qui sait si dans les enfers on approuve ces maximes ?
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Jamais un ennemi, pas même après la mort, ne devient un ami.
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Je suis née pour partager l’amitié, et non pas la haine.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Va donc aux enfers; puisque tu as besoin d'aimer, aime ceux qui les habitent.</s>
+<s>Jamais, tant que je vivrai, une femme ne donnera ici des lois.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Mais sur le seuil du palais je vois Ismène tout en
+
+
+<pb n="64"/> larmes, tremblant pour sa sœur;</s>
+<s>un nuage couvre son front, ses traits sont altérés par une rougeur sanglante, et les pleurs baignent son beau visage.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Toi qui, cachée dans l'ombre de ce palais, cherchais, comme une vipère, à t’abreuver en secret de mon sang; je ne savais pas nourrir deux furies prêtes à renverser mon trône: parle, réponds-moi: diras-tu aussi avoir pris part à la sépulture, ou jureras-tu avoir tout ignoré ?
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Je suis coupable, si ma sœur me permet de le dire; j'ai pris part au crime, je dois partager l’accusation.
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> La justice ne te le permettra point, car tu n’as pas voulu me suivre, et moi, j’ai refusé ton secours.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Mais dans ton infortune, je ne crains point de m’associer à tes dangers. 
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Quels en sont les auteurs?</s>
+<s>Pluton et les mânes le savent: mais je n’aime point l'amitié qui ne se montre que dans les discours.
+
+
+<pb n="66"/>
+
+
+
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Ne me juge pas, ma sœur, indigne de mourir avec toi et d’avoir honoré celui qui n’est plus. °
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Ne cherche point à mourir avec moi, et ne t’attribue pas un ouvrage auquel tu n’as pas touché.</s>
+<s>C’est assez que je meure.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Et quelle vie, si je te perds, peut m'être encore chère ?
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Demande à Créon;</s>
+<s>tu as pour lui tant d'égards !
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Pourquoi m’afliger par cette inutile raillerie ?
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Ce n’est qu'à regret que je te raille ainsi.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Et quel autre moyen aurais-je à présent de te servir ?
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Sauve tes jours;</s>
+<s>je ne t'envie point ce bonheur.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s>Malheureuse que je suis! ne pourrai-je partager ton sort?
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Tu as mieux aimé vivre, et moi mourir,
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Mais ce n’est pas sans être avertie par mes discours.
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Oui, les tiens t'ont semblé sages;</s>
+<s>et les miens me semblent sages aussi.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Et cependant le crime fut égal entre nous.
+
+
+<pb n="68"/>
+
+
+
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Rassure-toi,</s>
+<s>tu vis encore;</s>
+<s>mais moi, depuis longtemps je suis morte à la vie, pour servir celui qui n’est plus.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Ces deux sœurs sont insensées, je n’en puis douter: l’une vient de le devenir, l’autre le fut toujours.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Prince, jamais la raison que la nature nous a donnée ne résiste à l'excès du malheur.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Certes tu n’avais pas la tienne, quand tu as voulu devenir complice d’un crime.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Seule et privée d’elle, comment pourrai-je supporter la vie?
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Ne dis pas: elle, car elle n'existe plus.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Tu ferais donc mourir l'épouse destinée à ton fils ?
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Il peut trouver encore d’autres seins à féconder.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Et jamais des nœuds aussi bien assortis.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Je ne veux point pour mes fils de femmes perverses.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Cher Hémon, quel est pour toi le mépris de ton père!
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> C’est trop me fatiguer, toi et ton hymen.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Priveras-tu ton fils d’une telle épouse?
+
+
+<pb n="70"/>
+
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> C'est Pluton qui devait briser ces noeuds.
+</s></p></sp>
+<sp><speaker>ISMÈNE</speaker><p><s> Sa mort est donc arrêtée.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Tu l’as dit, et je l'ai résolu.</s>
+<s>Plus de retards;</s>
+<s>gardes, qu'on les emmène dans le palais:</s>
+<s>désormais elles doivent vivre comme des femmes, et ne plus errer en liberté.</s>
+<s>Car les audacieux eux-mêmes prennent la fuite, quand ils envisagent les approches de la mort.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Heureux ceux qui n’ont jamais senti l’infortune! Car lorsque la main des dieux frappe une famille, les maux se succèdent sans cesse, et fondent sur toute sa postérité.</s>
+<s>Telle, quand les vents impétueux de la Thrace étendent sur les flots une obscurité profonde et bouleversent la mer, l’onde roule en bouillonnaut un sable noir que les vents soulèvent du fond des abimes,</s>
+<s>et les vagues viennent battre à grand bruit les rivages qui retentissent.</s></p>
+<p><s>Ainsi dans la famille des Labdacides, sur les antiques malheurs de
+
+
+<pb n="72"/>
+ceux qui ne sont plus, je vois s’accumuler des malheurs nouveaux;</s>
+<s>ils se perpétuent d’âge en âge, </s>
+<s>et sous la main du dieu qui la frappe, elle ne trouve aucun relâche.</s>
+<s>Un instant l'espérance avait lui sur les derniers rejetons de la famille d'Oedipe ; et voici qu’une poussière sanglante jetée sur un cadavre, des paroles imprudentes et des transports furieux ont détruit cette espérance.</s></p>
+<p><s>L'orgueil de l'homme, Ô Jupiter, peut-il jamais triompher de ta puissance, toi qui braves le sommeil à qui rien ne résiste, et le temps qui entraîne tout dans son cours?</s>
+<s>A jamais exempt de vieillesse, tu règnes en souverain dans le palais éclatant de l’Olympe.</s>
+<s n="356">Mais l’homme ne peut goûter un bonheur sans mélange.</s>
+<s n="355">Le passé, le présent et
+
+
+<pb n="74"/> l'avenir sont soumis à cette loi immuable.</s>
+<s n="357">Souvent l'espérance inconstante comble les vœux des mortels;</s>
+<s>souvent elle trompe leurs imprudents désirs.</s>
+<s>Elle se glisse secrètement dans leurs cœurs au moment où leur pied touche au bord de l’abtme.</s>
+<s>C’est une célèbre maxime d’un sage que le mal se présente sous l'apparence du bien à celui qu’un dieu pousse à sa perte,</s>
+<s>et que ses jours ne sont pas longtemps exempts de peines.</s>
+<s>Mais j’aperçois Hémon, le plus jeune de tes enfants, qui, afligé sans doute du sort d’Antigone, s'approche en gémissant sur son hymen déçu.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Nous le saurons bientôt mieux que les devins.</s>
+<s>Mon fils,
+
+
+<pb n="76"/> instruit de l'arrêt irrévocable porté contre celle qui devait être ton épouse, viens-tu faire éclater ta fureur contre un pére?</s>
+<s>ou, quels que soient mes décrets, te suis-je toujours cher ?
+</s></p></sp>
+<sp><speaker>HÉMON</speaker><p><s> Mon père, je suis soumis à tes lois:</s>
+<s>ce sont tes sages avis qui me dirigent, et je suis prêt à les suivre.</s>
+<s>Il n’est point d’hymen que je doive préférer à tes justes volontés.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Oui, mon fils, sacrifier tout aux volontés d’un père, voilà des sentiments qu’il faut toujours porter dans tou cœur.</s>
+<s>Car les hommes ne désirent élever dans leurs maisons des enfants dociles que pour les voir partager leur haine pour leurs ennemis, et honorer leurs amis, ainsi qu'ils les honorent eux-mêmes.</s>
+<s>Mais quiconque a donné le jour à des enfants pervers, qu’a-t-il fait qu’engendrer des tour.</s>
+<s>ments pour lui-même et des sujets de joie pour ses ennemis ?</s>
+<s>Que jamais, Ô mon fils, l'attrait du plaisir et l'amour d'une femme n’égarent
+
+
+<pb n="78"/> ta raison;</s>
+<s>et souviens toi qu’une méchante femme pour épouse est une triste possession.</s>
+<s>Et quel fléau plus grand qu’un indigne ami ?</s>
+<s>Bannis donc de ton cœur cette femme comme une ennemie cruelle, et laisse-la chercher aux enfers un autre époux.</s>
+<s>Car, puisque je l'ai convaincue d’avoir ouvertement, seule entre les Thébains, désobéi à mes ordres, je ne me démentirai point aux yeux des citoyens: elle mourra.</s>
+<s>Qu'elle invoque à loisir Jupiter, le protecteur des droits du sang.</s>
+<s>Si je nourris la rébellion dans mes proches, que sera-ce des étrangers ?</s>
+<s>Quiconque sait bien gouverner sa famille, saura aussi gouverner l’État avec justice.</s>
+<s>Un tel homme, je ne crains pas de le dire, saura bien commander, et saura aussi bien obéir;</s>
+<s>dans les orages de la guerre, il restera à son poste et sera pour ses alliés un défenseur fidèle et courageux.</s>
+<s>Mais celui dont l’orgueil enfreint les
+
+
+<pb n="80"/> lois, ou qui prétend commander à ceux qui gouvernent, jamais je ne lui donnerai d'éloges.</s>
+<s>Celui que l'État a reconnu pour maître, dans les grandes comme dans les petites choses, quoi qu’il ordonne, il faut lui obéir.</s>
+<s>L’anarchie est le plus grand des maux.</s>
+<s>C’est elle qui renverse les villes, qui détruit les familles, qui dans les combats répand parmi les guerriers le désordre et la fuite.</s>
+<s>Mais l’obéissance est la sûreté des hommes sages.</s>
+<s>Sachons donc maintenir l’ordre dans l'État, et ne souffrons pas qu’une femme nous commande.</s>
+<s>Il vaut mieux, s’il le faut, céder à un homme, et qu'on ne dise pas que des femmes ont pu nous vaincre.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Pour nous, si l’âge n’a point affaibli notre jugement, rien ne nous paraîl plus sage que ce discours.
+</s></p></sp>
+<sp><speaker>HÉMON</speaker><p><s>Mon père, les dieux ont donné aux hommes la raison, le p'us précieux de tous les biens.</s>
+<s>Elle vient de parler par ta bouche, je
+
+
+<pb n="82"/> ne puis, je ne saurais le nier.</s>
+<s>Mais d’autres aussi peuvent parler avec sagesse.</s>
+<s>Mon devoir est d'observer les actions, les paroles, les reproches dont tu peux être l’objet.</s>
+<s>Effrayé par ta présence, le citoyen tait les discours qui blesseraient tes oreilles:</s>
+<s>tandis que moi, je puis recueillir leurs secrets entretiens, entendre combien Thèbes gémit sur le sort de cette jeune fille. Quoi! la femme la plus innocente, pour l'action la plus belle, va périr de la mort la plus horrible,</s>
+<s>elle qui n’a point souffert que son frère tué dans les combats restât sans sépulture, et devint la proie des chiens dévorants et des vautours?</s>
+<s>Ne mérite-t-elle pas les honneurs les plus éclatants?</s>
+<s>Voilà les propos secrets qui circulent dans la ville.</s>
+<s>Pour moi, mon père, ta prospérité est mon bien le plus précicux.</s>
+<s>Et quel plus bel ornement pour un fils
+
+<pb n="84"/> que la gloire de son père, et pour un père que celle de ses enfants?</s>
+<s>Ne te persuade donc pas que la sagesse règne dans tes seuls discours, et non dans ceux des autres.</s>
+<s>Car ceux qui croient avoir seuls en par.</s>
+<s>tage la sagesse, l'éloquence et la raison, mis à découvert, ne possèdent plus rien.</s>
+<s>Mais le sage lui-même ne rougit jamais d'apprendre, et de ne point se roidir conre les conseils.</s>
+<s>Vois sur le bord des torrents grossis par les orages les arbres qui cèdent conserver leurs branches, tandis que ceux qui résistent sont déracinés.</s>
+<s>De même, celui qui s’obsfine à tendre la voile malgré l'orage est bientôt réduit à naviguer sur les débris de son vaisseau renversé.</s>
+<s>Calme donc ta colère et révoque ton arrêt.</s>
+<s>Car si, malgré ma jeunesse, j’ai quelque prudence, le premier des mortels, à mes yeux, est celui qui possè:lc toutes les lumières
+
+
+<pb n="86"/> de la raison;</s>
+<s>mais comme elles se trouvent rarement réunies dans l'homme, il y a encore de la gloire à suivre de sages conseils.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Prince, il te convient d'écouter ce qu’il y a de juste dans ce discours; et toi aussi, écoute ton père;</s>
+<s>car vous avez sagement paré tous les deux.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Ainsi, à mon âge, nous recevrons des leçons de prudence d’un homme aussi jeune !
+</s></p></sp>
+<sp><speaker>HÉMON</speaker><p><s> Ne crois que ce qui est juste.</s>
+<s>Si je suis jeune, ce n’est point mon âge, mais mes conseils qu’il faut examiner.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Ton avis est donc d’honorer ceux qui désobéissent aux lois?
+</s></p></sp>
+<sp><speaker>HÉMON</speaker><p><s> Je ne t’engagerai jamais à honorer les méchants.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Et n'est-ce point là son caractère?
+</s></p></sp>
+<sp><speaker>HÉMON</speaker><p><s> Ce n’est pas ce que pense le peuple de Thèbes.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Est-ce donc aux Thébains à me dicter les ordres que je dois donner ?
+</s></p></sp>
+<sp><speaker>HÉMON</speaker><p><s> Vois-tu donc que tu parles en jeune homme ?
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Et quel autre que moi doit commander dans cette contréc?
+
+
+<pb n="88"/>
+
+
+</s></p></sp>
+<sp><speaker>HÉMON</speaker><p><s> L'État n’est plus un État, dès qu’il est la propriété d'un seul homme.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> L'État n'est-il point regardé comme appartenant à celui qui gouverne ?
+</s></p></sp>
+<sp><speaker>HÉMON</speaker><p><s> Oui: mais alors tu régnerais seul sur un pays désert.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> On voit bien qu’il défend cette femme.
+</s></p></sp>
+<sp><speaker>HÉMON</speaker><p><s> Oui, si tu es femme toi-même;</s>
+<s>car ce sont tes intérêts qu'avant tout je défends.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Fils dénaturé, tu accuses ton père ?
+</s></p></sp>
+<sp><speaker>HÉMON</speaker><p><s> Quand je lui vois faire une action injuste.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Suis-je donc injuste de soutenir mes droits ?
+</s></p></sp>
+<sp><speaker>HÉMON</speaker><p><s> Ce n'est pas les soutenir que de fouler aux pieds le respect des dieux.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Cœur perfide, subjugué par une femme!
+</s></p></sp>
+<sp><speaker>HÉMON</speaker><p><s> Tu ne me verras jamais céder à de honteuses passions.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Tu ne parles cependant que pour elle.
+</s></p></sp>
+<sp><speaker>HÉMON</speaker><p><s> Je parle pour toi, pour moi, pour les dieux des enfers.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Jamais tu ne l’épouseras vivante.
+
+
+<pb n="90"/>
+
+
+</s></p></sp>
+<sp><speaker>HÉMON</speaker><p><s> Elle mourra donc?</s>
+<s>Mais elle ne mourra pas seule.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Quoi! oses-tu bien me menacer?
+</s></p></sp>
+<sp><speaker>HÉMON</speaker><p><s> Est-ce te menacer que de combattre des raisons frivoles ?
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Insensé, toi-même tu paieras cher tes leçons de sagesse.
+</s></p></sp>
+<sp><speaker>HÉMON</speaker><p><s> Si tu n’étais mon père, je dirais que ta raison s'égare.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Vil esclave d’une femme, cesse de misérables propos.
+</s></p></sp>
+<sp><speaker>HÉMON</speaker><p><s> Tu veux donc parler seul, et parler sans rien entendre?
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> En vérité?</s>
+<s>Mais souviens-toi, j’en jure par l’Olympe, que tu ne m’auras point impunément outragé par tes reproches.</s>
+<s>Qu'en amène cette femme odieuse, afin qu’elle expire à l'instant, sous les yeux et en présence de son amant.
+</s></p></sp>
+<sp><speaker>HÉMON</speaker><p><s> Non, ce n’est point à mes yeux, garde-toi de le croire, ce n’est point en ma présence qu’elle périra; pour toi, tu ne me verras plus, et je te laisse exercer tes fureurs, au milieu des läches amis qui les souffrent.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> O roi, il est sorti, transporté de colère.</s>
+<s>Un coeur comme le sien, dans son désespoir, est terrible. 
+
+
+<pb n="92"/>
+
+
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Eh bien! qu’il agisse avec ses prétentions au-dessus de l'humanité.</s>
+<s>Pour ces deux femmes, il ne les délivrera point de la mort.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Quoi!</s>
+<s>toutes deux tu veux les faire périr ?
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> J'épargnerai celle qui n’a point touché le corps: tu as raison.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Et quel supplice prépares-tu à l’autre ?
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Conduite dans un lieu désert où les hommes n'aient laissé aucune trace, je l’enfermerai vivante dans la profondeur d’uu rocher souterrain, avec assez de nourriture pour éviter le sacrilége, el épargner à toute la ville le crime de sa mort.</s>
+<s>Qu’elle invoque alors Pluton, e seul dieu qu’elle honore; elle obtiendra peut-être de ne pas mourir, ou pie elle apprendra combien sont inutiles les hunneurs que l'on rend Aux mânes.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Amour, invincible, indomptable amour, toi qui frappes l’homme puissant, toi qui reposes sur les joues délicates d’une jeune fille, toi qui traverses les mers et pénètres sous le chauine 
+
+
+<pb n="94"/> rustique, </s>
+<s>ni les dieux immortels, ni l’homme qui ue vit qu’un jour, rien n’échappe à ta puissance,</s>
+<s>et le cœur que tu possèdes est en proie à la fureur.</s>
+<s>C’est toi qui entraînes l’homme juste à l'injustice et au crime;</s>
+<s>c'est toi qui viens de susciter cette querelle entre le père et le fils.</s>
+<s>L'amour qu’inspirent les yeux d’une jeune beauté triomphe de tout: il préside avec les dieux aux lois de la nature:</s>
+<s>tels sont les jeux de l’invincible Vénus.</s>
+<s>Moi-même en ce moment, rebelle aux lois de Créon, je ne puis retenir la source de mes larmes, à la vue d’Antigone marchant vers la demeure où dorment tous les mortels.
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Citoyens de Thèbes ma patrie, voyez Antigone entrer
+
+
+<pb n="96"/> dans le sentier fatal, et pour la dernière fois contempler la clarté du soleil: je ne le verrai plus!</s>
+<s>Le dieu des enfers, dont tout est la proie, me conduit vivaute aux rives de l’Achéron, avant que j'aie goûté les douceurs de l’hymen,</s>
+<s>avant que les chants d’hyménée aient retenti pour moi;</s>
+<s>l’'Achéron sera mon époux.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Aussi que de gloire, que d'éloges vont t’'accompagner dans ce sombre asile de la mort! Sans avoir eu à souffrir les lenteurs de la maladie ni la honte de l’esclavage, seule d’entie les mortels, tu descendras libre et vivante dans l’empire de Pluton.
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Je sais de quelle mort déplorable la Phrygienne, fille de Tantale périt au sommet du Sipyle, où comme un lierre flexible le rocher croissant autour d’elle l’enveloppa.</s>
+<s>Et maintenant, exposée aux pluies, si j’en crois la renommée, sa tête est couverte de neiges
+
+
+<pb n="98"/> éternelles, et de ses paupières s’échappent des pleurs qui baignent son sein sans jamais tarir.</s>
+<s>Le destin me prépare un semblable tombeau.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Elle était déesse, et fille des dieux;</s>
+<s>mais nous ne sommes que des mortels, issus de mortels comme nous.</s>
+<s>Aussi ta mort sera-t-elle glorieuse, puisque ton sort est semblable à celui des demidieux.
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Hélas! on rit de ma misère!</s>
+<s>Pourquoi, au nom des dieux de la patrie, m’insulter avant ma mort, lorsque je n'ai point encore disparu de la terre?</s>
+<s>O ma patrie, o fortunés citoyens! sources de Dircé! bois sacré de la belliqueuse Thèbes, je vous prends à témoin; dans quel abandon, par quelles lois cruelles, je vais être ensevelie dans une prison qui doit me servir de tombeau.</s>
+<s>Ah! malheureuse! <gap reason="ellipsis"/>  
+
+
+<pb n="100"/> 
+qui ne dois habiter ni avec les vivants, ni avec les morts!
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Emportée par un excès d’audace sur le seuil élevé de la justice, tu es retombée en arrière: Ô ma fille,</s>
+<s>tu expies sans doute les crimes de ton père!
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Tu as réveillé pour moi les plus cruels souvenirs, le malheur d’un père qui a frappé trois générations, et cette fatalité qui a pesé sur l’illustre famille des Labdacides.</s>
+<s>Fatal hymen de ma mère! embrassement incestueux qui avez uni un père et une mère infortunée, et d'où je naquis pour le malheur !</s>
+<s>Chargée d’imprécations, privée du bonheur de l'hymen, je vais rejoindre les auteurs de mes jours.</s>
+<s>Mon frère, o quelle funeste union tu as formée! En mourant, tu m’associes vivante à ton trépas.
+
+
+
+<pb n="102"/>
+
+
+
+
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Honorer les morts est une espèce de piété;</s>
+<s>mais la puissance doit être respectée dans ceux qui commandent:</s>
+<s>la fierté de ton caractère t'a perdue.
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Sans amis, sans époux, sans être pleurée, malheureuse, on m’entratne dans cette route qui m'attend.</s>
+<s>Je ne dois plus voir l’œil sacré du jour, infortunée !</s>
+<s>Et mon sort ne sera point pleuré: aucun ami n’en gémira.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Ne savez-vous pas que ces plaintes, ces lamentations qui précèdent le trépas, n’auraient point de terme, si elles servaient aux coupables?</s>
+<s>Emmenez-la donc sans délai;</s>
+<s>et qu’enfermée dans un tombeau souterrain, ainsi que je l'ai ordonné, elle y soit abandonnée seule, soit pour mourir, soit pour vivre encore ensevelie dans ce ténébreux séjour.</s>
+<s>Nous serons purs de sa mort,</s>
+<s>et elle aura cessé d’hae biter sur la terre.
+
+
+<pb n="104"/>
+
+
+
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> O tombeau, lit nuptial, demeure souterraine que je ne quitterai jamais, je vais, dans ton sein, rejoindre ceux de mon sang, que Proserpine a reçus presque tous parmi les morts, et dont je péris la dernière et la plus misérable, avant que le destin ait marqué le terme de mes jours.</s>
+<s>Mais là du moins, j'en nourris l’espoir, ma présence sera chère à mon père, ainsi qu'à toi, ma mère, et à toi, mon frère chéri:</s>
+<s>car c’est moi qui de mes propres mains enlevai vos corps inanimés, leur accordai les derniers honneurs, les arrosai des libations funèbres.</s>
+<s>Et maintenant, o mon cher Polynice, pour avoir enseveli tes restes, voilà ma récompense.</s>
+<s>Cependant je t'ai honoré aux yeux des hommes sensés.</s>
+<s>Jamais, si j'eusse été mère, ou qu’un époux fût demeuré sans sépulture, je n’aurais, au mépris des lois de, l'État, accompli ce dangereux devoir.</s>
+<s>Tu t’étonnes peut-être?</s>
+<s>Ecoute.
+
+
+<pb n="106"/> Après la mort d’un époux, un autre aurait pu le remplacer, et un second fils aurait réparé la perte du premier.</s>
+<s>Mais puisque les auteurs de mes jours reposent tous deux dans la tombe, un frère ne peut plus naître pour moi.</s>
+<s>Voilà par quels sentiments, oubliant tout pour toi, je t'ai rendu, Ô frère chéri, un honneur que Créon regarde comme un crime et une horrible audace.</s>
+<s>Et maintenant, il m'entraine à la mort, avant que j'aie connu les douceurs de l’hymen, la tendresse d’un époux et le bonheur d’être mère.</s>
+<s>Ainsi, malheureuse, seule, sans amis, je descends vivante dans la demeure souterraine des morts.</s>
+<s>Quel crime ai-je commis envers les dieux ?</s>
+<s>Que me sert-il, dans mon infortune, de lever encore les yeux vers le ciel ?</s>
+<s>Quel secours implorer, lorsque pour prix de ma piété, je suis traitée comme un impie ?</s>
+<s>Si les dieux approuvent ma mort, je porterai, sans me plaindre, la peine de mon crime;</s>
+<s>mais si je suis innocente, je ne
+
+
+<pb n="108"/> souhaite pas à mes ennemis plns de maux qu’ils ne m’en font injustement souffrir.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Les mêmes transports qui agitaïent son âme la possèdent encore.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Tant de lenteur pourra coûter des larmes à ceux qui la conduisent.
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> Hélas! cette parole est l'arrêt de ma mort.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Ne te flatte pas que ma volonté demeure sans effet.
+</s></p></sp>
+<sp><speaker>ANTIGONE</speaker><p><s> O Thèbes, Ô ma patrie, dieux de mes pères. plus de retard, on m’entraine.</s>
+<s>Voyez, chefs des Thébains, une princesse, seul reste du sang des rois, voyez quel outrage elle reçoit, et de quelles mains, pour avoir rempli les devoirs de la piété.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Danaë fut aussi privée de la clarté des cieux,</s>
+<s>au sein
+
+
+<pb n="110"/>
+
+
+de sa prison d’airain, cachée à tous les yeux et captive dans son tombeau.</s>
+<s>Et pourtant son origine était illustre, Ô ma fille, et Jupiter avait fécondé son sein par une pluie d’or.</s>
+<s>Mais la puissance du destin est une puissance invincible.</s>
+<s>Ni les orages, ni Mars, ni les remparts, ni les vaisseaux dont les flancs noirs sont battus par les ondes ne peuvent s’y soustraire.</s></p>
+<p><s>Il fut aussi enchainé l'impetueux fils de Dryas, roi des Edoniens; pour prix de sa violence et de ses emportements, Bacchus l’enveloppa dans des liens de pierre.</s>
+<s>Telle est la vengeance terrible qui découle de la fureur.</s>
+<s>L’impie reconnnt alors le dieu que, dans son dé lire, il avait blessé par d’insolents discours.</s>
+<s>En effet, il avait troublé ses prêtresses dans leurs saints transports, éteint leurs flambeaux sacrés, et offensé les Muses qui chérissent l’harmonie.</s></p>
+<p><s>Non loin des roches Cyanées qui séparent les deux mers, sur les
+
+
+<pb n="112"/> rivages du Bosphore et du Salmydesse de Thrace, <gap reason="ellipsis"/> le dieu Mars, adoié en ces lieux, a vu les fils de Phinée défigurés par une exécrable blessure, rendus aveugles par une cruelle marâtre, et leurs yeux percés, hélas! dans leurs orbites par des mains sanglantes et par les pointes des navettes.</s>
+<s>Les malheureux, consumés de douleur, déploraient leur sort funeste, et l’hymen fatal de leur mère d’où étaient sortis des fils infortunés;</s>
+<s>et cependant elle descendait de l’antique famille des Érechthides.</s>
+<s>Fille de Borée, elle avait été nourrie dans des antres écartés, au milieu des orages paternels, et aussi vite que les coursiers elle parcourait les plaines de glace: elle était du sang des dieux.</s>
+<s>Mais elle aussi ressentit les coups des immortelles Parques, Ô ma fille.
+</s></p></sp>
+<sp><speaker>TIRÉSIAS</speaker><p><s> Chefs des Thébains, j'arrive avec celui qui me conduit
+
+
+<pb n="114"/> et qui voit pour nous deux;</s>
+<s>car un aveugle ne peut marcher sans le secours d’un guide.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Respectable Tirésias, quel motif t’amène ?
+</s></p></sp>
+<sp><speaker>TIRÉSIAS</speaker><p><s> Je vais le dire;</s>
+<s>toi, obéis au devin.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> J'ai toujours suivi tes avertissements.
+</s></p></sp>
+<sp><speaker>TIRÉSIAS</speaker><p><s> Aussi tu gouvernes heureusement cette ville.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Oui, je reconnais les services que j'ai reçus de toi.
+</s></p></sp>
+<sp><speaker>TIRÉSIAS</speaker><p><s> Songe que tu marches encore sur le bord d’un précipice.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Qu’y a-t-il ?</s>
+<s>Tes paroles me font trembler,
+</s></p></sp>
+<sp><speaker>TIRÉSIAS</speaker><p><s> Tu le sauras, si tu écoutes ce que présage mon art.</s>
+<s>Assis sur l’antique siége augural, au lieu où étaient rassemblés des oiseaux de toute espèce, tout à coup j’entendis un bruit étrange d’oiseaux furieux, qui avec des cris sauvages se déchiraient les uns les
+
+
+<pb n="116"/> autres de leurs serres ensanglantées. Je le reconnus;</s>
+<s>le rapide battement de leurs ailes était un signe certain.</s>
+<s>Aussitôt alarmé, j'essayai d'offrir un sacrifice sur le feu des autels;</s>
+<s>mais la victime ne jetait point une flamme brillante;</s>
+<s>les chairs se couvrant d’une sueur noirâtre se réduisaient en cendres,</s>
+<s>la fumée s'en échappait en sifflant, les entrailles étaient enlevées et dispersées,</s>
+<s>et les cuisses des victimes s'étaient séparées de la graisse qui les enveloppait.</s>
+<s>Tels sont les détails que j’appris de cet enfant, présages obscurs d’un sacrifice inutile;</s>
+<s>car cet enfant me guide, et moi je guide les autres.</s>
+<s>C’est l’arrét que tu as rendu qui vient d’attirer ces malheurs sur la ville.</s>
+<s>Car les autels et les foyers sacrés sont couverts deslambeaux du cadavre du malheureux fils d’Oedipe , restes des chiens et des vautours,</s>
+<s>et les dieux ne reçoivent plus nos prières, ni notre encens, ni la flamme de nos sacrifices;</s>
+<s>les oiseaux même, abreuvés de sang humain, ne fout plus en-
+
+
+<pb n="118"/> tendre que des cris sinistres.</s>
+<s>Songes-y donc, Ô mon fils:</s>
+<s>car l'erreur est commune à tous les mortels;</s>
+<s>mais lorsqu'un homme se trompe, il est sage, il est heureux, s’il répare les maux causés par son erreur, et s’il ne demeure point inébranlable.</s>
+<s>L'opiniâtreté est mère de l’erreur.</s>
+<s>Cesse donc de poursuivre un mort, ne frappe pas un corps insensible.</s>
+<s>Quel courage y a-t-il à tuer un mort une seconde fois ?</s>
+<s>Tel est le sage conseil que ton intérêt m’inspire;</s>
+<s>il est doux d’écouter les avis de la prudence, lorsqu'ils nous sont utiles.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Vieillard, vous venez tous, comme autant d’archers, lancer vos traits contre moi; et les devins eux-mêmes troublent mon repos;</s>
+<s>quant à mes proches, il y a déjà longtemps qu’ils m'ont vendu et trahi.</s>
+<s>Amassez à loisir de vos mains avides l’or des Sardes et tous les trésors de l’Inde;</s>
+<s>mais jamais vous ne l’ensevelirez. Non, quand
+
+
+<pb n="120"/> les aigles de Jupiter iraient porter les lambeaux sanglants de ce cadavre jusque sur son trône;</s>
+<s>non, pas même alors dans la crainte d'une telle profanation, je ne le laisserai inhumer.</s>
+<s>Je sais trop bien que les dieux sont à l'abri des profanations des mortels.</s>
+<s>Vieillard, les hommes les plus habiles s’exposent à échouer honteusement, lorsque l'appât du gain leur dicte de honteux discours.
+</s></p></sp>
+<sp><speaker>TIRÉSIAS</speaker><p><s> Hélas !</s>
+<s>quel homme peut connaître, ou concevoir...
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Quoi!</s>
+<s>que nous annonce encore cette sentence vulgaire ?
+</s></p></sp>
+<sp><speaker>TIRÉSIAS</speaker><p><s> Combien la prudence est préférable à tous les autres biens !
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> D'autant plus que, selon moi, l’imprudence est le plus grand des maux.
+</s></p></sp>
+<sp><speaker>TIRÉSIAS</speaker><p><s> Et voilà le mal dont en ce moment tu es atteint.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Je ne veux point rendre à un devin injures pour injures.
+</s></p></sp>
+<sp><speaker>TIRÉSIAS</speaker><p><s> Et pourtant tu m'outrages, en accusant mes prédictions d’impostures.'
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Toule la race des devins est avide d'argent.
+
+
+<pb n="122"/>
+
+
+</s></p></sp>
+<sp><speaker>TIRÉSIAS</speaker><p><s> Et celle des tyrans aime les profits honteux.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Sais-tu que c’est à un roi que s’adressent les paroles ?
+</s></p></sp>
+<sp><speaker>TIRÉSIAS</speaker><p><s> Je le sais;</s>
+<s>car c'est grâce à moi que tu as sauvé l’État.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Tu es un devin habile; mais tu te plais dans l'injustice.
+</s></p></sp>
+<sp><speaker>TIRÉSIAS</speaker><p><s> Tu me forceras de découvrir ce que je voulais tenir en fermé dans mon cœur.,
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Découvre-le, mais sans que la cupidité te fasse parler.
+</s></p></sp>
+<sp><speaker>TIRÉSIAS</speaker><p><s> C’est en effet dans un intérêt que je parle, mais dan le tien.:
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Sache cependant que tu ne me tromperas pas.
+</s></p></sp>
+<sp><speaker>TIRÉSIAS</speaker><p><s> Eh bien ! sache à ton tour que le soleil n’achèvera poin encore plusieurs fois sa carrière, sans qu’un fruit de ton sang ait payé par son trépas la mort de celle que tu as indignement ensevelie dan la terre et enfermée vivante dans un tombeau.</s>
+<s>Tu retiens ici au dieux des enfers un cadavre que tu as privé de la sépulture et de
+
+
+<pb n="124"/> honneurs funèbres.</s>
+<s>C’est un pouvoir que tu n’as pas, que n’ont pas même les dieux du ciel, et que la violence seule t’a donné.</s>
+<s>Aussi les Furies vengeresses, ces déesses puissantes de l’enfer, qui suivent le crime pour le punir, s’apprétent à t’envoyer de semblables malheurs.</s>
+<s>Vois à présent si la cupidité m’a dicté ce langage.</s>
+<s>Car bientôt vont éclater dans ton palais les gémissements des hommes et des femmes.</s>
+<s>Tu verras les peuples se lever en armes contre toi, partout où les chiens, les monstres sauvages ou les vautours auront porté les lambeaux sanglants de leurs chefs et souillé de cette odeur impure les villes qui renferment leurs foyers.</s>
+<s>Tels sont, puisque tu as allumé mon courroux, les traits que, comme un archer habile, j’ai enfoncés dans ton cœur, traits assurés, dont tu ne pourras éviter les brûlantes atteintes.</s>
+<s>Enfant, conduis mes pas vers ma demeure; et que désormais il décharge sa fureur sur de plus jeunes que moi; qu'il apprenne à 
+
+<pb n="126"/> maintenir sa langue dans le silence, et son âme dans des sentiments plus modérés.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Le devin, prince, s’est retiré en lançant d’affreuses prédictions;</s>
+<s>et nous savons, depuis ma jeunesse jusqu’au temps où l’âge a blanchi mes cheveux, que jamais l'événement n’a démenti ses oracles.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Et moi aussi je l’ai reconnu, et mon esprit se trouble.</s>
+<s>Il m'en coûte de céder;</s>
+<s>mais si je résiste, je verrai en outre ma résistance punie par le malheur. >
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> La prudence est nécessaire, fils de Ménécée.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Que faut-il donc faire ?</s>
+<s>Parle,</s>
+<s>je suis prêt à obéir.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Va donc, et retire la jeune fille de sa prison souterraine;</s>
+<s>puis élève un tombeau à celui qui en est privé.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Voilà donc ton avis, et tu crois que je dois céder ?
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Oui, prince, et sans perdre un moment.</s>
+<s>La vengeance des dieux accourt d’un pied léger, et frappe soudain les coupables,
+
+
+<pb n="128"/>
+
+
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Hélas ! c'est avec peine que je renonce à mon projet, mais j'y renonce pourtant:</s>
+<s>il ne faut pas lutter contre la nécessité.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Va donc, et ne remets pas ce soin à d’autres qu’à toi-même.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Je pars à l'instant:</s>
+<s>allez, eaclaves présents et absents, courez, la hache à la main, courez vers la montagne. <gap reason="ellipsis"/> </s>
+<s>Pour moi, puisque j'ai pris de nouveaux sentiments, après l'avoir enchainée, je vais la délivrer moi-même.</s>
+<s>Car je crains que le parti le plus sage ne soit d'observer les lois établies.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Toi qu’on adore sous des noms divers, toi la gloire de la fille de Cadmus et le rejeton du paissant maître du tonnerre, dieu fraise de la célèbre Italie, qui présides avec Cérès aux fêtes solennelles d'Éleusis, ô Bacchus, toi qui habites la ville chérie des bacchantes, Thèbes, sur les rives de l’Isménus, jadis ensemencées des dents d’un cruel dragon;</s>
+<s>pour toi, la flamme brillante des sacrifice:
+
+
+<pb n="130"/> s’élève sur la montagne au double sommet que les nymphes de Coryce, les bacchantes, se plaisent à parcourir, et qu’arrose la source de Castalie.</s>
+<s>Tu traverses les montagnes de Nysa, dont les sommets sont couronnés de lierre et les coteaux couverts de vignes verdoyantes, et des chants d’allégresse saluent ta présence, lorsque tu visites les murs de Thèbes, </s>
+<s>de toutes les villes la plus chère à tes yeux et à ceux de ta mère consumée par la foudre.</s>
+<s>Et maintenant qu’un fléau terrible menace ses nombreux citoyens, franchis d’un pied léger les sommets du Parnasse, ou les flots retentissants de l’Eubée.</s>
+<s>O toi qui conduis le chœur des astres étincelants et qui présides aux chants nocturnes,
+
+
+<pb n="132"/> fils de Jupiter, parais à nos regards avec les filles de Naxos, les Thyades qui t’accompagnent, et qui toute la nuit, dans leurs divins transports, forment des danses en l’honneur de Bacchus leur souverain.
+</s></p></sp>
+<sp><speaker>LE MESSAGER</speaker><p><s> Vous qui habitez près du palais de Cadmus et d’Amphion, il n’est point d'homme que je puisse considérer comme heureux ou malheureux tant qu'il existe;</s>
+<s>car sans cesse la fortune relève, Ja fortune renverse la prospérité et le malheur, et nul devin ne peut lire l'avenir dans le présent.</s>
+<s>Créon me paraissait digne d'envie;</s>
+<s>libérateur de la ville de Cadmus, maître puissant de ces contrées, il régnait;</s>
+<s>des enfants généreux ajoutaient à sa gloire.</s>
+<s>Maintenant tout a disparu.</s>
+<s>Car lorsque les hommes ont perdu le plaisir, ils ne vivent
+
+
+<pb n="134"/> plus à mes yeux;</s>
+<s>ce ne sont que des cadavres animés.</s>
+<s>En vain {u possèdes dans ton palais d'immenses trésors, en vain la magnificence royale t’environne.</s>
+<s>Si la joie manque à tous ces biens, le reste com paré au plaisir est moins qu’une fumée et une ombre vaine.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Quel nouveau malheur arrivé à nos rois viens-tu nous annoncer ?
+</s></p></sp>
+<sp><speaker>LE MESSAGER</speaker><p><s> Ils sont morts;</s>
+<s>et cenx qui vivent ont causé leur trépas. °
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Quel est le meurtrier?</s>
+<s>quelle est la victime ?</s>
+<s>Parle.
+</s></p></sp>
+<sp><speaker>LE MESSAGER</speaker><p><s> Hémon n’est plus;</s>
+<s>il a péri sous les coups d’une main amie.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> De la sienne, dis-tu, ou de celle de son père ?
+</s></p></sp>
+<sp><speaker>LE MESSAGER</speaker><p><s> Il s’est tué lui-même, furieux du meurtre ordonné par son père.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> O Tirésias, tes prédictions n'étaient que trop véritables !
+</s></p></sp>
+<sp><speaker>LE MESSAGER</speaker><p><s> Dans ces tristes conjonctures, songcons à prévenir d’autres malheurs.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Mais je vois l’infortunée Eurydice, l'épouse de Créen;
+
+
+<pb n="136"/> elle sort du palais.</s>
+<s>Est-ce le hasard qni l'amène, ou bien est-elle instruite du sort de son fils? 
+</s></p></sp>
+<sp><speaker>EURYDICE</speaker><p><s> O vous tous, citoyens, j'ai entendu vos paroles au moment où je sortais pour aller offrir mes prières à Pallas.</s>
+<s>J'ouvre la porte du palais, et le bruit d'un malheur domestique frappe mon oreille;</s>
+<s>sans force, je tombe tremblante dans les bras de mes femmes, et je suis glacée d’effroi.</s>
+<s>Mais que disait-on?</s>
+<s>Répétez-le-moi: éprouvée par les malheurs, j'en puis apprendre de nouveaux.
+</s></p></sp>
+<sp><speaker>LE MESSAGER</speaker><p><s> C’est moi, chère maîtresse, qui en fus témoin, et qui parlerai, sans déguiser la vérité;</s>
+<s>car que me servirait de ladoucir, quand bientôt mes mensonges seraient découverts?</s>
+<s>Le parti de la vérité est toujours le meilleur.</s>
+<s>Je suivais ton époux, le conduisant à l'extrémité de la plaine où gisait encore, livré sans pitié. à la dent des chiens, le corps de Polynice.</s>
+<s>Et d’abord en priant Pluton
+
+
+<pb n="138"/> et Proserpine d’apaiser leur courroux et de nous être propices, nous arrosons le corps de libations d’eau lustrale, et sur un amas de rameaux verts nous brûlens ce qui en reste. Après avoir-élevé une tombe avec la terre de sa patrie, amoncelée par nos mains, nous marchons aussitôt vers la caverne où la jeune vierge au lieu d’hymen avait trouvé le trépas.</s>
+<s>Nous étions encore éloignés, lorsqu'un de nous entend des cris assez distincts sortir du fond de ce tombeau privé des honneurs funèbres. 11 court l’annoncer au roi. Créon s’approche,</s>
+<s>et bientôt il entend les sons confus d’une voix plaintive; et en gémissant il laisse échapper ces tristes paroles:</s>
+
+<s>O infortuné que je suis, croirai-je mes pressentiments?</s>
+<s>Est-ce la plus funeste des routes que je suis en ce moment?</s>
+<s>La voix de mon fils a frappé mon oreille.</s>
+<s>Courez, volez, serviteurs, vers le tombeau d’Antigone; arrachez les pierres amoncelées qui en ferment l’entrée, et plongeant vos regards dans le caverne,
+
+
+<pb n="140"/> voyez si c’est Hémon dont j'entends la voix, ou si les dieux m'ont abusé!</s>
+<s>Dociles aux ordres de notre maître éperdu, nous regardons;</s>
+<s>mais dans l’enfoncement du tombeau, quel spectacle! Antigone suspendue à un lien fatal! Le tissu de ses voiles la retient attachée:</s>
+<s>près d’elle Hémon, qui la presse étoitement dans ses bras, en déplorant la mort d'une épouse, la cruauté d’un père et son hymen infortuné.</s>
+<s>A cette vue, poussant d’affreux gémissements, Créon s’élance vers son fit, et l’appelle d’une voix lamentable:</s>
+<s>Malheureux ! que vas-tu faire?</s>
+<s>quel est ton dessein?</s>
+<s>pourquoi courir à ta perte?</s>
+<s>Sors, mon fils;</s>
+<s>ton père suppliant t'en conjure!</s>
+<s>Mais son fils, lançant sur lui un regard furieux, le repousse avec dédain et, sans répondre, tire son épée à double tranchant.</s>
+<s>Créon recule et évite le coup:</s>
+<s>alors l'infortuné tourne sa colère contre lui-même;</s>
+<s>il s'appuie sur son épée, enfonce
+
+
+<pb n="142"/> jusqu’au milieu dans sa poitrine, et respirant encore saisit Antigone dans ses bras défaillants, et d’un visage décoloré il rend le dernier soupir avec des flots de sang.</s>
+<s>Ainsi l'époux est étendu mort à côté de son épouse sans vie, et c’est dans les enfers qu'il a trouvé un hymen infortuné. riste exemple qui apprend aux humains que l’imprudence est le plus grand des maux!
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Que faut-il augurer?</s>
+<s>Elle a disparu, sans proférer une seule parole favorable ou funeste.
+</s></p></sp>
+<sp><speaker>Le MESSAGER</speaker><p><s> J’en suis alarmé comme toi;</s>
+<s>mais je me nourris de cet espoir qu’instruite de la mort de son fils, elle ne veut pas offrir aux Thébains le spectacle de sa douleur, et va dans son palais ordonner à ses femmes de pleurer le fils qu’elle vient de perdre.</s>
+<s>Car elle a trop de prudence pour rien faire qui soit indigne d’elle.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Je ne sais;</s>
+<s>mais une douleur muette et celle qui éctate par des cris violents me paraissent d’un funeste augure.
+
+
+<pb n="144"/>
+
+
+</s></p></sp>
+<sp><speaker>LE MESSAGER</speaker><p><s> Nous saurons bientôt, en entrant dans le palais, si dans son désespoir elle médite quelque sinistre dessein;</s>
+<s>car, tu as raison,</s>
+<s>un morne silence est à craindre.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Voici le roi lui-même qui s’avance, tenant entre ses mains un monument de douleur. Hélas! si j’ose le dire, ce malheur est son ouvrage, et lui seul est coupable.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Égarement fatal!</s>
+<s>erreur cruelle, irréparable !</s>
+<s>Voyez, Thébains, voyez à la fois un fils sans vie, un père meurtrier.O déplorable arrêt! </s>
+<s>Ô mon fils! on fils! Jeune encore, à la fleur de l’âge, hélas! élas! tu es mort! Et c'est moi, c’est moi seul dont l’imprudence a causé ton trépas!
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Ah ! tu reconnais trop tard la justice des dieux.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Ah! malheureux!</s>
+<s>je ne la reconnais que trop!</s>
+<s>Oui, un
+
+
+<pb n="146"/> dieu, appesantissant sur moi sa vengeance, 8 frappé ma tête coupable;</s>
+<s>il m'a précipité dans la voie de la cruauté, hélas!</s>
+<s>et d’un pied impitoyable a renversé tout mon bonheur.</s>
+<s>Hélas!</s>
+<s>hélas ! O vanité des projets des hommes!
+</s></p></sp>
+<sp><speaker>LE SECOND MESSAGER</speaker><p><s> O mon maître, que de maux t'accablent ! Tu as sous les yeux ce douloureux spectacle, et d’autres malheurs
+l’attendent dans ton palais.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Et quels maux peuvent être plus affreux encore que ceux que j'éprouve ?
+</s></p></sp>
+<sp><speaker>LE SECOND MESSAGER</speaker><p><s> La mère de ce fils que tu pleures, ton épouse est morte. L'infortunée ! elle expire frappée d’un coup mortel.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Inexorable Pluton,</s>
+<s>pourquoi donc, pourquoi consommer ma perte?</s>
+<s>Et toi, messager de douleurs, quel rapport viens-tu me faire?</s>
+<s>Hélas! hélas! tu me donnes une seconde fois la mort.</s>
+<s>Que
+
+
+<pb n="148"/> dis-tu? que viens-tu encore m’apprendre? Hélas! hélas! quoi !ce u’est point assez de mon fils ! Une mort cruelle m’enlève encore une épouse chérie?
+</s></p></sp>
+<sp><speaker>LE SECOND MESSAGER</speaker><p><s> Tu peux le voir,</s>
+<s>on l’apporte du palais.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Malheureux !</s>
+<s>je le vois cet autre objet de douleur.</s>
+<s>A quel destin suis-je encore réservé?</s>
+<s>Père, je tiens entre mes bras le corps de mon fils, infortuné ! et j'ai devant les yeux celui de sa mère...</s>
+<s>Ah! malheureuse épouse! Ah! mon fils!
+</s></p></sp>
+<sp><speaker>LE SECOND MESSAGER</speaker><p><s> C’est en se frappant d’un fer aigu près de l'autel qu’elle a fermé les yeux à la lumière, après avoir pleuré le trépas glorieux de son fils Mégarée, mort avant Hémon, et le triste sort de son frère; enfin après avoir éclaté en imprécations contre toi, l'assassin de son fils.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Ciel! Ah! dieux!</s>
+<s>tous mes sens sont glacés d'horreur.</s>
+<s>Pourquoi ne me plongez-vous pas une épée dans le sein ?</s>
+<s>Infortuné ! hélas ! hélas !</s>
+<s>le malheur m'accable de toutes parts !
+
+
+<pb n="150"/>
+
+
+</s></p></sp>
+<sp><speaker>LE SECOND MESSAGER</speaker><p><s> Elle t’accusait en mourant de son trépas et de celui de son fils.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Mais comment s’est-elle donné la mort?
+</s></p></sp>
+<sp><speaker>LE SECOND MESSAGER</speaker><p><s> Dès qu’elle;eut appris la déplorable fin de son fils, elle s’est plongé une épée dans le cœur.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Hélas! hélas! c’est moi seul qui suis la cause de tant de maux!</s>
+<s>C’est moi, infortuné, c'est moi qui t'ai donné la mort. Moi seul!</s>
+<s>il n’est que trop vrai.</s>
+<s>Allez, esclaves, <gap reason="ellipsis"/> Emportez-moi à l'instant, éloignez-moi de ces lieux: je suis anéanti.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Ce que tu demandes est un bien, s’il en est dans le malheur;</s>
+<s>car plus les maux sont de courte durée, mieux nous les supportons.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Qu’elle vienne donc, qu’elle vienne, qu’elle paraisse cette mort, la dernière de celles que ma main aura données, et qu’elle amène mon dernier jour, le plus heureux de ma vie!</s>
+<s>Qu’elle vienne, que je ne voie plus le lumière!
+
+
+<pb n="152"/>
+
+
+
+
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s> Ces vœux sont pour l’avenir:</s>
+<s>c’est le présent qui doit nous occuper.</s>
+<s>Pour l'avenir, c’est à ceux que ce soin regarde d’y veiller.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Mais ce que je désire, je puis du moins l’invoquer.
+</s></p></sp>
+<sp><speaker>LE SECOND MESSAGER</speaker><p><s> Cessez de semblables vœux;</s>
+<s>il n’est point au pouvoir des mortels d’échapper aux maux que leur envoie le destin.
+</s></p></sp>
+<sp><speaker>CRÉON</speaker><p><s> Emmenez donc loin de ces lieux un infortuné qui, malgré lui, O mon fils! t'a fait périr, et toi aussi, chère épouse.</s>
+<s>Infortuné que je suis, où tourner mes regards? où porter mes pas?</s>
+<s>Je ne vois devant moi que ruine et destruction;</s>
+<s>c’est ainsi que le destin inexorable s’est déchaîné contre moi.
+</s></p></sp>
+<sp><speaker>LE CHOEUR</speaker><p><s n="751-752"> La sagesse, la piété envers les dieux sont les premières sources da bonheur.</s>
+<s n="753">Les discours de la présomption attirent
+
+
+<pb n="154"/>
+sur les hommes de terribles châtiments qui leur apprennent, mais trop tard, à connaître la sagesse.</s></p>
+</sp>
+</div>
+
+</div>
+
+</body>
+</text>
+</TEI>
+
