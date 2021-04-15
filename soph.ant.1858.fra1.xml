@@ -1345,7 +1345,7 @@ l’attendent dans ton palais.
 <s n="738">car plus les maux sont de courte durée, mieux nous les supportons.
 </s></p></sp>
 <sp><speaker>CRÉON</speaker><p><s n="739"> Qu’elle vienne donc, qu’elle vienne, qu’elle paraisse cette mort, la dernière de celles que ma main aura données, et qu’elle amène mon dernier jour, le plus heureux de ma vie!</s>
-<s n="740">Qu’elle vienne, que jene voie plus le lumière!
+<s n="740">Qu’elle vienne, que je ne voie plus le lumière!
 
 
 <pb n="152"/>
@@ -1354,22 +1354,21 @@ l’attendent dans ton palais.
 
 
 </s></p></sp>
-<sp><speaker>LE CHOEUR</speaker><p><s n="741"> Ces vœux sont pour l’avenir: c’est le présent qui doit nous occuper.</s>
-<s n="742">Pour l'avenir, c’est à ceux que ce soin regarde d’y veiller.
+<sp><speaker>LE CHOEUR</speaker><p><s n="741"> Ces vœux sont pour l’avenir:</s>
+<s n="742">c’est le présent qui doit nous occuper.</s>
+<s n="743">Pour l'avenir, c’est à ceux que ce soin regarde d’y veiller.
 </s></p></sp>
-<sp><speaker>CRÉON</speaker><p><s n="743"> Mais ce que je désire, je puis du moins l’invoquer.
+<sp><speaker>CRÉON</speaker><p><s n="744"> Mais ce que je désire, je puis du moins l’invoquer.
 </s></p></sp>
-<sp><speaker>LE SECOND MESSAGER</speaker><p><s n="744"> Cessez de semblables vœux;</s>
-<s n="745">il n’est point au pouvoir des mortels d’échapper aux maux que leur envoie le destin.
+<sp><speaker>LE SECOND MESSAGER</speaker><p><s n="745"> Cessez de semblables vœux;</s>
+<s n="746">il n’est point au pouvoir des mortels d’échapper aux maux que leur envoie le destin.
 </s></p></sp>
-<sp><speaker>CRÉON</speaker><p><s n="746"> Emmenez donc loin de ces lieux un infortuné qui, malgré lui, O mon fils!</s>
-<s n="747">t'a fait périr, et toi aussi, chère épouse.</s>
-<s n="748">Infortuné que je suis, où tourner mes regards?</s>
-<s n="749">où porter mes pas?</s>
-<s n="750">Je ne vois devant moi que ruine et destruction;</s>
-<s n="751">c’est ainsi que le destin inexorable s’est déchatné contre moi.
+<sp><speaker>CRÉON</speaker><p><s n="747"> Emmenez donc loin de ces lieux un infortuné qui, malgré lui, O mon fils! t'a fait périr, et toi aussi, chère épouse.</s>
+<s n="748">Infortuné que je suis, où tourner mes regards? où porter mes pas?</s>
+<s n="749">Je ne vois devant moi que ruine et destruction;</s>
+<s n="750">c’est ainsi que le destin inexorable s’est déchaîné contre moi.
 </s></p></sp>
-<sp><speaker>LE CHOEUR</speaker><p><s n="752"> La sagesse, la piété envers les dieux sont les premières sources da bonheur.</s>
+<sp><speaker>LE CHOEUR</speaker><p><s n="751-752"> La sagesse, la piété envers les dieux sont les premières sources da bonheur.</s>
 <s n="753">Les discours de la présomption attirent
 
 
@@ -1382,5 +1381,8 @@ sur les hommes de terribles châtiments qui leur apprennent, mais trop tard, à 
 
 </body>
 </text>
+</TEI>
+
+
 </TEI>
 
