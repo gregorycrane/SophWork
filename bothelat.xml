@@ -1,0 +1,3978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="work" n="Ant.">Antigone</title>
+                <title type="sub">Machine readable text</title>
+                <author n="Soph.">Sophocles</author>
+                <editor role="editor">Bothe, Friedrich Heinrich 1771-1855</editor>
+                <editor role="editor">Brunck, Rich. Fr. Phil. 1729-1803.</editor>
+                <sponsor>Perseus Project, Tufts University</sponsor>
+                <principal>Gregory Crane</principal>
+                <respStmt>
+                    <resp>Prepared under the supervision of</resp>
+                    <name>Gregory Crane</name>
+                </respStmt>
+                <funder>Tufts University</funder>
+            </titleStmt>
+            <extent>About 83Kb</extent>
+            <publicationStmt>
+                <publisher>Trustees of Tufts University</publisher>
+                <pubPlace>Medford, MA</pubPlace>
+                <authority>Perseus Project</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Sophocles</author>
+                        <title>Sophocle: Antigone</title>
+                        <imprint>
+                            <pubPlace>Berlin</pubPlace>
+                            <publisher>Weidmann</publisher>
+                            <date>1806</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="line" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n='$1'])">
+                    <p>This pointer pattern extracts line</p>
+                </cRefPattern>
+             </refsDecl>
+            <!--<refsDecl n="CTS">
+
+                <cRefPattern n="card" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                    <p>This pointer pattern extracts cards</p>
+                </cRefPattern>
+
+            </refsDecl>-->
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021" who="GRC">Basic formatting.</change>
+</revisionDesc>
+    </teiHeader>
+
+    <text xml:lang="grc">
+        <body>
+            <div type="edition" n="urn:cts:greekLit:tlg0011.tlg002.TBA" xml:lang="grc">
+               <div type="textpart" subtype="episode">
+
+
+<pb n="275"/>
+<sp><speaker>Antigone</speaker><p><s n="1">O coniunctum  
+
+mihi germanum Ismenes
+caput, ecquid nosti
+calamitatum ab Oedipo ortarum,
+
+
+
+
+
+
+
+
+
+
+quod nobis in vita nondum
+confecerit Iupiter?</s> <s n="2">nihil est
+enim triste, non sine
+divina calamitate, nec turpe,
+neque ignominiosum , quod
+
+
+tuis malis meisque adiun-
+ctum non viderim.</s> <s n="3">Et nunc
+quid illud est rursus, quod
+ab urbis rectore aiunt
+universis civibus propositum
+fuisse edictum?</s> <s n="4">tenesne,
+et inaudisti quidpiam , an
+te latet grassans in amicos
+inimicorum iniuria?
+
+
+<pb n="276"/>
+
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="5">Ad me quidem,
+Antigona, haud ullus
+perlatus est de amicis sermo,
+nec laetus, nec tristis, ex
+quo fratribus ambae sumus
+orbatae duobus, una die
+peremtis mutua manu :</s>
+<s n="6">postquam vero Argivorum
+exercitus hac ipsa nocte in
+fugam se dedit, nihil novi
+ulterius, neque fortunata
+magis, neque damnis
+auctior.
+
+
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="7">Pulchre id
+noram: quocirca te foras
+prodire iussi , ut sola
+audires.
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="8">Quid est?</s>
+<s n="9">Aestuare enim videris , aliquid
+volvens animo.
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="10">Nonne enim
+nobis Creon.</s> <s n="11">decreto
+fratrum alteri sepulturae
+honore, alterum eo privat
+indignis modis?</s>  <s n="12">Eteoclem
+quidem, ut aiunt, iusto
+
+<pb n="277"/>
+
+
+patrocinio fas observans,
+humo condidit, inferis
+honoratum Manibus:</s> <s n="13">miseri
+autem mortui Polynicis
+cadaver civibus fertur
+edixisse ne quis sepulchro
+contegat, neque adeo
+lamentetur; sed sinant indefletum ,
+insepultum , gratum
+thesaurum alitibus pastus
+gratia irruentibus.</s> <s n="14">Talia
+dicunt bonum Creonta tibi
+mihique (dicere enim
+fastidivit) praeconatum esse,
+
+
+
+
+et huc venire, ut haec ipsa,
+si qui forte ignorent, clare
+pronuntiet, hancque rem
+non deputare esse nihili;</s>
+<s n="15">sed quicumque horum quid
+fecerit, decretum esse, ut is
+a populo lapidibus
+obruatur.</s> <s n="16">Ita tibi haec se
+habent: et mox ostendes, an
+generosa sis, an vero ex
+bonis ignava.
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="17">Nam quid, o
+misera, quum res in eo
+loco sit, facitis meis ego vel
+
+
+<pb n="278"/>
+
+
+
+solvens vel adstringens,
+prodesse possim?
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="18">Àn operam sis
+collatura, meque adiutura,
+vide.
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="19">Quo in periculo?</s>
+<s n="20">quae tua tandem est
+sententia ?
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="21">— Àn cadaver
+mecum sustolles.
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="22">Num illud ergo
+sepelire cogitas, etsi,
+
+
+nequis id faciat, publice
+interdictum est?
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="23">Meum
+scilicet, tuumque , etiam si
+
+nofratrem:</s> <s n="24">numquam
+enim proditionis me
+alligabo.
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="25">O infelix, num
+Creonte prohibente?
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="26">At nullum ei
+jus est, ut a meis me
+arceat.
+
+<pb n="279"/>
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="27">Hei mihi!
+revoca in animum, soror,
+pater ut nobis periit odiosus
+infamisque, qui, patefactis
+piaculis, propria sibi manu
+oculos effodit:</s> <s n="28">tum illius
+mater eademque uxor,
+geminum titulum sustinens ,
+tortis laqueis sibi vitam
+ademit:</s> <s n="29">tertium vero fratres
+
+duo una die, semet
+
+occidentes miseri, necem sibi
+invicem intulere mutuis
+manibus:</s> <s n="30">nunc tandem nos
+
+
+
+
+
+duae solae relictae ,
+considera, quam pessimis
+exemplis periturae simus, si,
+more violato, edictum
+regis vel imperia
+transgrediamur.</s> <s n="31">Sane igitur hoc
+cogitare oportet, feminas nos
+esse, haud viris certare
+pares,</s> <s n="32">et quoniam sumus
+subditae potentioribus, et in his
+rebus obtemperare,
+aliisque adhuc acerbioribus.</s>
+<s n="33">Proinde ego Manes inferos,
+ut veniam dent, precata,
+
+
+<pb n="280"/>
+
+
+quia vi huc compellor,
+summam rerum obtinentibus
+morem geram:</s> <s n="34">nam
+maiora viribus aggredi,
+dementia est.
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="35">Neque te
+iusserim, neque adeo, si
+velis operam conferre,
+adiutrice te lubens utar.</s> <s n="36">Age
+esto, ut tibi placet;</s> <s n="37">illum
+vero ego sepeliam.</s>
+<s n="38">Decorum mihi erit hoc facto
+mori:</s> <s n="39">cara cum Creon iacebo,
+pio peracto facinore.</s>
+
+
+
+<s n="40">Nempe longius est tempus , quo
+me inferis placere oportet,
+quam his quibuscum hic
+versor:</s> <s n="41">illic enim semper
+
+jacebo:</s> <s n="42">tu vero, si ita
+
+videtur, quae apud Deos
+sanctissima habentur,
+aspernare.
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="43">Haud equidem
+aspernor: sed invitis
+civibus quidpiam facere nullo
+pacto valeo. 
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="44">Tu quidem
+ista praetexas,</s> <s n="45">ego vero
+
+<pb n="281"/>
+
+iam ibo, carissimoque
+fratri aggesta humo tumulum
+excitabo,
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="46">Hei mihi
+miserae, quam male tibi metuo!
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="47">Ne mea
+causa metuas:</s> <s n="48">res tuas in tuto
+colloca.
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="49">Hoc saltem
+inceptum nemini indicaveris,
+sed clam omnes habe,</s>
+<s n="50">itidemque ego celabo.
+
+
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="51">Scilicet puto
+te elocuturam;</s> <s n="52">at multo
+invisior sic eris, cum non
+omnibus haec praedicaveris.
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="53">In re frigida
+calet tibi cor admodum.
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="54">At placeo, sat
+novi, quibus maxime me
+placere decet.
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="55">Situ quidem
+possis;</s> <s n="56">sed maiora viribus
+affectas.
+
+<pb n="282"/>
+
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="57">Proinde
+cessabo, quum nihil potero
+amplius.
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="58">Sed ne primitus
+quidem sectari impossibilia
+decet.
+
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="59">Si haec
+loqui perrexeris , mihi
+quidem odio eris,
+infensumque tibi merito mortuum
+
+habebis.</s> <s n="60">Sine me
+meamque temeritatem acerba
+
+illa pati:</s> <s n="61">patiar enim mihil
+tam dirum, quin decore
+moriar.
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="62">At si tibi
+videtur, ito:</s> <s n="63">hoc autem scias,
+stultam te quidem esse, sed
+
+amicis probe amicam.
+
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="64">O iubar solis,
+
+omnium quae septiportis
+
+Thebis prius adfulserunt,
+
+pulcherrima lux,
+
+
+apparuisti tandem, aureae diei
+
+
+
+
+
+
+
+
+<pb n="283"/>
+
+
+
+
+oculus, Dircaea
+transcendens fluenta;</s> <s n="65">quod in fugam
+compulsum acutiori freno
+cursum conteridere coégisti
+insignem candido clipeo
+virum ab Argis feliciter
+egressum cum omni bellico
+apparatu, qui contra nostram
+urbem, Polynicis ambiguis
+incitatus iurgiis , transvolavit ,
+nt acutum clangens
+
+
+
+adversus terram aquila, nivea
+tectus ala, multis cum armis,
+comantibusque galeis.</s>
+<s n="66">Stans vero supra aedes,
+cruentis inhians undique
+cum hastis circa septem
+portarum ora, abiit,
+priusquam nostro sanguine
+satiaret malas, et turrium
+propugnacula piceus Vulcanus
+corriperet:</s> <s n="67">tantus a tergo
+
+
+<pb n="284"/>
+
+
+exortus est strepitus Martis,
+adversario draconi
+inexsuperabilis.</s> <s n="68">Iupiter enim
+superbae linguae iactantiam
+impense odit, etinnumeros
+€os intuitus aureo strepitu
+superbientes vibrato deiicit
+fulmine, parantes iam ad
+summam metam victoriae
+laetum clamorem tollere :</s>
+<s n="69">Ictu autem fulminis
+quassatus in terram cecidit
+
+
+ignifer ille, qui tuncinsano
+furore debacchans, nos
+afflavit, infestissimorum vi
+ventorum. . Aliter vero in hos
+grassari solet, alios illis
+infigere casus, deturbans
+eos, agilis Mavors:</s> <s n="70">nam
+septem quidem duces, ad
+septem portas locati, pares
+contra pares;</s> <s n="71">fugatori Iovi
+reliquerunt aerea dona,
+praeter miseros illos, qui,
+
+<pb n="285"/>
+
+
+
+
+patre uno nati, de imperio
+dissentientes hastas cum
+dirigerent, communis mortis
+ambo perceperunt partem.</s>
+
+<s n="72">At enim, quoniam
+praeclaro nomine gaudens
+Victoria venit, curruum
+agitatrice Theba invicem
+delectata, iam confectorum
+modo bellorum oblivia
+inducite, deorumque templa
+omnia adeamus nocturnis
+choris, duce quidem
+Baccho, ululante, Thebis
+
+
+
+oriundo.</s> <s n="73">Ecce vero
+Menoecei gnatus, urbis rex
+novus ob novum casum
+deorum invectum numine
+creatus, accedit, aliquod
+consilium volvens animo,
+quandoquidem conventum hunc
+seniorum indixit, quos
+communi praeconio
+arcessivit.
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="74">Viri, civitatem
+hanc, quam multis
+quassarunt fluctibus, iam in tuto
+di erexerunt denuo:</s> <s n="75">vos
+
+
+<pb n="286"/>
+
+
+
+autem per muntios iussi
+seorsum ab omnibus
+convenire, quia vos movi
+cum Laii imperium sedulo
+semper coluisse, tum
+regnante Oedipo, illoque
+exstincto etiam erga eius
+gnatos in eadem fide
+
+constantianimo permansisse.</s>
+<s n="76">Quando igitur illi gemino fato
+una die periere, mutuis
+
+ictibus peremti nefaria
+manu, ego iam imperium
+omne et solium obtineo, ut
+
+
+
+qui defunctis cognatus sum
+proximus.</s> <s n="77">Vix autem virum
+quempiam noris quo sit
+ingenio, quasolertia, quidve
+consilio valeat, antequam
+in administratione rei
+publicae et legum tritum eum
+videris.</s> <s n="78">Quicumque enim,
+civitatem universam regens,
+non optimis adhaeret
+consiliis, sed formidine aliqua
+linguam comprimit, is
+pessimus esse et nunc et
+dudum mihi videtur:</s> <s n="79">et
+
+<pb n="287"/>
+
+
+quicumque patria sua
+potiorem iudicat amicum, illum
+nullo in loco pono.</s> <s n="80">Ego
+enim (testor Iovem omnia
+semper cernentem) silere
+nollem, damnum si
+viderem ingruere civibus loco
+salutis;</s> <s n="81">neque umquam, si
+quis patriae hostis sit, eius
+viri amicitiam amplectar:</s>
+<s n="82">quippe compertum est
+mihi, patriam servare quoque,
+quos, ipsa salva, amicos
+paramus. "Talibus ego
+
+
+
+placitis obsecutus hanc
+augebo urbem, nuncque horum
+adfinia civibus edicere
+iussi, circa Oedipi filios:</s>
+<s n="83">Etooclem quidem, qui pro hac
+urbe pugnando, re
+fortissime gesta, periit, ut
+condant sepulchro,
+omnibusque condecorent inferiis,
+quas strenuorum virorum
+Manibus ferre solemne est;</s>
+<s n="84">illius autem fratrem ,
+Polynicen dico, qui exsul huc
+reversus, urbem patriam et
+
+
+
+
+<pb n="288"/>
+
+
+
+
+
+deos patrios flammis
+abolere voluit, voluitque
+sanguinem haurire cognatum,
+civesque suos in servitutem
+abducere, hunc civibus
+interdictum est ne quis tumu«
+lo mandet, neque defleat,
+sed sinant insepultum,
+alitibus canibusque praedam,
+visu foedissimam. — Haec
+mea est sententia, neque à
+me unquam honorem
+improbi consequentur práe
+iustis, sed quicunqne
+
+
+
+benevolus huic urbi est,
+mortuus et vivus pariter a me
+quidem honorabitur.
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="85">Eadem, quae
+tibi, nobis etiam.</s> <s n="86">placent;
+Menoecei gnate, Creon.</s>
+
+<s n="87">circa civitatis huius hostem,
+et circa amicum:</s> <s n="88">lege vero
+uti qualibet penes te estin
+mortuos, et in viventes;</s>
+<s n="89">quotquot sumus.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="90">Vos igitur
+adtendite, ut edictum
+
+observetur.
+
+
+
+
+
+
+
+<pb n="289"/>
+
+
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="91">Iuniori alicui hoc
+munus manda.
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="92">At iam constituti
+sunt cadaveris custodes.
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="93">Quid igitur aliud
+praeter hoc iubeas?</s>
+<s n="94">Creon Ne permittatis, si
+qui minus obtemperent.
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="95">Nemo est amens
+adeo, ut mori cupiat.
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="96">Est sane
+
+proposita haec merces:</s> <s n="97">sed
+homines saepe lucri spes
+perdidit.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="98">Haud equidem,
+o rex, dixero, anhelantem
+me esse, quod citato
+gressu celeriterque venerim:</s>
+
+<s n="99">moras enim solicitudinum
+
+multas inveni, in via
+
+subinde me ipsum circumagens,
+
+ut referrem pedem.</s> <s n="100">Anima
+
+
+<pb n="290"/>
+
+
+
+enim saepius me
+alloquebatur:</s> <s n="101">Miser, cur tendis
+eo, ubi poenas dabis,
+siimul ac veneris?</s> <s n="102">at
+enimresistes, miser?</s> <s n="103">haec etiamsi
+ex quopiam alio resciverit
+Creon, quinam, sodes,
+malum effugies? "Talia
+volutans animo, tardo iter
+confeci, quamvis alioqui celer,
+sicque longa fit brevis via.
+"Tandem tamen
+-consultissimum visum est huc venire:</s>
+<s n="104">dicam autem, tametsi nihili
+
+sit, quod proferam:. hac
+enim spe fretus venio,
+nihil me aliud.</s> <s n="105">passurum.</s>
+<s n="106">esse, nisi quod fatale sit.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="107">Quidnam vero
+est, cur animo ita.</s> <s n="108">es
+anxio?
+
+</s></p></sp>
+
+<sp><speaker>Custos</speaker><p><s n="109">Primum tibi
+declarare volo quae ad me
+adtinent:</s> <s n="110">neque enim ipse
+facti auctor sum, neque
+adeo qui fecerit vidi:</s>
+<s n="111">proinde indignus sum qui in
+malum quedgiam incidam.
+
+
+
+<pb n="291"/>
+
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="112">Caute sane rem
+circumspicis, et munis
+undique:</s> <s n="113">videris autem
+aliquid indicaturus grave.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="114">Periculosa enim
+metum adferunt plurimum.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="115">Nonne dices
+
+tandem, perfunctusque .
+
+abibis?
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="116">Atqui tibi dico:</s>
+<s n="117">mortuum aliquis modo
+sepelivit, abiitque, postquam
+cadaver arido sparsit
+
+pulvere, inferiasque pro.more
+fecit.
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="118">Quid ais?</s> <s n="119">Quis
+homo ausus est haec
+facere?
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="120">Nescio:</s> <s n="121">ibi enim
+neque ligone quid erat
+caesum, neque bidente
+effossum, sed et dura terra,
+etinfracta, nec plaustri
+sulcata rotis »; ita ut nullo
+signo facti auctor cognosci
+posset.</s> <s n="122">Ubi vero nobis
+
+
+
+<pb n="292"/>
+
+
+rem ostendit primus
+diurnus speculator, omnibus
+triste miraculum visum est:</s>
+<s n="123">ille enim non
+conspiciebatur, nec tamen tumulo
+conditus erat, sed tenuis
+superiniectus erat pulvis, ut
+ab aliquo piaculum
+fugiente:</s> <s n="124">signa vero neque ferae,
+neque canis cuiusquam
+adparebant, qui venisset et
+cadaver lacerasset.</s> <s n="125">Tum
+acerba dicta inter nos
+vigiles iactari coeperunt, alio
+alium arguente;</s> <s n="126">et res
+tandem ad verbera venisset:</s>
+
+
+
+<s n="127">nemo enim erat qui rixam
+componeret;</s> <s n="128">quippe
+unusquisque aliis videbatur
+facinoris auctor, nec tamen
+
+quisquam manifestus erat:</s>
+<s n="129">sed omnes scire se
+negabant.</s> <s n="130">PParati quoqne
+eramus candens ferrum
+manibus:</s> <s n="131">tollere, perque
+flammas transire, et deos
+adiurare, nos neque fecisse,
+neque cuiquam esse con-
+Scios qui facinus vel
+meditatus fuerit, vel patraverit.</s>
+<s n="132">Denique quum scrutando
+nihil proficeremus, fari
+
+<pb n="293"/>
+
+
+
+
+
+infit unus nostrum, cuius ad
+sermonem metu perculiad
+solum omnes capita
+
+demisimus:</s> <s n="133">neque enim
+
+poteramus contradicere, neque
+aliud quid excogitare, quod
+facto nobis usus esset.</s>
+<s n="134">Dixit autem ille, rem omnem
+ad te referendam, nec
+celandam esse.</s> <s n="135">Atque haec
+vicit sententia, sortesque
+hoc commodi accipere me
+infelicem damnarunt.</s>
+<s n="136">Adsum igitur invitus apud
+
+
+invitos, scio.</s> <s n="137">Diligit enimi
+nemo malae rei
+nuntium.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="138">Dudum sane, o
+rex, tacitus mecum
+dispicio, anne divinitus haec
+res contigerit.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="139">Desine dicere,
+priusquam tua loquela in
+iram me*concites, ne
+insipiens simul ac senex
+deprehendaris:</s> <s n="140">dicis enim non
+toleranda,quum dicis,deos huius
+mortui curam gerere. Án
+
+
+
+<pb n="294"/>
+
+
+
+nimis honorantes sepultura
+eum affecerunt, ut bene
+meritum, qui fulta.</s>
+<s n="141">columnis templa cum donariis
+crematurus venit,
+terramque eorum et cultum
+disiecturus?</s> <s n="142">Num deos vides
+honore malos prosequi?</s>
+<s n="143">Non est;</s> <s n="144">sed et haec aegre
+ferentes cives dudum
+obmurmurabant mihi, clam
+capita.</s> <s n="145">quassantes, neque
+sub iugo cervicem, ut
+
+decet, habebant, ut imperio
+
+
+
+meo acquiescerent.</s> <s n="146">Ab
+illis hos probe scio mercede
+
+inductos haec perpetrasse;</s>
+
+<s n="147">nullus enim hominibus
+damnosior mos.</s> <s n="148">invaluit,
+
+quam uti argento ;</s> <s n="149"> hoc et
+
+urbes devastat, hoc viros.</s>
+<s n="150">submovet domibus, hoc
+edocet et bonas pervertit
+mentes hominum, ut ad.</s>
+<s n="151">turpia facta se applicent,
+dolosque monstravit.</s>
+<s n="152">hominibus nectere, et quodvis
+impium facinus.</s> <s n="153">admittere.
+
+<pb n="295"/>
+
+
+
+At qui spe praemii haec
+perpetrarunt, hoc adepti
+sunt, ut aliquando daturi
+sint poenas.</s> <s n="154">Verum, si
+quid apud me valet Iovis
+reverentia, pro certo hoc
+scias (iuratus autem ibi
+dic0), nisi ipsum auctorem
+huius sepulturae inventum
+produxeritis ob oculos me-
+0s, non una morte satis
+dabitis supplicii, sed vivi
+pendentes hanc indicabitis
+iniuriam, ut, edocti lucrum
+
+
+
+
+unde petendum, in
+posterum inde rapiatis, et
+discatis, noh qualibet ex re
+quaestum comparandum
+esse:</s> <s n="155">namque ex turpibus
+lucris plures malo
+mactatos videas, quam
+servatos.</s> <s n="156">n
+
+</s></p></sp>
+
+<sp><speaker>Custos</speaker><p><s n="157">Loquine mihi
+quicquam permittes, an
+conversus hinc abeo?
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="158">Nescisne, vel
+nunc quam moleste
+loqueris?
+
+
+
+<pb n="296"/>
+
+
+
+</s></p></sp>
+
+<sp><speaker>Custos</speaker><p><s n="159">Auribusne an
+animo morderis ?
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="160">Quid vero
+exploras, meus ubi situs sit
+dolor?
+
+</s></p></sp>
+
+<sp><speaker>Custos</speaker><p><s n="161">Facinoris auctor
+animum tibi contristat,
+aures ego.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="162">At vafer certe
+deprehenderis. . . .
+
+
+</s></p></sp>
+
+<sp><speaker>Custos</speaker><p><s n="163">Nec tamen hoc
+facinus umquam
+commisi.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="164">Et sic argenti
+cupidine vitam proiecisse.
+
+</s></p></sp>
+
+<sp><speaker>Custos</speaker><p><s n="165">Vah, malum est,
+si cui opiniones et
+mendacia placent!
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="166">De suspicioneigi- 
+tur argutare quantumvis :</s>
+
+<pb n="297"/>
+
+
+
+<s n="167">sed nisi haec qui fecerint
+monstrabitis, fatebimini,
+malis ex lucris damna
+gigni.
+
+</s></p></sp>
+
+<sp><speaker>Custos</speaker><p><s n="168">Maxime sane
+veliminveniatur:</s> <s n="169">attamen
+deprehensus fuerit nec nme,
+hoc enim fortuna
+diiudicabit, non est ut videas tu
+me huc reversum:</s> <s n="170">etenim
+nunc quoque praeter spem
+opinionemque meam
+servatus , magnas debeo
+
+
+diis gratias.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="171">Multa:</s> <s n="172">quidem
+sunt mirabilia;</s> <s n="173">nihil vero
+homine mirabilius est.</s>
+<s n="174">Itaque tum canum ultra
+pontum procelloso Hante noto
+fertur, circumfrementes
+transmittens fluctus;</s> <s n="175">tum
+
+
+
+supremam deam ,T'ellurem
+immortalem, indefessam,
+exercet circumactis aratris per
+singulos annos, equino
+genere versans.
+
+
+
+
+
+<pb n="298"/>
+
+
+
+Levium etiam genus
+avium cassibus
+circumdatum abducit, agrestiumque
+ferarum  secla, pontique
+marinam naturam nexis
+retium laqueis, vir solers:</s>
+<s n="176">edomatque artibus
+agrestem beluam montivagam,
+iubatumque equum et
+montanum indomitum taurum
+iugo admovet, cervicibus
+imponendo.</s></p>
+
+
+
+<p><s n="177">Quin dicendi artem,
+sublimiumque rerum scientiam
+et civiles mores didicit, tum
+etiam inhabitabilis frigoris
+subdialia imbriumque tela
+fugere.</s> <s n="178">Ad omnia
+ingeniosus, nullorumque, futura 4
+quaesunt, improvidus, est:</s>
+<s n="179">solius Orci effugium
+invenire non valet:</s> <s n="180">difficilium
+tamen morborum remedia
+excogitavit. </s></p>
+
+
+
+<pb n="299"/>
+
+
+
+<p><s n="181">Callidus ultra quam.</s>
+<s n="182">sperari possit, quodvis opus
+ingens artificio perficere,
+xiodo bonum, modo
+pravum sectatur.</s>  <s n="183">Leges
+contemnens patriae,
+vindicesque iurisiurandi patrios
+deos, princeps, civitate
+eiicitur, qui pravum, audaciae
+plenus, sectatur:</s> <s n="184">neque
+
+idem mecum tectum 
+subeat, nec mecum conferat:</s>
+<s n="185">consilia, qui talia patrat.
+
+
+
+
+
+— At dubito, an hoc esse
+dicam deorum ostentum. —
+Quanquam infitias ire qui
+potero, hanc, quam video
+puellam, esse Antigonam ?</s>
+<s n="186">O misera, et misero patre
+Oedipode mata, quidnam
+istud est?</s> <s n="187">Anne te isti
+adducunt regis imperio
+immorigeram, et in amenti
+deprehensam auso?
+</s></p></sp>
+
+<sp><speaker>Custos</speaker><p><s n="188">Haec ést illa,
+quae facinus patravit!
+
+<pb n="300"/>
+
+
+
+ipsam hanc deprehendimus
+sepelientem?</s> <s n="189">Sed ubi est
+Creon?
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="190">Eccum
+opportune rursus progreditur
+foras.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="191">Quid est?</s> <s n="192">Ecquid
+contigit satis ex
+sententia?
+
+</s></p></sp>
+
+<sp><speaker>Custos</speaker><p><s n="193">Rex, mortalibus
+nihil est abiurandum:</s> <s n="194">nam
+quae príus animo sederant
+sequeris frustratur cogitatio:</s>
+<s n="195">quandoquidem confidenter
+
+
+
+ego spopondisem
+mnumquam me huc rediturum,
+ob minas tuas illas, quibus
+me antea conturbasti.</s>
+<s n="196">Verum (nulla enim voluptas
+est tanta, quam quae
+desiderata percipitur ex
+insperato gaudio) venio tamen,
+licet sacramento
+abiuraverim, puellam hanc
+adducens, quae deprehensa est
+cadaveri sepulturam parans.</s>
+<s n="197">Sors liic iacta nón fuit, sed
+meüm est, non alius, hoc
+
+<pb n="301"/>
+
+lucrum.</s> <s n="198">Et nunc, rex,
+hanc ipse prehensam
+interroga, ut lubet, et
+redargue:</s> <s n="199">me vero
+liberum ab istis malis abire
+decet.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="200">Cur autem banc
+adducis, et unde?
+
+</s></p></sp>
+
+<sp><speaker>Custos</speaker><p><s n="201">Ipsa virum
+sepeliit:</s> <s n="202">omnia discas.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="203">An et intelligis
+et vere dicis, quae dicis?
+
+
+
+</s></p></sp>
+
+<sp><speaker>Custos</speaker><p><s n="204">Utpote qui eam
+sepelientem viderim
+cadaver, cuius tu sepeliri
+vetueras.</s> <s n="205">Satisne aperta et
+1nanifesta dico?
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="206">Et quomodo
+conspecta est, atque in
+facinore deprehensa?
+
+</s></p></sp>
+
+<sp><speaker>Custos</speaker><p><s n="207">Sic acta res est.</s>
+<s n="208">Postquam enim eo venimus,
+tuis illis minis atrocibus
+perterriti, primum terram
+
+
+
+<pb n="302"/>
+
+omnem, qua contectum
+erat cadaver, everrimus,
+putreque corpus nudavimus
+plane, tum editis in
+tumulis.</s> <s n="209">consedimus aversi ab
+aura, ne nobis teter odor
+ex illo adflaret, caventes;</s>
+<s n="210">ubi vigilantes nos
+excitabamus conviciis, si quis
+vellet huic labori.</s> <s n="211">parcere.</s>
+<s n="212">Tantisper in eo res fuit;</s>
+<s n="213">donec .aethere.</s> <s n="214">in.</s> <s n="215">medio
+constitit lucidus Solis
+orbis, aestusque flagravit :</s>
+<s n="216">atque tum derepente
+
+
+
+vehemens flatus e terra coortus,
+turbinem in altum tollens,
+aéream pestem, implet
+campum, omnem deturpans
+comam campestris silvae :</s>
+<s n="217">immensusque repletur aër:</s>
+<s n="218">nos vero clausis oculis
+divinitus missum tolerabamus
+
+malum.</s> <s n="219">Quo post longum
+
+tempus.</s> <s n="220">tandem sedato,
+puella conspicitur, et
+acerbe quidem lamentans, in
+modum acuta voce
+questaeaviculae, cum vacuum midi
+cubile pullis orbatum videt.
+
+<pb n="303"/>
+
+Sic et illa;</s> <s n="221">nudum ut cernit
+cadaver, lamentis eiulavit ,
+dirasque [acti auctoribus
+poenas imprecata est.</s> <s n="222">Nec
+mora, collectum manibus
+aridum affert pulverem , et.</s>
+<s n="223">ex aereo affabre facto
+gutto, triplici fuso libamine,
+mortuo inferias facit.</s> <s n="224">Nos.</s>
+<s n="225">vero conspicati irruimus,
+eamque  comprehendimus
+illico nullo perculsam metu,
+et utriusque facti, tum
+illius prioris, tum huius
+
+
+recentis , convincimus:</s> <s n="226">nihil
+enim negavit.</s> <s n="227">Quod
+quidem mihi gratum et friste
+simul auditu fuit:</s> <s n="228">ipsum
+enim me ex malis evasisse,
+gratissimum:</s> <s n="229">sed in malum
+amicos ducere, id triste
+est;</s> <s n="230">at omnia ista prae mea
+salute parvi me pendere
+par est.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="231">Heus tu, quae
+in terram jdemittis caput,
+te rogo:</s> <s n="232">faterisne an
+denegas haec fecisse?
+
+
+
+<pb n="304"/>
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="233">Et fecisse
+fateor, nec nego.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="234">Tu quidem
+aufer te hinc, ut lubet, gravi
+absolutum crimine:</s> <s n="235">tu vero
+dic mihi haud prolixe, sed
+breviter:</s> <s n="236">norasne edicta,
+ne quis haec faceret?
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="237">Noram:</s> <s n="238">qui
+enim ignorassem?</s> <s n="239">siquidem
+manifesta erant.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="240">Et vel sic ausa
+
+es hasce transgredi leges?
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="241">Non enim eas
+mihi Iupiter statuerat, nec,
+quae diis Manibus adsidet, Iustitia, qui hasce
+mortalibus sanxerunt leges;</s> <s n="242">nec
+tantum valere credidi tua
+edicta, ut non scriptas
+firmasque deüm leges,
+mortalis quum sis, queas
+convellere.</s> <s n="243">Non enim heri
+fixae illae sunt aut nudius
+
+
+<pb n="305"/>
+
+
+
+tertius, sed vigent ab omni
+aevo, nec quisquam novit,
+quam dudum  prodierint.</s>
+<s n="244">Has quod violassem,
+cuiusvis hominis fastu perterrita,
+sane non debui diis poenas
+luere.</s> <s n="245">Morituram enim me
+sciebam, quippini?</s> <s n="246">etiam
+si tu non indixisses:</s> <s n="247">quod
+si ante tempus moriar, id
+esse in lucro deputo.</s>
+<s n="248">Quicumque enim in multis, ut
+ego, miseriis vitam degit,
+si mortem oppetat, qui
+
+
+
+non ille lucrum ferat?</s> <s n="249">Sic
+sane mihi fatum hoc
+nancisci nihil dolet;</s> <s n="250">at si
+matris meae filium insepultum
+sustinuissem, id mihi
+doleret:</s> <s n="251">hisce autem quae feci,
+non doleo;</s> <s n="252">tibi vero si
+videor stulte fecisse,
+propemodum dixerim , stulti iudi-
+€io stulta sum.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="253">Durum ingenium
+ex duro patre ortum
+apparet puellae;</s> <s n="254">malis enim ue-
+
+Scit cedere.
+
+<pb n="306"/>
+
+
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="255">At scito igitur,
+praefractos animos saepius
+concidere;</s> <s n="256">firmissimumque
+ferrum coctum , igne
+duratum, facilime comminui
+et frangi videas:</s> <s n="257">parvoque
+freno feroces equos
+domariscio.</s> <s n="258">Nempe haud
+convenit elato esse animo , qui
+aliis subditus est;</s> <s n="259">haec
+autem tunc quidem egit
+contumeliose, quum sancitas
+leges transgredi ausa est:</s>
+<s n="260">nunc vero, postquam
+
+
+
+facinus patravit, altera haec
+est contumelia, quod his
+factis glorietur et rideat.</s>
+<s n="261">Profecto haud amplius vir
+ego sim, sed illa vir
+fuerit, si haec ei impune
+cesserit victoria.</s> <s n="262">Sed sive
+ex sorore, sive ex alia
+
+quavis prognata sit, quae
+
+mihi sit tota familia
+coniunctior, ipsaque et soror
+non effugient, quin
+pessimis exemplis pereant;</s> <s n="263">nam
+et hanc haud minus quam
+
+Original from
+COLUMBIA UNIVERSITY
+
+<pb n="307"/>
+
+
+
+alteram huius sepulturae
+
+auctorem esse censeo.</s>
+<s n="264">Et illam  evocate!</s> <s n="265">eam
+enim vidi modo intus
+
+furentem, nec compotem
+sui.</s> <s n="266">quippe solet
+perturbatio prius deprehendi
+proditrix eorum, quae vafre in
+tenebris structa fuere.</s>
+<s n="267">Male vero et illum ego odi,
+qui, in scelere
+deprehensus, tamen concinnis
+comere illud dictis parat.
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="268">Vin' amplius
+
+aliquid, quam me captam
+
+occidere ?
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="269">Nilsane amplius:</s>
+<s n="270">hoc nactus, omnia nactus
+sum.
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="271">Quid igitur
+moraris?</s> <s n="272">nam mihi tuis ex
+sermonibus nihil placet;</s>
+<s n="273">neque placiturum sit
+umquam:</s> <s n="274">parique modo mea
+tibi non probantur.</s> <s n="275">Atqui
+undenam celebriorem
+gloconsequi possem,
+
+quam, quod germanum
+
+<pb n="308"/>
+
+humo cendidi?</s> <s n="276">his quoque
+omnibus, qui adsunt, idem
+placere diceretur, si non
+linguam praecluderet
+metus:</s> <s n="277">àt cum alia ob multa
+felix est qui regnat, tum
+quia licet ei facere
+dicereque, quae lubet.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="278">Sola tu hos inter
+Cadmeos hoc vides.
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="279">Vident et isti,
+sed.</s> <s n="280">os tibi habent
+obnoxium.
+
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="281">Te autem non
+pudet, alia ab his sentire?
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="282">Haud enim
+turpe est consanguineos
+colere.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="283">Nonne etiam
+frater ille erat, qui contraria
+inferens arma occubuit?
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="284">Ex una frater
+matre et ab eodem patre.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="285">Cur, quaeso,
+impium alteri honorem
+tribuis?
+
+<pb n="309"/>
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="286">Haec non
+testabitur tumulo conditus.
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="287">Maxime vero,
+si illum parili honore cum
+impio dignaris.
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="288">Haud quaquam
+enim servus, sed frater,
+periit.
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="289">Nempe vastans
+patriam , alter pro
+patria quum stetisset fortiter.
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="290">At Orcus
+
+
+
+certe aequas leges postulat.
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="291">At honus cum
+malo paria sortiri renuit.
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="292">Quis novit, an
+apud inferos haec sint pia?
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="293">Haud umquam
+inimicus, ne quidem
+mortnus, est amicus.
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="294">At mihi non
+ea est indoles, ut aliorum
+odii particeps ego sim, sed
+amoris.
+
+<pb n="310"/>
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="295">Ergo, si amare
+tuum.est, ad inferos
+profecta, illos ama:</s> <s n="296">me
+autem.</s> <s n="297">vivo, non regnabit
+femina.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="298">Sed ecce pro
+foribus Ismena, sororis ob
+desiderium fundens
+lacrimas, nube vero frontem
+obducta, amabilem
+deformat vultum, venustas
+irrigans genas.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="299">Heus tu, quae,
+
+
+
+domi furtim subrepens, ceu
+vipera, clam me exsugis;</s>
+<s n="300">atque adeo inscius geminas
+pascebam furias, regnique
+mei pestes;</s> <s n="301">age, dic mihi
+tandem , ecqui fateberis
+huius humationis sociam te
+quoque esse, an iurabis te
+huius rei ignaram esse?
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="302">Meum est
+facinus, modo haec consentiat,
+criminisque, etsi non sum,
+participem me esse fateor.
+
+<pb n="311"/>
+
+
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="303">Át non
+perznittet hoc lustitia, quia
+neque voluisti, neque te
+ego in societatem adscivi.
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="304">At me in malis
+tuis non pudet eosdem
+tecum periculi adire casus.
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="305">Quorum sit
+hoc opus, Orcus et inferi
+conscii sunt:</s> <s n="306">at ego verbis
+amantem mon amo
+amicam.
+
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="307">Ne me, quaeso,
+soror , ita despicatui habeas,
+ut indignam me reputes,
+quae tecum moriar, unaque 
+defuncto fratri iusta fecerim.
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="308">Ne tu mecum
+una  mortemobeas;</s> <s n="309">nec,
+quae non adtigisti , tibi
+vindices:</s> <s n="310">satis erit me mori.
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="311">.Ecquaenam
+mihi, ate destitutae,
+iucunda sit vita?
+
+<pb n="312"/>
+
+
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="312">Creontem
+
+roga:</s> <s n="313">illus enim tu curam
+
+geris.
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="314">Cur hisce me
+excrucias, quum nihil
+prosit tibi?
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="315">Doleam
+equidem, tibi si risum debeam,
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="316">Qua tandem in
+re iuvare te igitur nunc
+possim?
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="317">Serva te ipsam:</s>
+
+
+
+<s n="318">effugium tibi non invideo.
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="319">Hei mihi
+miserae!</s> <s n="320">et tuae mortis exsors
+ero?
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="321">Tu enim
+optasti vivere;</s> <s n="322">ego autem mori.
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="323">At minime tu
+non praemonita meis dictis.
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="324">Pulchris iis
+quidem tibi visis;</s> <s n="325">verum
+hisce ego sa ere mihj
+videbar.
+
+
+<pb n="313"/>
+
+
+
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="326">Atqui par est
+utriusque delictum.
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="327">Bono animo
+es:</s> <s n="328">tu quidem vivis;</s> <s n="329">at
+mihi iampridem abrupta vita,
+ut opem mortuis ferrem.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="330">Has puellas aio ,
+alteram quidem mente
+modo excidisse, alteram vero
+
+amentem natam esse.
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="331">Non enim, o
+rex, ne quae quidem fuit
+
+
+
+olim, manet mens
+adflictis in rebus, sed movetur
+statu.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="332">Tibi certe emota
+est, quando male excipi
+cum malis cupis.
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="333">Quid enim mihi
+soli sine hac vivere volupe
+sit?
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="334">At mihilum tu
+amas:</s> <s n="335">nam haec in vivis
+non est amplius.
+
+
+<pb n="314"/>
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="336">Ergone
+sponsam necabis tui ipsius filii?
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="337">Sunt enim aliis
+quoque arabilia arva.
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="338">Non enim sic
+de illo et hacce decretum
+erat!
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="339">Malas ego
+filiorum uxores odi.
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="340">O carissime
+
+
+
+
+
+Haemon, ut te despicatui
+habet pater!
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="341">Odiosa es tuque
+tuusque tinnitus.
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="342">Ecqui igitur ista
+tuum privabis filium?
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="343">Orcus nuptias has
+
+finiet.
+
+</s></p></sp>
+
+<sp><speaker>Ismene</speaker><p><s n="344">Decretum est, ut
+videtur, mortem ut haec oppetat.
+
+
+
+
+
+
+
+
+
+<pb n="315"/>
+
+
+
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="345">Imo etiam tibi
+periculum est. — — Absit
+omnis iam mora, atque illas
+ducite intro, famuli!</s>
+<s n="346">mulieres istas dehinc esse
+decet, nec libere
+circumvagari:</s> <s n="347">blaterant enim
+audaces, etiam:</s> <s n="348">cum prope iam
+mortem intuentur.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="349">Felices , quibus
+malorum immune labitur
+aevum! Quibus enim
+divinitus quassatur domus,
+
+
+horum vita nulla vacat
+calamitate, ad omnem po-
+Ssteritatem  proserpente ,
+haud secus ac maris
+fluctus , si quando Boreae
+vehemens flatus in salsam
+incurrit caliginem, ab imo
+atram evolvit, ventis
+infestatam , arenam,
+plangoribusque percussa resonant
+litora.</s></p>
+
+<p><s n="350">Veteres Labdacidarum
+domus calamitates video,
+
+<pb n="316"/>
+
+defunctorum immissas
+calamitatibus;</s> <s n="351">neque aetas
+aetatem liberat, sed hanc
+quoque subvertit deorum
+quispiam, neque est ab
+acrumnis requies, Modo enim
+Oedipi in domo ultimae
+stirpi effulserat salus;</s>
+<s n="352">tamen illam rursus demetit
+inferorum  deüm cruenta
+falx, consiliique amentia,
+et animi furor.</s></p>
+
+<p><s n="353">Vim tuam, lupiter, quis
+
+
+
+hominum  fastus
+cohibere possit, quam neque
+somnus , omnia domanms,
+domat umquam, nec
+cursu indefesso menses?</s>
+<s n="354">Senii expers fulgeniis regis Olympi.</s> <s n="355">splendorem ;'
+atque et futuro tempore;</s>
+<s n="356">ct olim, haec lex
+obtinebit:</s> <s n="357">nihil accidere
+hominibus, quod nimium
+iuvet, aegritudine haud
+permixtum.
+
+<pb n="317"/>
+
+
+
+Spes quidem vaga multis
+mortalium — fructum — sui
+praebet;</s> <s n="358">multorum autem
+
+deludit leves cupidines,
+
+acceditque ad nihil
+sentientem prius quam igni
+ardenti pedem admoverit.</s>
+<s n="359">Celebre dictum fertur a nescio
+quo sapienter prolatum:</s>
+<s n="360"><q>Malum aliquando videri
+bonum illi esse, cuius
+animum deus impellit ad
+
+
+
+mortem, eumque perexiguo
+tempore extra
+calamitatem versari</q>.</s></p>
+
+<p><s n="361">At hicce igitur Haemon,
+
+liberorum tuorum
+
+novissimum germen, sponsae
+AÀntiponae imminente leto
+contristatus, venit, pactis
+nuptiis frustrari impotenter
+dolens.
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="362">Statim sciemus,
+quovis  augure certius.
+
+
+<pb n="318"/>
+
+
+
+O mate, num, auditis
+quae in sponsam decreta
+sunt, patri infensus
+ades,, an vero, quidquid
+egerimus, sumus tibi cari?
+
+</s></p></sp>
+
+<sp><speaker>Haemon</speaker><p><s n="363">Pater, tua sum
+in potestate, tuque, rectis
+quidem utens consiliis, me
+regas, quibus equidem
+obsequar:</s> <s n="364">mihi enim nullae
+tanti esse possunt nuptiae,
+ut esas iustis tuis imperiis
+praeferam.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="365">Scilicet hoc
+
+
+
+animo te esse par est, cedant
+ut omnia patris voluntati.</s>
+<s n="366">Propterea enim cupit vir
+quiviscumque liberos
+suscipere sibi subditos et
+educere domi, ut et paternos
+inimicos ulciscantur male,
+amicosque eodem, quo
+pater, prosequantur honore;</s>
+<s n="367">qui vero cumque liberos
+genuit inutiles, quid illum
+dicas aliud, quam sibi
+compedes, genuisse,
+multumque inimicis risum?</s> <s n="368">Ne
+
+<pb n="319"/>
+
+
+
+nunc ergo, nate, voluptate
+victus, mulierisque
+
+cupidine, sanam mentem
+abiicias, et hoc tene, frigere
+amplexum pravae mulieris,
+quam quis domi consortem
+tori habeat.</s> <s n="369">Quod enim
+peius esse possit ulcus,
+quam malus amicus?</s>
+<s n="370">Quare tamquam malivolam
+despuens, puellam illam sine
+apud Orcum, cui voluerit,
+nubere:</s> <s n="371">ego enim,
+postquam illam manifesto
+deprehendi unam ex omni
+
+
+
+civitate edicto meo parere
+recusantem, haud sane
+committam,ut me falsi
+arguant cives, sed illam occidam.</s>
+<s n="372">Proinde Iovem imploret
+cognationis praesidem!nam
+qui mihi genere coniuncti
+sunt, si eos mihi immorigeros esse patiar, similes
+profecto habebo  extrarios.</s>
+<s n="373">Quicumque enim familiam
+probe regit, is et in
+administranda civitate iustus
+videbitur:</s> <s n="374">quicumque vero
+inobediens vel leges violat,
+
+<pb n="320"/>
+
+
+
+
+vel imperare
+magistratibus cogitat, non est ut
+is laudem a me
+
+consequatur.</s> <s n="375">Scilicet quem
+Civitas summae rerum
+praefecerit , — ei — parere
+oportet tenues, pariter
+
+in iustis iniustisque rebus,
+et qui sic animatus sit,
+hunc virum nullus
+dubiiem, quin recie imperare
+possit, aliusque subiectus
+imperio iussa rite exsequi
+velit, et belli in procella,
+jussus, mansurus sit,
+
+
+
+
+
+iustum se praebens
+fortemque adiutorem.</s>  <s n="376">Licentia
+enim maius haud aliud est
+malum:</s> <s n="377">haec quippe
+civitates perdit, haec subvertit
+domos, haec socios in
+fugam coniicit:</s> <s n="378">atque iis,
+qui recti in acie steterunt,
+saluti plerumque fuit
+obedientia.</s> <s n="379">Sic vindicare
+oportet reges, neque omnino
+feminae cedendum:</s> <s n="380">satius
+est enim, siquidem de
+statu  deiici necesse est,
+a viro vinci, nec
+
+
+<pb n="321"/>
+
+
+mulieribus ignaviores esse
+dicamur.
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="381">Nobis quidem,
+nisi mens senio
+labefacta decipitur, dicere
+sapienter, quae dicis,
+videris.
+
+</s></p></sp>
+
+<sp><speaker>Haemon</speaker><p><s n="382">Pater, dii
+hominibus ingenerant rationem,
+omnium, quotquot sunt,
+rerum praestantissimam.</s>
+<s n="383">Quae autem modo dixi,
+
+vera esse, neque audeam
+
+negare, nec, qui negare
+
+
+
+possim, scio:</s> <s n="384">est tamen
+ut alius etiam vera dicere
+queat.</s> <s n="385">Enimvero tu non
+es talis, qui omnia
+prospicere queas, quae in te vel
+dicit quis, vel facit, aut si
+quid tibi vertatur vitio:</s>
+<s n="386">iuus enim vultus plebeio
+cuique timorem incutit
+circa sermones tales, quos
+lubens non audias:</s> <s n="387">at mihi
+clam haec mussantium
+excipere licet:</s> <s n="388">quantopere
+huius puellae vicem civitas
+
+
+<pb n="322"/>
+
+
+
+doleat, quia ob facta
+maximis digna laudibus
+pessime pereat mulierum
+omnium immeritissima , quae
+suum ipsius fratrem in
+proelio caesum, insepultum
+haud passa sit crudivoris
+canibus alitibusque perdi.</s>
+<s n="389">Nonne haec aureo digna
+honore?</s> <s n="390">Tales obscuri
+clam manant rumores.</s>
+<s n="391">Mihi vero, pater, nihil aliud
+optabilius esse potest,
+quam ut omnia tibi laeta
+eveniant.</s> <s n="392">Quid enim
+
+
+
+liberis decori sit magis, quam
+gloria florens pater?</s>
+<s n="393">quidve patri cum liberis
+comparandum?</s> <s n="394">Ne munc ergo
+unicum mente hunc
+habitum indue, ut, quod
+tudicis , aliudque praeterea
+nihil, rectum esse putes:</s>
+<s n="395">quicumque enim vel ipse
+solus sapere videtur sibi,
+vel lingua aut animo
+pollere, ut nemo alius, tales
+si explices, saepius inanes
+esse comperias;</s> <s n="396">sed virum,
+quamvis ille sit sapiens, 
+
+<pb n="323"/>
+
+
+discere multa haud
+indecoruin est, et non nimis
+contra tendere. — Vides
+hibernis imbribus tumida ad flu-*
+enta quotquot cedunt
+arbores, ut servant ramos;</s> <s n="397">at
+stirpitus intereunt,
+quaecumque obnituntur:</s>
+<s n="398">similiter quoque navis
+gubernator, si adductum pedem
+laxare praefracte renuit,
+
+supinis, eversa rate, in.</s>
+
+<s n="399">posterum navigat tabulis.</s>
+<s n="400">Verum age, remitte iram, et
+
+poenitentiae da locum:</s>
+
+
+<s n="401">iudicium enim si quod et
+mihi iuniori inest, dico
+equidem longe optimum esse,
+si suapte indole vir
+quisque scientia gaudeat;</s> <s n="402">sin
+minus (haud enim ita solet
+evenire) et a bene
+consulentibus praeclarum est
+discere.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="403">Rex, si quid hic
+opportunum dicit, aequum
+est te animum advertere ;
+teque vicissim illi
+auscultare:</s> <s n="404">recte enim dictum est
+utrinque.
+
+
+<pb n="324"/>
+
+
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="405">Nos ergoistuc
+aetatis sapere docebimur ab
+adolescente ?
+
+</s></p></sp>
+
+<sp><speaker>Haemon</speaker><p><s n="406">Nihil quidem
+doceare, quod iniustum sit :</s>
+<s n="407">etsi vero iuvenis sum, non
+aetatem magis decet, quam
+opera, spectare.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="408">Ergone opus est,
+legibus liaud parentes
+honore adficere?
+
+
+</s></p></sp>
+
+<sp><speaker>Haemon</speaker><p><s n="409">Haud same tibi
+auctor sim, ut malis
+honorem habeas.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="410">At haecce non
+tali correpta est morbo ?
+
+</s></p></sp>
+
+<sp><speaker>Haemon</speaker><p><s n="411">Utique hoc
+negat universus Thebanus
+populus.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="412">Scilicet, quae
+imperare debeam, civitas
+mihi praescribet ?
+
+<pb n="325"/>
+
+
+
+
+
+</s></p></sp>
+
+<sp><speaker>Haemon</speaker><p><s n="413">Viden', ut
+nimis iuvenilis iste tuus est
+sermo?
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="414">Nimirum alius
+imperio, non meo, terra haec
+subiecta erit?
+
+</s></p></sp>
+
+<sp><speaker>Haemon</speaker><p><s n="415">Quippe non est
+civitas, quae unius tantum
+est viri.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="416">Non imperantis
+censetur esse civitas?
+
+
+</s></p></sp>
+
+<sp><speaker>Haemon</speaker><p><s n="417">Pulchre deserta
+urbe tu regnares solus.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="418">Hic, ut videtur,
+pro muliere propugnat.
+
+</s></p></sp>
+
+<sp><speaker>Haemon</speaker><p><s n="419">Si tu quidem
+mulier es:</s> <s n="420">pro te enim
+propugno.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="421">O filli pessime,
+qui cum patre litigas!
+
+</s></p></sp>
+
+<sp><speaker>Haemon</speaker><p><s n="422">Nonne enim a
+iusto te aberrare video?
+
+
+<pb n="326"/>
+
+
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="423">Scilicet aberro,
+colens mei iura imperii ?
+</s></p></sp>
+
+<sp><speaker>Haemon</speaker><p><s n="424">Haud sane
+
+colis, dum diis debitum
+
+honorem conculcas.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="425">O scelestum
+
+ingenium et à femina devictum!
+</s></p></sp>
+
+<sp><speaker>Haemon</speaker><p><s n="426">Atnumqnam me
+
+a turpibus devictum'
+
+argues.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="427">Tamen omnis
+
+tuus hic sermo illi
+patrocinatur.
+
+</s></p></sp>
+
+<sp><speaker>Haemon</speaker><p><s n="428">Tibique etiam,
+et mihi, et diis inferis.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="429">Hanc mon erit
+umquam, ut vivam amplius
+ducas.
+
+</s></p></sp>
+
+<sp><speaker>Haemon</speaker><p><s n="430">Ergo morietur,
+et mortua aliquem perdet.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="431">An in minarum
+etiam sic erumpis audaciam ?
+
+<pb n="327"/>
+
+
+
+</s></p></sp>
+
+<sp><speaker>Haemon</speaker><p><s n="432">Quae sunt
+minae autem, contra futiles
+
+dicere sententias?
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="433">Plorans me
+castigabis, ipse mentis inops
+quum sis.
+
+</s></p></sp>
+
+<sp><speaker>Haemon</speaker><p><s n="434">Nisi pater esses,
+dicerem te desipere.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="435">Mulieris
+mancipium, ne me adulare.
+
+</s></p></sp>
+
+<sp><speaker>Haemon</speaker><p><s n="436">Vis quidlibet
+
+loqui, et nihil vicissim audire.
+
+
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="437">Itane vero?</s> <s n="438">at
+haud impune, coelum
+attestor, me reprehensione
+dignis verbis abs te impetitum
+iri scias.</s> <s n="439">Adducite odium,
+ut ob oculos illico
+praesenti moriatur proximá sponso.
+
+</s></p></sp>
+
+<sp><speaker>Haemon</speaker><p><s n="440">Haud sane me
+prope adstante (ne tu.</s> <s n="441">hoc
+umquam in animum
+inducas) neque haec coram
+peribit, neque tu umquam
+
+
+<pb n="328"/>
+
+
+
+me oculis tuis obversari
+vivum videbis, quoniam in
+eos , qui te iuvare cupiunt,
+insanis.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="442">Hic vir abiit, o
+rex, ira concitatus:</s> <s n="443">atqui
+talibus ingenium dolore
+ardens ad atrocia facta
+comparare se solet.</s> <s n="444">s
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="445">Age abeat;</s> <s n="446">faciat,
+cogitet supra humanam
+sortem:</s> <s n="447">hasce tamen puellas
+
+
+
+morte sic mom liberabit.
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="448">Ergone
+
+utramque morte multare
+
+destinas?
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="449">Haud quidem
+illam, quae cadaver non
+adtigit:</s> <s n="450">recte enim mones.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="451">Quonam autem
+eam supplicio statuis
+occidere?
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="452">Abductam in
+locum, ubi nulla sint
+
+
+<pb n="329"/>
+
+
+hominum vestigia, saxeo in
+specu vivam recondam,
+tantillo cibi, quantum arcendae
+morti sufficiat, apposito, ut
+piaculum tota effugiat
+civitas:</s> <s n="453">ibique Orcum, quem
+solum colit deorum,
+rogando forte impetrabit, ut
+ne mortem obeat;</s> <s n="454">aut tunc
+tandem  discet,
+supervacaneum esse laborem, si quis
+inferos colat.
+
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="455">Amor invicte in
+pugnis, Amor, qui opes
+non aífectas, qui puellae
+mollibus excubas in genis,
+transque maria permeas,
+penetrasque te in silvestria
+lustra;</s> <s n="456">nec te immortalium
+quisquam fugere potis est,
+nec brevis aevi hominum.</s>
+<s n="457">Quisquis vero te concipit,
+in furorem agitur,</s></p>
+
+<p><s n="458">Tu vel iustorum mentes
+
+
+<pb n="330"/>
+
+
+
+devias abripis ad noxam:</s>
+<s n="459">tu quoque inter
+consanguineos viros litem .hanc
+concitasti:</s> <s n="460">praepollet autem
+palam erumpens oculorum
+desiderium pulcram
+appetentis virginem, quod.</s> <s n="461">cum
+maximis inter initia rerum
+legibus pari praeditum est
+potestate :</s> <s n="462">— insuperabilis
+enim illudit dea Venus.</s></p>
+
+<p><s n="463">Quin et iam ipse ultra
+
+
+
+
+
+licitum feror, haec cernens,
+neque amplius lacrimarum
+fontes cohibere valeo, quum
+Antigonam hanc video ad 
+thalamum omnibus
+communem perduci.
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="464">Adspicite me,
+o patriae urbis cives,
+ultimam ingredientem viam,
+ultimumque iubarintuentem Solis, mihi numquam posthac
+videndum, sed communis
+
+<pb n="331"/>
+
+me Orcus vivam deducit ad
+Acheruntis oram,
+hymenaeorum expertem, mec
+me nuptialis hymnus
+celebravit umquam , sed
+Acherunti sane nubam.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="465">Atqui celebris
+et laudem macta, in has
+abibis mortuorum
+latebras, nec tabidis concussa
+morbis, nec gladiorum
+mercedem nacta, sed,
+
+
+libera vivens sola utique
+mortalium, ad Orcum
+descendes.
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="466">Sane audivi
+Phrygiam hospitam,
+Tantali filiam , miserrimam per«
+lisse summo in Sipylo,
+quam, velut hedera, durum
+saxi perdomuit
+incrementum;</s> <s n="467">neque nunc imbres
+tabefactam , ut fama vulgi est,
+neque nix umquam
+
+<pb n="332"/>
+
+
+deserit, sed irrigat cum
+manantibusoculis et cervices:</s> <s n="468">cuime
+Fatum simillimam consopit.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="469">At illa dea erat
+
+
+et divino satu genita;</s> <s n="470">nos
+vero homines et mortali
+sanguine creti;</s> <s n="471">et tibi
+mortuae praeclarum erit, si
+dicaris aequalium diis sortem
+experta fuisse.
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="472">Hei mihi,
+
+
+
+deo urbis opulenti cives!</s>
+<s n="473">o Dircaei fontes,
+"Thebaeque curruum agitatricis
+nemus, tamen vos simul testes
+habeo, quemadmodum ab .
+amicis indelleta, quali lege
+ad carcerem defossum vado
+
+
+<pb n="333"/>
+
+
+inauditi sepulcri.</s> <s n="474">Heu
+miseram, cui nec cum
+hominibus, nec cum
+Manibus, consortio est, nec
+cum vis, nec cum
+peremtis.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="475">Progressa ad
+extremum audaciae, in altum
+Iustitiae solium impegisti ,
+Onata, graviter.</s> <s n="476">Paternam
+noxam aliquam luis.
+
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="477">ÁAcerbissimum
+mihi dolorem refricas, nimis
+extentum luctum ob patris
+infortunia, universamque
+nostram decantatorum
+Labdacidarum cladem.</s> <s n="478">O
+materna nuptiarum noxa,
+incestique concubitus patris mei
+cum calamitosa matre ,
+
+quibus egoolim infelix edita fui;</s>
+<s n="479">ad quos, diris devota,
+
+
+<pb n="334"/>
+
+
+
+innupta, sic ego commigro!
+O infausti, frater, potite
+
+coniugii, mortuus ipse vivam me adhuc occidisti!
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="480">Ilum colere,
+pium est;</s> <s n="481">sed nequaquam
+
+iussa transgredi licet eorum,
+
+penes quos est imperium.</s>
+<s n="482">Te vero, quod se ipso
+monitore utebatur , perdidit
+ingenium.
+
+
+
+
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="483">Indefleta,
+amicis orba, innupta,
+expeditum hoc ingredior iter.</s>
+<s n="484">Haud amplius mihi sacrum
+hoc lampadis iubar fas
+intueri miserae;</s> <s n="485">nequé
+amicorum.</s> <s n="486">quisquam est, qui
+meam adeo  lacrimabilem
+vicem lugeat.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="487">Scitisne,
+querelae et luctus si morituris
+
+
+<pb n="335"/>
+
+
+
+prodessent, neminem fore,
+qui iis desinat?</s> <s n="488">Quin
+abducitis hanc quam citissime,
+.et postquam eam, ut iussi ,
+incluseritis solam
+desertamque in obtecto sepulcro,
+abibitis:</s> <s n="489">sive ibi moritura
+sit, sive sub hoc tecto
+sepulta aevum ducat.</s> <s n="490">Nos
+enim immunes sumus
+piaculi, puellae huius caussa ;
+sed nullum ei cum superis
+erit consortium.
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="491">O sepulcrum,
+
+
+
+o genialis thalamus, o
+defossae domus aeterna custodia,
+quo tendo ad meos, quorum
+leto absumtorum maximum
+numerum inter mortuos
+cepit Proserpina;</s> <s n="492">quorumque
+ego novissima, multoque
+sane pessimo exitio,
+intereo, ante fatalem diem.</s> <s n="493">Illuc
+igitur profecta, hanc
+maxime spem foveo, gratam me
+venturam patri, gratamque
+tibi, mater, et tibi
+gratam, o germanum caput;
+
+
+<pb n="336"/>
+
+
+quandoquidem mortuos vos
+ego manibus meis lavi et
+ornavi, inferiasque ad
+sepulerum tuli:</s> <s n="494">nunc au-.
+tem, Polynices, quia
+cadaver tuum humo
+contexi, hanc fero mercedem.</s>
+<s n="495">Atqui hunc honorem tibi
+recte a me tributum
+fuisse, sapiens quivis
+iudicet.</s> <s n="496">Haud enim umquam,
+si peperissem liberos, nec,
+si mihi coniux mortuus
+iacuisset insepultus ,
+contra civitatis legem hunc
+suscepissem laborem.</s> <s n="497">Ac
+
+
+forte quaeras, quanam
+ratione inducta haec dicam.</s>
+<s n="498">Nempe mortuo marito ,
+alius esset cui nuberem;</s>
+<s n="499">fliumque si amisissem ,
+alium ex alio viro suscipere
+poteram;</s> <s n="500">at, patre et
+matre in Orco conditis, non
+est ut mihi frater possit
+umquam exoriri.</s> <s n="501">At tamen
+quum propter hanc
+opinionem, ceteris omnibus
+posthabitis, honore te
+adfecerim, o germanum caput,
+Creonti peccasse visa sum ,
+facinusque atrox admisisse.
+
+<pb n="337"/>
+
+
+
+Et nunc vi correptam ita
+me abducit, tori iugalis,
+hymenaei festorum
+carminum expertem , nulla
+coniugii sortitam praemia, nec
+liberorum gavisam prole;</s>
+
+<s n="502">sed ab amicis deserta,
+
+misera, sic viva deducor in
+mortuorum specum, at
+quaenam, obsecro,
+transgressa Deorum iura?</s> <s n="503">Quid
+vero amplius mihi miserae
+prodest, deorum opem
+poscere?</s> <s n="504">quem iuvabit
+
+
+
+auxilio vocasse?</s> <s n="505">siquidem iam
+impietatis poenas pie
+agendo nacta sum.</s> <s n="506">Verum si
+haec quidem diis
+frobantur, aequo animo meritas
+luamus poenas, cum
+deliquerimus;</s> <s n="507">sin hi
+commeruerunt culpam, ne plura
+mala patiantur precor, quam
+mihi iniuste inferunt.
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="508">Puellae huius
+animus eorumdem adhuc
+ventorum ipsis flatibus agitatur.
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="509">Atqui plorabunt,
+
+
+<pb n="338"/>
+
+
+
+qui illam abducere
+cunctantur adeo.
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="510">Hei mihi!</s>
+<s n="511">mortem proxime haec vox
+accedit.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="512">Neutiquam te
+confidere iubeo fore, ut
+haec non ita decreta sint.
+
+</s></p></sp>
+
+<sp><speaker>Antigone</speaker><p><s n="513">O terrae
+Thebanae urbs paterna, diique
+veteres , abducor ergo, nec
+
+
+
+moror amplius.</s> <s n="514">Videte,
+Thebarum principes,
+regiam quae sola superest
+filiam, qualia qualibus a
+viris patior, pietatem quia
+colui.
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="515">Sustinuit etiam 
+Danaé . coelesti lumine
+privari.</s> <s n="516">in aereo.</s>
+<s n="517">conclavi, abditaque sepulcralis
+thalami:</s> <s n="518">iugum.</s> <s n="519">tulit;
+
+<pb n="339"/>
+
+
+atqui o nata, nàta, genere
+erat nobilis, gremioque
+recondita servabat auriílua
+Iovis semina.</s> <s n="520">At ingens
+est fati vis;</s> <s n="521">quam nec fortis
+vel Mars, vel turris, neque
+
+undisonae nigrae naves
+
+effugiant.</s></p>
+<p><s n="522">Iugum accepit etiam
+impotens irae filius Dryantis ,
+rex Edonum, quem
+Bacchus, ob infestam
+
+indolem, saxoso conclusit in
+
+
+
+carcere, Adeo a furore
+destillare terribilem
+noxiamque poenam, adgnovit
+demum ille, qui rabiei
+petulantibus conviciis deum
+laesit, Enimvero entheas
+cohibuit feminas, sacrasque
+Bacchi exstinxit lampades,
+et tibiarum amantes
+irritavit Musas.</s></p>
+
+<p><s n="523">Iuxta Cyanea aequora
+gemini maris, litora sunt
+Bosporia et Thracius
+
+<pb n="340"/>
+Salmydesus, ubi vicinas urbes
+colens Mars geminos Phinei
+filios a fera noverca vidit
+lumine orbatos execrabili
+vulnere, inficto non
+lancearum, sed cruentae
+manus et pectinum cuspidibus.</s></p>
+
+<p><s n="524">At miseri dolore
+tabescentes miseram matris
+lugebant vicem, coniugii
+quippe experti vitae geniti;</s>
+<s n="525">quae sane genus antiquis
+
+
+
+ab Erechthidis ducebat,
+remotisque in antris mutrita
+fuerat procellas inter
+paternas, Boreae filia, equos
+cursu praevertens celso
+super iugo, deorum
+progenies:</s> <s n="526">haud tamen secius !
+hanc quoque longaevae Par- )
+cae invaserunt, o nata.
+</s></p></sp>
+
+<sp><speaker>Teiresias</speaker><p><s n="527">— Thebani
+populi proceres, venimus.</s>
+<s n="528">communi via duo, unius
+
+<pb n="341"/>
+
+
+
+
+oculis videntes:</s> <s n="529">caeci enim
+
+sic a quopiam ducti viam
+
+inveniunt.
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="530">Quidnam est,
+
+senex Tiresia, novi?
+
+</s></p></sp>
+
+<sp><speaker>Teiresias</speaker><p><s n="531">Equidem
+docebo;</s> <s n="532">tu vero vati obsequere.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="533">Haud quidem
+antea a monitis tuis discessi.
+
+</s></p></sp>
+
+<sp><speaker>Teiresias</speaker><p><s n="534">Idcirco
+
+feliciter hanc urbem rexisti.
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="535">Testari possum
+me a te iuvatum fuisse.
+</s></p></sp>
+
+<sp><speaker>Teiresias</speaker><p><s n="536">Cogita, te nunc
+rursus in ancipiti periculo
+versari.
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="537">Quidnam est?</s> <s n="538">nam
+tua me conturbant dicta.
+</s></p></sp>
+
+<sp><speaker>Teiresias</speaker><p><s n="539">Scies, ubi
+artis meae audieris indicia.
+
+
+<pb n="342"/>
+
+
+
+Nam quum sederem veteri
+in auguraculo, ubi erat
+mihi omnigenorum alitum
+statio, ignotum audii sonum
+clangentium avium insano
+barbaroque percitarum
+impetu;</s> <s n="540">easque comperi
+unguibus invicem se lacerare;
+'quod quidem haud obscure
+significabat alarum
+strepitus.</s> <s n="541">Quare perterritus,
+statim periculum feci
+victimarum aris in ardentibus.</s> <s n="542">At
+ex victimis flamma non
+
+
+
+promicuit;</s> <s n="543">sed rorans humor
+e femoribus exsudans in
+cinere absumebatur, et
+fumabat et exspuebat,
+fellaque sublata dissipabantur,
+revolutaque femorum ossa
+extra adipem iacebant
+circumdatam.</s> <s n="544">Haec a puero
+isto comperi, obscurorum
+sacrorum evanidam
+divinationem;</s> <s n="545">mihi enim dux ille
+est, aliisque ego.</s> <s n="546">Et hisce
+malis propter susceptum
+tibi consilium laborat urbs.
+
+<pb n="343"/>
+
+
+
+
+
+Arae enim et foci omnes
+pleni sunt nobis alitum
+canumque praeda ex
+infausto , qui cecidit , Oedipi
+filio.</s> <s n="547">Proinde sacra
+precesque nostras adhuc
+aversantur Dii, nec femorum
+accipiunt flammam:</s> <s n="548">mec ulla
+
+ales auspicatos gutture edit
+
+sonos, postquam lominis
+occisi pinguem  depastae
+sunt sanguinem.</s> <s n="549">Haec
+
+igitur, fili, expende:</s> <s n="550">etenim
+
+omnibus hominibus
+commune est peccare;</s> <s n="551">quum
+
+
+vero quis peccaverit, ille
+non amplius consilii
+mentisque inops et infelix dici
+dignus est, qui, ubiin
+malum incidit, medelam
+adhibet, neque immobilis
+perstat.</s> <s n="552">Nam pervicacia
+inscitiae arguitur.</s> <s n="553">Quin cede
+mortuo, neque peremtum
+punge.</s> <s n="554">Quae fortitudo est
+denuo enecare mortuum?</s>
+<s n="555">Haec tibi benevolus bene.</s>
+<s n="556">consulo:</s> <s n="557">a bene monente
+discere suavissimum est, si
+monita utilitatem ferant.
+
+
+<pb n="344"/>
+
+
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="558">O senex, omnes,
+tanquam sagittarii in
+scopum, tela in me mittitis ;
+nec vestris quidem vatum
+artibus intentatus sum,
+cuius generis ab hominibus
+venditus sum et traditus
+iampridem.</s>
+<s n="559">comparate vobis Sardicum
+electrum, si vultis, et.</s>
+<s n="560">aurum Indicum:</s> <s n="561">at illum
+sepulcro non condetis, nec
+si Iovis aquilae eum pro
+
+
+
+esca auferre velint sub
+Saturnii thronum:</s> <s n="562">ne sic
+quidem, haud ullo huius
+piaculi terrore motus y sepeliri
+eum  permisero:</s> <s n="563">probe
+enim novi, mortalem
+neminem deos posse
+polluere.</s> <s n="564">Cadunt autem, o
+senex Tiresia, homines vel
+maxime industrii foedo
+lapsu, quum res turpes pulcre
+loquuntur lucri gratia.
+</s></p></sp>
+
+<sp><speaker>Teiresias</speaker><p><s n="565">Hem! Ecquis
+
+
+
+<pb n="345"/>
+
+
+
+
+novit, ecquis cogitat
+homo — .
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="566">Quidnam?</s>
+
+<s n="567">qualem hanc communem sententiam crepas?
+
+</s></p></sp>
+
+<sp><speaker>Teiresias</speaker><p><s n="568">Quam opum
+praestantissimum sit
+prudentia ?
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="569">Quomodo, ut
+opinor, desipere maxima noxa
+est.
+
+</s></p></sp>
+
+<sp><speaker>Teiresias</speaker><p><s n="570">Huius tu
+
+
+quidem plenus es morbi.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="571">Vati maledicta
+regerere nolo.
+
+</s></p></sp>
+
+<sp><speaker>Teiresias</speaker><p><s n="572">Atqui id ipsum
+facis, falsa me . vaticinari
+dicens.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="573">Vatum enim omne
+genus est pecuniae
+avidum.
+
+</s></p></sp>
+
+<sp><speaker>Teiresias</speaker><p><s n="574">Tyrannorum
+vero natio turpia lucra
+amat.
+
+
+<pb n="346"/>
+
+
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="575">Scin' vero,
+quidquid dicas, te imperanti
+inihi dicere? :
+
+</s></p></sp>
+
+<sp><speaker>Teiresias</speaker><p><s n="576">Scio equidem:</s>
+<s n="577">mca enim opera hanc
+servasti urbem.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="578">Peritus es vates,
+sed amans iniustitiae.
+
+</s></p></sp>
+
+<sp><speaker>Teiresias</speaker><p><s n="579">Adiges me, ut
+immota pectore arcana
+eloquar.
+
+
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="580">Move, modo ne
+lucri gratia dicas...
+</s></p></sp>
+
+<sp><speaker>Teiresias</speaker><p><s n="581">Num ergo
+
+hucusque lucri  gratia
+
+dixisse videor, te
+iudice?
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="582">Nam scito,
+prudentiam tibi meam quaestui
+non fore.
+
+</s></p></sp>
+
+<sp><speaker>Teiresias</speaker><p><s n="583">At tu vicissim
+
+probe hoc scito, tibi non
+
+Original from
+
+<pb n="347"/>
+
+
+
+multas circumvolutum iri
+solis rotas  concertantes,
+quin tuis ipse ex visceribus
+quempiam mortuum pro
+mortuis vicissim daturussis ;
+quia superorum ad inferos
+demisisti viventem animam,
+atque ignominiose sepulcro
+condidisti, detinesque hic,
+inferorum expers deorum,
+
+insepultum, iustisque
+
+privatum, cadaver:</s> <s n="584">quorum
+nec tibi est potestas, neque
+ad superorum deorum iura
+
+
+
+id pertinet, sed iniuriam
+sic illis facis.</s> <s n="585">Quapropter
+ultrices, postmodo
+perdentes, insidiantur tibi Orci et
+deorum ceterorum
+Erinnyes, ut iisdem in his
+comprehendaris malis.</s> <s n="586">Et haec
+vide an torruptus pecunia
+dicam:</s> <s n="587">monstrabit enim
+non longi temporis mora
+virorum, mulierum, tuis in
+aedibus lamenta:</s> <s n="588">.odioque
+urbes omnes conturbantur;</s>
+<s n="589">querentes, velcanes
+
+<pb n="348"/>
+
+
+
+cadavera contaminasse, vcl
+feras, aut praepetes aves,
+sceleratum ferentes odorem
+in publicum civitatis focum.</s> <s n="590">Ista, molestus es enim,
+tamquam iaculator, in iras
+tuas emisi e corde tela
+haud irrita, quorum tu
+calidum vulnus haud effugies.</s>
+<s n="591">Tu vero, puer, nos abduc
+domum, ut hic animi
+impetum in iuniores emittat,
+et discat habere linguam
+
+
+
+quietiorem, — mentemque
+meliorem animo, quem
+nunc fovet.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="592">Hic vir, o rex,
+abiit, dira vaticinatus;</s>
+<s n="593">scimusque, ex quo mihi
+nigris capillis canities
+obducta est, numquam illum
+huic urbi falsi quid cecinisse.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="594">Novi et ipse,
+ideoque perturbor animum:</s>
+<s n="595">cedere enim, ignavi et
+timidi est;</s> <s n="596">reluctato vero
+
+Original from
+
+
+<pb n="349"/>
+
+
+
+animus ne calamitate
+feriatur, timendum est.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="597">Bono consilio
+opus est, fili Menoecei Creon.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="598">Quid igitur facere
+oportet?</s> <s n="599">fare;</s> <s n="600">ego Kütem
+parebo.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="601">Abi, ac puellam
+quidem defosso e specu
+dimitte, insepultutn autem
+cadaver tumulo conde.
+
+
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="602">Et ista probas,
+hisque obsequi me debere
+censes?
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="603">Immo, rex, quam
+citissime:</s> <s n="604">celeri enim pede
+malesanos adsequitur
+deorum vindicta.
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="605">Hei mihi?</s> <s n="606">Vix
+quidem müto, muto tamen
+
+sententiam, hoc ut faciam.</s>
+
+<s n="607">Necessitati frustra
+obluctandum non est.
+
+
+<pb n="350"/>
+
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="608">Abi ergo, ut haec
+facias, neque aliis
+committe.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="609">Protinus ibo.</s>
+<s n="610">Vos vero ministri, quique
+adestis, quique abestis,
+secures manibus capientes
+properate celsum ad ]lo-
+.cum:</s> <s n="611">ego autem,
+quandoquidem sententiam eo
+converti , ut ipse ligavi, ita et
+ipse praesens exsolvam;</s>
+
+
+
+<s n="612">metuo enim, ut statas
+leges optimum sit servantem
+vivere.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="613">Multis inclyte
+nominibus, Cadmeae decus
+puellae, et Iovis
+altitonantis proles, celebrem qui
+colis Italiam, versarisque
+una Cereris in sinu
+omnibus communi Eleusiniae, o Bacche, Baccharum
+metropolin habitans, ad
+
+<pb n="351"/>
+
+Ismeni liquida fluenta, inter
+antiqui segetem draconis :</s>
+<s n="614">Te super bicipitem
+collem . coruscans conspicit
+flamma, ubi Coryciis una
+cum Nymphis ambulant
+Bacchides , — Castaliaeque
+fons, te et Nysaeorum
+montium hedera densa
+iuga, viridisque ora vitibus
+consita te mittit, immortali
+
+
+
+bacchante cantu, Thebana
+invisere compita :</s> <s n="615">,
+Quam tu tantopere colis;</s>
+<s n="616">maximam urbium, unacum
+matre, fulminis ventis
+adfata.</s> <s n="617">Quin et nunc,
+quando universa civitas fero
+colluctatur morbo, adveni
+salutifero pede, Parnasium
+superans iugum, aut
+
+resonans maris fretum.
+
+
+<pb n="352"/>
+
+
+
+
+O ignem spirantium
+furorum nocturnarumque
+vociferationum magister puer,
+Iovis proles, adpareas cum
+
+Naxii  Thyiadibus, tuis
+comitibus, quae furentes pernoctibus
+
+lustrant choris praesidem Iacchum.
+
+</s></p></sp>
+
+<sp><speaker>Nuntius</speaker><p><s n="618">Cadmi
+Amphionisque aedium incolae,
+nulla est hominis vita
+superstes, quam vel laudare vel
+
+
+culpare velim:</s> <s n="619">Fortuna
+enim erigit, et Fortuna
+deprimit felicem et infelicem
+semper:</s> <s n="620">meque de vita,
+quae agitur, mortalium
+licetaugurari.</s> <s n="621">Quippe Creon.</s>
+<s n="622">si quisquam alius, ne
+iudice, beatus erat, qui terram
+
+hanc quidem Cadmeam ab
+
+hostibus liberaverat,
+imperioque totius terrae potitus
+eam regebat, florens
+generosa liberorum prole:</s>
+
+
+<pb n="353"/>
+
+
+
+<s n="623">at nunc dilapsa sunt omnia.</s>
+<s n="624">Voluptates autem siquis vir
+amiserit, haud equidem
+puto illum vivere, sed
+animatum esse mortuum.</s>
+<s n="625">Opibus enim polleas
+quaniumvis domi, et vivas regio
+splendore;</s> <s n="626">tamen si absit
+his gaudium, cetera ego
+fumi umbra haud emerim
+viro prae voluptate.
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="627">Atquid novum
+
+
+
+
+
+hoc malum est, quod de
+regibus nuntiaturus venis? 
+</s></p></sp>
+
+<sp><speaker>Nuntius</speaker><p><s n="628">Mortui sunt ;
+
+viventes autem fuere caussa
+
+mortis.
+
+
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="629">Et quis peremit?</s>
+<s n="630">quis veró peremtus est?</s> <s n="631">ede.
+
+</s></p></sp>
+
+<sp><speaker>Nuntius</speaker><p><s n="632">Haemon
+interiit:</s> <s n="633">violentae enim illatae
+illi manus fuere.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="634">Patrisne, an.</s>
+
+<s n="635">ipsius ?
+
+
+<pb n="354"/>
+
+
+
+
+</s></p></sp>
+
+<sp><speaker>Nuntius</speaker><p><s n="636">Ipse se
+peremit, patri iratus ob
+necem.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="637">O vates, quam
+vera ergo praedixti nimis!
+
+</s></p></sp>
+
+<sp><speaker>Nuntius</speaker><p><s n="638">Nempe cum sic
+se res habeant, de ceteris
+consulere expedit.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="639">Atqui video
+miseram  Eurydicen prope,
+uxorem Creontis:</s> <s n="640">huc
+autem domo egressa se
+confert, vel audito filii
+
+
+
+
+
+casu, vel temere adest.
+</s></p></sp>
+
+<sp><speaker>Euydice</speaker><p><s n="641">O vos omnes,
+quicumque adestis, cives
+(sermonem enim vesirum
+audivi, quum ostio
+propinquarem, egressura, ut
+Palladis delubrum adirem,
+deaeque adhiberem preces;</s>
+<s n="642">et claustra quidem
+occlusae portae laxabam, quum
+aures mihi ferit rumor
+domestici mali, metuque
+perculsa revolvor supind inter
+
+
+<pb n="355"/>
+
+
+famularum manus, et
+linquor animo), age quis fuit
+iste sermo, rursum dicite!</s>
+<s n="643">malorum enim nequaquam
+inexperta audiam. ..
+
+</s></p></sp>
+
+<sp><speaker>Nuntius</speaker><p><s n="644">Equidem tibi,
+cara domina, dicam,
+quamvis acerba, nec quidquam
+praetermittam veri.</s> <s n="645">Quid
+enim te deleniam verbis,
+quae postea falso dixisse
+deprehendar?</s> <s n="646">recta
+semper res est veritas.</s> <s n="647">Tuum
+quidem ego coniugem
+
+
+sectatus sum , viam ei
+praemonstrans extremum in
+campum, ubi nefando
+modo iacebat adhuc, canibus
+laceratum, Polynicis
+cadaver.</s> <s n="648">Et illud quidem,
+precati Triviam deam,
+Plutonaque, ut propitium
+haberent animum , lavimus piis
+lavacris, congestisque
+ramis recens decerptis
+superstites reliquias
+combussimus:</s> <s n="649">aggestoque excelso
+busto patriae terrae,
+
+<pb n="356"/>
+
+
+
+dehinc repetimus lapideum
+specum, puellae Orcinum
+thalamum. — Sonum vero
+procul clarorum eiulatuum
+ex inferis carente atrio
+sublatum audit aliquis,
+heroque Creonti nuntiat
+currens:</s> <s n="650">huicautem,
+ubipropius accedit, offunditur
+facile agnoscendus infelicis
+clamoris sonus;</s>
+<s n="651">suspiransque, luctuosam hanc
+emittit vocem:</s> <q><s n="652">O miser ego, an
+vates sum?</s>  <s n="653">iterne nunc
+
+
+
+facio omnium, quae antea,
+infaustissimum ?</s> <s n="654">vox me
+filii conturbat, At, vos
+famuli, accedite propius citi,
+et adstantes tumulo
+dispicite, compagem tumuli
+saxeam subeuntes ad ipsum
+ostium , num Haemonis
+veram audivivocem , an a
+diis fallor.</q></q> <s n="655">Ita, ut iusserat
+prorsus exanimatus herus,
+inspeximus;</s> <s n="656">intimoque in tumu.</s>
+<s n="657">lo puellam quidem videmus
+collo pensilem, nodo texti-
+
+<pb n="357"/>
+
+
+
+
+lis sindonis implicitam :</s>
+<s n="658">illum vero iuxta iacentem,
+mediamque amplexum
+virginem, sponsae deflentem
+Orco demissae interitum,
+patrisque facta, et
+miserabiles nuptias.</s> <s n="659">Athic, ubi
+eum videt, graviter
+suspirans, intro pergit ad eum,
+€t cum eiulatu eum vocat:</s>
+<s n="660">O miser, inquit, quid
+fecisii?</s> <s n="661">quaenam erat tibi
+mens?</s> <s n="662">Quonam exemplo
+te perditum.</s> <s n="663">ibas?</s>
+
+
+
+<s n="664">egredere, o nate!</s> <s n="665">supplex te
+rogo.</s> <s n="666">Huic vero, ubi
+trucibus oculis eum adspexit
+puer, faciem inspuens,
+nililque respondens, ambo
+corripit ensis dentalia,
+patre autem.</s> <s n="667">fugiente
+aberravit ictu:</s> <s n="668">tum ille infelix,
+sibimet iratus, sic ut erat,
+in ensem protentus, per
+medias costas mucronem
+adigit, flexilibusque
+lacertis, mentis adhuc compos,
+virginem coinplectitur, et
+
+
+<pb n="358"/>
+
+
+
+
+
+in pallidas puellae genas
+vehementem" emittit
+halitum purpureo mixtum
+sanguine.</s> <s n="669">lacet sic mortuus
+iuxta sponsae cadaver,
+connubialia sacra adeptus
+miser in Proserpinae domo,
+exemplo suo docens
+homines, maximum cuique
+malum esse temeritatem.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="670">Quidnam hoc
+esse coniicias?</s> <s n="671">Mulier rursus
+e conspectu evasit,
+priusquam locuta est boni vel
+mali quidquam.
+
+
+
+</s></p></sp>
+
+<sp><speaker>Nuntius</speaker><p><s n="672">Et ipse stupeo;</s>
+<s n="673">attamen spe mulceor,
+illam, audita filii nece,
+urbem non incensuram
+questibus, sed interiorem
+domo famulis edicturam, ut
+privatim lessum
+lamentando faciant:</s> <s n="674">consilii enim
+non ita expers est, ut
+quidquam hac in re peccet.
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="675">Nescio:</s>
+<s n="676">quanquam mihi et silens
+stupor grave quid portendere
+videtur, et temeraria
+eiulatio.
+
+
+
+
+
+
+
+
+50703 a.
+
+
+
+
+</s></p></sp>
+
+<sp><speaker>Nuntius</speaker><p><s n="677">At mox
+domum ingressus
+comperiam, num quid etiam
+cohibendum clam tegat
+animo irato:</s> <s n="678">quippe bene
+dicis;</s> <s n="679">etenim haud sine
+periculo.</s> <s n="680">est nimium
+silentium. !
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="681">Atqui eccum
+advenit rex ipse,
+monumentum insigne manibus
+gestans, haud alienae;</s> <s n="682">si fas
+
+
+
+<pb n="359"/>
+
+
+
+est dicere, crimen, sed
+suae ipsius noxae.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="683">O dementiae
+peccata dura, mortifera! O qui
+cognatos cernitis occisores
+et occisos! Heu infelicem
+consiliorum meorum
+exitum!. Heu, nate, rate,
+iuvenis, immaturo fato vae!</s>
+<s n="684">extinctus , mihi ereptus es,
+mea, non tua, perditus
+
+vecordia.
+
+
+<pb n="360"/>
+
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="685">Quanquam sero ,
+videris tamen deüm
+iustitiam agnovisse!
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="686">Hei mihi!</s>
+<s n="687">agnosco miser.</s> <s n="688">Tunc scilicet,
+tunc, inquam, deus gravi
+calamitate caput mcum
+percussit,  instigavitque ad
+saeva comsilia, hei mibi,
+impresso pede subvertens
+gaudia.</s> <s n="689">Heu!</s> <s n="690">heu!</s> <s n="691">o
+labores hominum infelices!
+
+</s></p></sp>
+
+<sp><speaker>Verna</speaker><p><s n="692">O here,
+
+
+
+qualibus mactatum afflictumque
+malis, qualia etiam
+advenientem hic videre te
+oportet !
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="693">Quaenam alia ca»
+lamitas hac maior denuo
+accedit?
+
+</s></p></sp>
+
+<sp><speaker>Verna</speaker><p><s n="694">Occidit uxor tua,
+vera mater huius mortui
+infelix, inflicto recens
+vulmere.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="695">O inexpiabilis
+caedium thesaure, cur, 
+
+
+<pb n="361"/>
+
+
+
+obsecro , cur me perdis?</s> <s n="696">O
+
+luctuosae calamitatis nuntie ,
+
+quemnam edis sermonem?</s>
+<s n="697">Hei, hei!</s> <s n="698">perditum virum
+iterum confecisti, Qnid, puer,
+inquis?</s> <s n="699">quid mihi narras
+novi?</s> <s n="700">hei, hei, num exitiali isti
+calamitati accedere etiam
+uxoris cruentam necem ?
+
+</s></p></sp>
+
+<sp><speaker>Verna</speaker><p><s n="701">Intueri licet:</s>
+<s n="702">non enim in penetrali
+amplius retinetur.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="703">Hei mihi!</s>
+<s n="704">alterum hoc iáàm cerno malum
+miser.</s> <s n="705">Quis tandem, quis
+me manet etiam casus?</s>
+<s n="706">habeo quidem in manibus iam
+natum miser, et ilud ex
+adverso adspicio cadaver.
+Heu, heu, misera mater!</s>
+<s n="707">heu, nate!
+
+</s></p></sp>
+
+<sp><speaker>Verna</speaker><p><s n="708">Haec furore
+percita, arae circumvoluta ,
+solvit tenebris offusos
+
+
+<pb n="362"/>
+
+
+oculos;</s> <s n="709">postquam
+deflevit-Megarei quidem prius
+defuncti inclytam sortem , deinde
+et huius, postremo autem
+tibi dira imprecata est,
+natorum homicidae.
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="710">Heu, heu!</s> <s n="711">metu
+refugit animus.</s> <s n="712">Curnon
+mihi adversum aliquis infligit
+vulnus ancipiti gladio?</s> <s n="713">At
+miser ego, heu, heu!</s>
+<s n="714">miseris sum immersus casibus!
+
+
+
+</s></p></sp>
+
+<sp><speaker>Verna</speaker><p><s n="715">Nempe tamquam
+caussa utriusque exitii ab
+hac defuncta obiurgabare.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="716">Quomodo autem,
+ut clarius mihi dicas, vita
+soluta est?
+
+</s></p></sp>
+
+<sp><speaker>Verna</speaker><p><s n="717">Adacto sub iecur
+sua ipsius manu ense,
+simulatque ilud audiit nati
+lacrimabile fatum.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="718">Hei mihi!</s> <s n="719">haud
+umquam in quemvis alium
+
+
+
+
+<pb n="363"/>
+
+
+
+hominum horum a
+metransferetur culpa:</s> <s n="720">ipse enim te
+occidi miser, ipse ego,
+verum dieo.</s> <s n="721">Io famuli, abdu-
+Cite me quam celerrime,
+abducite me procul, qui plane
+nonsum magis quam nullus!
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="722">Bene mones, si
+quid in malis est boni.
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="723">Age, adpareat
+fatorum feliciter meorum
+ultimum, inihi supremum
+
+
+
+
+adferens diem!</s> <s n="724">age veniat,
+ut saltem diem haud
+amplius adspiciam !
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="725">Futura haec
+sunt:</s> <s n="726">quae praesens res
+postulat, procurare decet:</s>
+<s n="727">illorum enim curam gerent
+ii, quibus convenit ea esse
+curae.
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="728">At una cum illis,
+quos amo, ista fuero
+consecutus.
+
+<pb n="364"/>
+
+
+
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="729">At nunc parce
+quidquam optare:</s> <s n="730">nam fati
+nullum est mortalibus
+effugium.</s> <s n="731">si quae urgent mala, quo
+
+</s></p></sp>
+
+<sp><speaker>Creon</speaker><p><s n="732">Abducite procul
+hominem miserum, qui te,
+o fili, imprudens occidi,
+quique te etiam, uxor (heu
+me miserum!), neque scio,
+quo ad quem respiciam.</s>
+<s n="733">Omne sub terra;</s> <s n="734">omnia
+enim perversa, quae
+manibus teneo, quaeque capiti
+meo impendent,
+intolerabile fatum invexit.
+
+
+</s></p></sp>
+
+<sp><speaker>Chorus</speaker><p><s n="735">At sane quidem,
+breviora, eo sunt leviora.</s>
+<s n="736">Sapere longe prima
+felicitatis pars est, omnibusque
+pietatis erga deos officiis
+fungi decet;</s> <s n="737">at superbi,
+quum magnis plagis
+adflicti, magnorum dictorum
+poenas luerunt, sapere
+tandem docentur.</s></p></sp></div></div></body></text></TEI>
